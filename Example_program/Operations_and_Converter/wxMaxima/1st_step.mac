@@ -1,0 +1,382 @@
+/* This program code is for calculating the Lie bracket   */
+/* Input:nothing                                          */
+/* Output:Yalg.txt  Lie bracket calculation result        */
+ 
+/* Directory where the matrix definition files are stored */
+rdir:"/mnt/UandW"$
+if maxima_tempdir # "/tmp" then rdir:"F:"$
+homedir:sconcat(rdir,"/LieG/E8/Digitalization/")$
+sfile:sconcat(homedir,"DEF/###.mac")$
+file_search_maxima: append (file_search_maxima,[sfile])$
+    /* Please change to the folder you like  */
+/* Output temporary directory and files */
+tempdir:sconcat(homedir,"Temp/")$ 
+       /* Please change to the folder you like  */
+Yalgfile:sconcat(tempdir,"Yalg.txt")$
+
+A:matrix([a11,a12,a13],[a21,a22,a23],[a31,a32,a33])$
+B:matrix([b11,b12,b13],[b21,b22,b23],[b31,b32,b33])$
+
+/* trace A */
+tr(A):=A[1][1]+A[2][2]+A[3][3]$
+
+/* Multiplication A.B   */
+Mul(A,B):=matrix([(A[1][1].B[1][1])+(A[1][2].B[2][1])+(A[1][3].B[3][1])  ,
+                  (A[1][1].B[1][2])+(A[1][2].B[2][2])+(A[1][3].B[3][2])  ,
+                  (A[1][1].B[1][3])+(A[1][2].B[2][3])+(A[1][3].B[3][3])] ,
+                 [(A[2][1].B[1][1])+(A[2][2].B[2][1])+(A[2][3].B[3][1])  ,
+                  (A[2][1].B[1][2])+(A[2][2].B[2][2])+(A[2][3].B[3][2])  ,
+                  (A[2][1].B[1][3])+(A[2][2].B[2][3])+(A[2][3].B[3][3])] ,
+                 [(A[3][1].B[1][1])+(A[3][2].B[2][1])+(A[3][3].B[3][1])  ,
+                  (A[3][1].B[1][2])+(A[3][2].B[2][2])+(A[3][3].B[3][2])  ,
+                  (A[3][1].B[1][3])+(A[3][2].B[2][3])+(A[3][3].B[3][3])])$
+
+/* notation  */
+E:matrix([1,0,0],[0,1,0],[0,0,1])$
+E1(a):=matrix([a,0,0],[0,0,0],[0,0,0])$
+E2(a):=matrix([0,0,0],[0,a,0],[0,0,0])$
+E3(a):=matrix([0,0,0],[0,0,0],[0,0,a])$
+F1(a):=matrix([0,0,0],[0,0,a],[0,ϱ(a),0])$
+F2(a):=matrix([0,0,ϱ(a)],[0,0,0],[a,0,0])$
+F3(a):=matrix([0,a,0],[ϱ(a),0,0],[0,0,0])$
+A1(a):=matrix([0,0,0],[0,0,a],[0,-ϱ(a),0])$
+A2(a):=matrix([0,0,-ϱ(a)],[0,0,0],[a,0,0])$
+A3(a):=matrix([0,a,0],[-ϱ(a),0,0],[0,0,0])$
+
+X:F1(x1)+F2(x2)+F3(x3)+E1(χ1)+E2(χ2)+E3(χ3)$
+Y:F1(y1)+F2(y2)+F3(y3)+E1(γ1)+E2(γ2)+E3(γ3)$
+Z:F1(z1)+F2(z2)+F3(z3)+E1(μ1)+E2(μ2)+E3(μ3)$
+W:F1(w1)+F2(w2)+F3(w3)+E1(ψ1)+E2(ψ2)+E3(ψ3)$
+A:F1(a1)+F2(a2)+F3(a3)+E1(α1)+E2(α2)+E3(α3)$
+B:F1(b1)+F2(b2)+F3(b3)+E1(β1)+E2(β2)+E3(β3)$
+T:F1(t1)+F2(t2)+F3(t3)+E1(τ1)+E2(τ2)+E3(-τ1-τ2)$
+M:A1(m1)+A2(m2)+A3(m3)$
+P:[X,Y,ξ,η]$
+Q:[Z,W,ζ,ω]$
+
+X1(f):=F1(x11)+F2(x12)+F3(x13)+E1(χ11)+E2(χ12)+E3(χ13)$
+Y1(f):=F1(y11)+F2(y12)+F3(y13)+E1(γ11)+E2(γ12)+E3(γ13)$
+Z1(f):=F1(z11)+F2(z12)+F3(z13)+E1(μ11)+E2(μ12)+E3(μ13)$
+W1(f):=F1(w11)+F2(w12)+F3(w13)+E1(ψ11)+E2(ψ12)+E3(ψ13)$
+Aa1(f):=F1(a11)+F2(a12)+F3(a13)+E1(α11)+E2(α12)+E3(α13)$
+Bb1(f):=F1(b11)+F2(b12)+F3(b13)+E1(β11)+E2(β12)+E3(β13)$
+T1(f):=F1(t11)+F2(t12)+F3(t13)+E1(τ11)+E2(τ12)+E3(-τ11-τ12)$
+M1(f):=A1(m11)+A2(m12)+A3(m13)$
+DM1(f):=[D1,M1(f)]$
+DMT1(f):=[D1,M1(f),T1(f)]$
+e7c1(f):=[DMT1(f),Aa1(f),Bb1(f),ρ1]$
+P1(f):=[X1(f),Y1(f),ξ1,η1]$
+Q1(f):=[Z1(f),W1(f),ζ1,ω1]$
+Yalg1(f):=[e7c1(f),P1(f),Q1(f),r1,s1,u1]$
+
+X2(f):=F1(x21)+F2(x22)+F3(x23)+E1(χ21)+E2(χ22)+E3(χ23)$
+Y2(f):=F1(y21)+F2(y22)+F3(y23)+E1(γ21)+E2(γ22)+E3(γ23)$
+Z2(f):=F1(z21)+F2(z22)+F3(z23)+E1(μ21)+E2(μ22)+E3(μ23)$
+W2(f):=F1(w21)+F2(w22)+F3(w23)+E1(ψ21)+E2(ψ22)+E3(ψ23)$
+Aa2(f):=F1(a21)+F2(a22)+F3(a23)+E1(α21)+E2(α22)+E3(α23)$
+Bb2(f):=F1(b21)+F2(b22)+F3(b23)+E1(β21)+E2(β22)+E3(β23)$
+T2(f):=F1(t21)+F2(t22)+F3(t23)+E1(τ21)+E2(τ22)+E3(-τ21-τ22)$
+M2(f):=A1(m21)+A2(m22)+A3(m23)$
+DM2(f):=[D2,M2(f)]$
+DMT2(f):=[D2,M2(f),T2(f)]$
+P2(f):=[X2(f),Y2(f),ξ2,η2]$
+Q2(f):=[Z2(f),W2(f),ζ2,ω2]$
+e7c2(f):=[DMT2(f),Aa2(f),Bb2(f),ρ2]$
+Yalg2(f):=[e7c2(f),P2(f),Q2(f),r2,s2,u2]$
+
+matchfix ("C(", ")")$   /* an inner product (x,y) in Caylay algebra */
+ C(x, y) $              /* Definition 6.8. fJJC(x,y)  */  
+matchfix ("I(", ")")$   /* multiplication & conjugate in Caylay algebra */
+ I(x, y) $              /* Definition 6.8. fiJJ(x,y) */
+matchfix ("JD(", ")")$  /* Definition 2.13 JD */
+ JD(x, y) $             /* Definition 6.8. fJJD(x,y) */
+matchfix ("J(", ")")$   /* Definition 1.12 gd(D)m  */
+ J(D, m) $              /* Definition 6.8. fDJJ(D,m)  */
+matchfix ("({", "})")$  /* an inner product (X,Y) in Jordan algebra */
+ ({X, Y}):= X[1][1]*Y[1][1] + X[2][2]*Y[2][2] + X[3][3]*Y[3][3]
+        + 2*C(X[2][3],Y[2][3]) + 2*C(X[3][1],Y[3][1]) + 2*C(X[1][2],Y[1][2])$ 
+
+infix ("&")$           /* Definition 1.4. Freudenthal multiplication  */ 
+X & Y:= E1(1/2*(X[2][2]*Y[3][3]+X[3][3]*Y[2][2])-C(X[2][3],Y[2][3]) )
+      + E2(1/2*(X[3][3]*Y[1][1]+X[1][1]*Y[3][3])-C(X[3][1],Y[3][1]) ) 
+      + E3(1/2*(X[1][1]*Y[2][2]+X[2][2]*Y[1][1])-C(X[1][2],Y[1][2]))
+      + F1(1/2*(-Y[1][1]*X[2][3]-X[1][1]*Y[2][3]+I(Y[3][1],X[1][2])+I(X[3][1],Y[1][2])))
+      + F2(1/2*(-Y[2][2]*X[3][1]-X[2][2]*Y[3][1]+I(Y[1][2],X[2][3])+I(X[1][2],Y[2][3])))
+      + F3(1/2*(-Y[3][3]*X[1][2]-X[3][3]*Y[1][2]+I(Y[2][3],X[3][1])+I(X[2][3],Y[3][1])))$
+
+infix("@")$            /* Definition 1.3 Jordan multiplication */
+X@Y:= E1(X[1][1]*Y[1][1]+C(X[3][1],Y[3][1])+C(X[1][2],Y[1][2]) )
+    + E2(X[2][2]*Y[2][2]+C(X[1][2],Y[1][2])+C(X[2][3],Y[2][3]) ) 
+    + E3(X[3][3]*Y[3][3]+C(X[2][3],Y[2][3])+C(X[3][1],Y[3][1]) )
+    + F1(1/2*( (Y[2][2]+Y[3][3])*X[2][3]+(X[2][2]+X[3][3])*Y[2][3]  +I(Y[3][1],X[1][2])+I(X[3][1],Y[1][2]))) 
+    + F2(1/2*( (Y[3][3]+Y[1][1])*X[3][1]+(X[3][3]+X[1][1])*Y[3][1]  +I(Y[1][2],X[2][3])+I(X[1][2],Y[2][3]))) 
+    + F3(1/2*( (Y[1][1]+Y[2][2])*X[1][2]+(X[1][1]+X[2][2])*Y[1][2]  +I(Y[2][3],X[3][1])+I(X[2][3],Y[3][1])))$
+infix("?")$            /* Definition 3.7 1/2[X,Y] */
+X?Y:= E1( C(X[1][2],Y[1][2])-C(X[3][1],Y[3][1]) ) 
+    + E2( C(X[2][3],Y[2][3])-C(X[1][2],Y[1][2]) ) 
+    + E3( C(X[3][1],Y[3][1])-C(X[2][3],Y[2][3]) ) 
+    + F1(1/2*((Y[3][3]-Y[2][2])*X[2][3]+I(X[3][1],Y[1][2])-I(Y[3][1],X[1][2])))
+    + F2(1/2*((Y[1][1]-Y[3][3])*X[3][1]+I(X[1][2],Y[2][3])-I(Y[1][2],X[2][3]))) 
+    + F3(1/2*((Y[2][2]-Y[1][1])*X[1][2]+I(X[2][3],Y[3][1])-I(Y[2][3],X[3][1])))$
+
+Nami(A,B,X):= A@(B@X) - B@(A@X)$
+Yama(A,B,X):= A?(B?X) - B?(A?X)$
+NaYa(A,B,X):= A@(B?X) - B?(A@X)$
+YaNa(A,B,X):= A?(B@X) - B@(A?X)$
+V(D)$                  /* Proposition 1.8 ν */
+
+/* Lemma 1.4. δd(D) */
+δ(D,A):= F1(J(D,A[2][3]))+F2(J(V(D),A[3][1])) +F3(J(V(V(D)),A[1][2]))$
+
+X1:X1(f)$
+Y1:Y1(f)$
+Z1:Z1(f)$
+W1:W1(f)$
+A1:Aa1(f)$
+B1:Bb1(f)$
+T1:T1(f)$
+M1:M1(f)$
+DM1:DM1(f)$
+DMT1:DMT1(f)$
+e7c1:e7c1(f)$
+P1:P1(f)$
+Q1:Q1(f)$
+Yalg1:Yalg1(f)$
+X2:X2(f)$
+Y2:Y2(f)$
+Z2:Z2(f)$
+W2:W2(f)$
+A2:Aa2(f)$
+B2:Bb2(f)$
+T2:T2(f)$
+M2:M2(f)$
+DM2:DM2(f)$
+DMT2:DMT2(f)$
+e7c2:e7c2(f)$
+P2:P2(f)$
+Q2:Q2(f)$
+Yalg2:Yalg2(f)$
+
+/* [D1,D2]  */
+LDDD(D1,D2)$   
+/* [D1,M2] M-elements definition 2.14 */
+LDMM(D1,M2):=A1(J(D1,M2[2][3]) ) + A2(J(V(D1),M2[3][1]) ) + A3(J(V(V(D1)),M2[1][2]) )$
+/* [D1,T2] T-elements definition 3.10 */
+LDTT(D1,T2):=F1(J(D1,T2[2][3]) ) + F2(J(V(D1),T2[3][1]) ) + F3(J(V(V(D1)),T2[1][2]) )$
+/* [M1.M2] D-elements */
+LMMD(M1,M2):=-JD(M1[2][3],M2[2][3])-V(V(JD(M1[3][1],M2[3][1])))-V(JD(M1[1][2],M2[1][2]))$
+/* [M1,M2] M-elements */
+LMMM(M1,M2):=A1(-1/2*(I(M1[3][1],M2[1][2]))+1/2*(I(M2[3][1],M1[1][2]))) 
+           + A2(-1/2*(I(M1[1][2],M2[2][3]))+1/2*(I(M2[1][2],M1[2][3]))) 
+           + A3(-1/2*(I(M1[2][3],M2[3][1]))+1/2*(I(M2[2][3],M1[3][1])))$
+/* [M1,T2] M-elements =0 */
+LMTM(M1,T2)$
+/* [M1,T2] T-elements */
+LMTT(M1,T2):=F1(1/2*(I(M1[3][1],T2[1][2])-I(T2[3][1],M1[1][2])+ (-T2[2][2]+T2[3][3])*M1[2][3]))
+           + F2(1/2*(I(M1[1][2],T2[2][3])-I(T2[1][2],M1[2][3])+ (-T2[3][3]+T2[1][1])*M1[3][1]))
+           + F3(1/2*(I(M1[2][3],T2[3][1])-I(T2[2][3],M1[3][1])+ (-T2[1][1]+T2[2][2])*M1[1][2]))
+           + E1(   -C(M1[3][1],T2[3][1])+C(T2[1][2],M1[1][2]) )
+           + E2(   -C(M1[1][2],T2[1][2])+C(T2[2][3],M1[2][3]) )
+           + E3(   -C(M1[2][3],T2[2][3])+C(T2[3][1],M1[3][1]) )$
+/* [T1,T2] D-elements */
+LTTD(T1,T2):= JD(T1[2][3],T2[2][3])+V(V(JD(T1[3][1],T2[3][1])))+V(JD(T1[1][2],T2[1][2]))$
+/* [T1,T2] M-elements */
+LTTM(T1,T2):=A1(1/2*(-I(T1[3][1],T2[1][2])+I(T2[3][1],T1[1][2])
+                     +(T1[2][2]-T1[3][3])*T2[2][3] - (T2[2][2]-T2[3][3])*T1[2][3]))
+           + A2(1/2*(-I(T1[1][2],T2[2][3])+I(T2[1][2],T1[2][3])
+                     +(T1[3][3]-T1[1][1])*T2[3][1] - (T2[3][3]-T2[1][1])*T1[3][1])) 
+           + A3(1/2*(-I(T1[2][3],T2[3][1])+I(T2[2][3],T1[3][1])
+                     +(T1[1][1]-T1[2][2])*T2[1][2] - (T2[1][1]-T2[2][2])*T1[1][2]))$
+/* [T1,T2] T-elements =0 */
+LTTT(T1,T2)$
+
+infix("[]")$     /* Definition 3.13 v */
+X[]Y:= [LTTD(X-1/3*tr(X)*E,Y-1/3*tr(Y)*E),LTTM(X-1/3*tr(X)*E,Y-1/3*tr(Y)*E),X@Y-1/3*(tr(X@Y)*E)]$
+
+infix ("Ж")$    /* Definition 4.4 PXQ */
+P Ж Q :=  [-1/2*(P[1][]Q[2] + Q[1][]P[2])
+         ,-1/4*(2*(P[2]&Q[2])-P[3]*Q[1]-Q[3]*P[1])
+          ,1/4*(2*(P[1]&Q[1])-P[4]*Q[2]-Q[4]*P[2])
+          ,1/8*( ({P[1],Q[2]}) + ({Q[1],P[2]}) - 3*(P[3]*Q[4]+Q[3]*P[4]) ) ]$
+
+matchfix ("{{", "}}")$  /* Definition 4.2. s skew-symmetric inner product */  
+{{P,Q}} := ({P[1],Q[2]}) - ({Q[1],P[2]}) + P[3]*Q[4] - Q[3]*P[4]$
+
+/* f4 Lie Bracket */
+LB4(DM1,DM2):= [LDDD(DM1[1],DM2[1]) + LMMD(DM1[2],DM2[2])
+               ,LDMM(DM1[1],DM2[2]) - LDMM(DM2[1],DM1[2]) + LMMM(DM1[2],DM2[2]) ]$
+
+/* e6 Lie Bracket */
+LB6(DMT1,DMT2):=[LDDD(DMT1[1],DMT2[1]) + LMMD(DMT1[2],DMT2[2]) + LTTD(DMT1[3],DMT2[3])
+                ,LDMM(DMT1[1],DMT2[2]) - LDMM(DMT2[1],DMT1[2]) + LMMM(DMT1[2],DMT2[2]) + LTTM(DMT1[3],DMT2[3])
+                ,LDTT(DMT1[1],DMT2[3]) - LDTT(DMT2[1],DMT1[3]) + LMTT(DMT1[2],DMT2[3]) - LMTT(DMT2[2],DMT1[3])]$
+
+/* [e7c1,e7c2] DMT-elements  Lemma 4.4 */
+LeDMT(e7c1,e7c2):= LB6(e7c1[1],e7c2[1]) + 2*(e7c1[2][]e7c2[3]) - 2*(e7c2[2][]e7c1[3]) $
+/* [e7c1,e7c2] A-elements */
+LeDMTA(e7c1,e7c2):= δ(e7c1[1][1],e7c2[2]) + e7c1[1][2]?e7c2[2] + e7c1[1][3]@e7c2[2] + 2/3*e7c1[4]*e7c2[2]$
+/* [e7c1,e7c2] B-elements */
+LeDMTB(e7c1,e7c2):= δ(e7c1[1][1],e7c2[3]) + e7c1[1][2]?e7c2[3] - e7c1[1][3]@e7c2[3] - 2/3*e7c1[4]*e7c2[3]$
+/* [e7c1,e7c2] ρ-elements */
+Leρ(e7c1,e7c2):= ({e7c1[2],e7c2[3]})$
+
+/* e7 Lie Bracket */
+LB7(e7c1,e7c2):= [LeDMT(e7c1,e7c2),LeDMTA(e7c1,e7c2)-LeDMTA(e7c2,e7c1)
+                 ,LeDMTB(e7c1,e7c2)-LeDMTB(e7c2,e7c1),Leρ(e7c1,e7c2)-Leρ(e7c2,e7c1) ]$
+
+/* [e7c1,P2] P(X)-elements */
+Lee7cPX(e7c1,P2):= δ(e7c1[1][1],P2[1]) + e7c1[1][2]?P2[1] + e7c1[1][3]@P2[1] 
+                   -1/3*e7c1[4]*P2[1] + 2*(e7c1[3]&P2[2]) + P2[4]*e7c1[2]$
+/* [e7c1,P2]  P(Y)-elements */
+Lee7cPY(e7c1,P2):= δ(e7c1[1][1],P2[2]) + e7c1[1][2]?P2[2] - e7c1[1][3]@P2[2]
+                   +1/3*e7c1[4]*P2[2] + 2*(e7c1[2]&P2[1]) + P2[3]*e7c1[3]$
+/* [e7c1,P2]  P(ξ)-elements */
+Lee7cPξ(e7c1,P2):= ({e7c1[2],P2[2]}) + e7c1[4]*P2[3]$
+/* [e7c1,P2]  P(η)-elements */
+Lee7cPη(e7c1,P2):= ({e7c1[3],P2[1]}) - e7c1[4]*P2[4]$
+/* [e8c1,e8c2] e7c-elements */
+Lee7c(Yalg1,Yalg2):= LB7(Yalg1[1],Yalg2[1]) + Yalg1[2] Ж Yalg2[3] - Yalg2[2] Ж Yalg1[3]$
+/* [e8c1,e8c2] P-elements */
+Lee7cP(Yalg1,Yalg2):= [Lee7cPX(Yalg1[1],Yalg2[2]),Lee7cPY(Yalg1[1],Yalg2[2])
+                              ,Lee7cPξ(Yalg1[1],Yalg2[2]),Lee7cPη(Yalg1[1],Yalg2[2])] 
+                     + Yalg2[2]*Yalg1[4] + Yalg2[3]*Yalg1[5]$
+/* [e8c1,e8c2] Q-elements */
+Lee7cQ(Yalg1,Yalg2):= [Lee7cPX(Yalg1[1],Yalg2[3]),Lee7cPY(Yalg1[1],Yalg2[3]) 
+                              ,Lee7cPξ(Yalg1[1],Yalg2[3]),Lee7cPη(Yalg1[1],Yalg2[3])] 
+                     - Yalg2[3]*Yalg1[4] + Yalg2[2]*Yalg1[6]$
+/* [e8c1,e8c2] r-elements */
+Lee7cr(Yalg1,Yalg2):= -1/8*{{Yalg1[2],Yalg2[3]}} + Yalg1[5]*Yalg2[6]$
+/* [e8c1,e8c2] s-elements */
+Lee7cs(Yalg1,Yalg2):=  1/4*{{Yalg1[2],Yalg2[2]}} + 2*Yalg1[4]*Yalg2[5] - 2*Yalg2[4]*Yalg1[5]$
+/* [e8c1,e8c2] u-elements */
+Lee7cu(Yalg1,Yalg2):= -1/4*{{Yalg1[3],Yalg2[3]}} - 2*Yalg1[4]*Yalg2[6] + 2*Yalg2[4]*Yalg1[6]$
+
+/* e8 Lie Bracket */
+LB8(Yalg1,Yalg2):=[Lee7c(Yalg1,Yalg2) ,Lee7cP(Yalg1,Yalg2) -Lee7cP(Yalg2,Yalg1) ,Lee7cQ(Yalg1,Yalg2)-Lee7cQ(Yalg2,Yalg1)
+                         ,Lee7cr(Yalg1,Yalg2)-Lee7cr(Yalg2,Yalg1) ,Lee7cs(Yalg1,Yalg2) ,Lee7cu(Yalg1,Yalg2)]$
+
+Yalg(f):=LB8(Yalg1(f),Yalg2(f))$
+ 
+D(f):=expand(Yalg(f)[1][1][1])$
+M(f):=Yalg(f)[1][1][2]$
+T(f):=Yalg(f)[1][1][3]$
+A(f):=Yalg(f)[1][2]$
+B(f):=Yalg(f)[1][3]$
+ρ1(f):=expand(Yalg(f)[1][4])$
+P(f):=Yalg(f)[2]$
+Q(f):=Yalg(f)[3]$
+r1(f):=expand(Yalg(f)[4])$
+s1(f):=expand(Yalg(f)[5])$
+u1(f):=expand(Yalg(f)[6])$
+m1(f):=expand(M(f)[2][3])$
+m2(f):=expand(M(f)[3][1])$
+m3(f):=expand(M(f)[1][2])$
+τ1(f):=expand(T(f)[1][1])$
+τ2(f):=expand(T(f)[2][2])$
+τ3(f):=expand(T(f)[3][3])$
+t1(f):=expand(T(f)[2][3])$
+t2(f):=expand(T(f)[3][1])$
+t3(f):=expand(T(F)[1][2])$
+α1(f):=expand(A(f)[1][1])$
+α2(f):=expand(A(f)[2][2])$
+α3(f):=expand(A(f)[3][3])$
+a1(f):=expand(A(f)[2][3])$
+a2(f):=expand(A(f)[3][1])$
+a3(f):=expand(A(f)[1][2])$
+β1(f):=expand(B(f)[1][1])$
+β2(f):=expand(B(f)[2][2])$
+β3(f):=expand(B(f)[3][3])$
+b1(f):=expand(B(f)[2][3])$
+b2(f):=expand(B(f)[3][1])$
+b3(f):=expand(B(f)[1][2])$
+X(f):=P(f)[1]$
+Y(f):=P(f)[2]$
+ξ1(f):=expand(P(f)[3])$
+η1(f):=expand(P(f)[4])$
+χ1(f):=expand(X(f)[1][1])$
+χ2(f):=expand(X(f)[2][2])$
+χ3(f):=expand(X(f)[3][3])$
+x1(f):=expand(X(f)[2][3])$
+x2(f):=expand(X(f)[3][1])$
+x3(f):=expand(X(f)[1][2])$
+γ1(f):=expand(Y(f)[1][1])$
+γ2(f):=expand(Y(f)[2][2])$
+γ3(f):=expand(Y(f)[3][3])$
+y1(f):=expand(Y(f)[2][3])$
+y2(f):=expand(Y(f)[3][1])$
+y3(f):=expand(Y(f)[1][2])$
+Z(f):=Q(f)[1]$
+W(f):=Q(f)[2]$
+ζ1(f):=expand(Q(f)[3])$
+ω1(f):=expand(Q(f)[4])$
+μ1(f):=expand(Z(f)[1][1])$
+μ2(f):=expand(Z(f)[2][2])$
+μ3(f):=expand(Z(f)[3][3])$
+z1(f):=expand(Z(f)[2][3])$
+z2(f):=expand(Z(f)[3][1])$
+z3(f):=expand(Z(f)[1][2])$
+ψ1(f):=expand(W(f)[1][1])$
+ψ2(f):=expand(W(f)[2][2])$
+ψ3(f):=expand(W(f)[3][3])$
+w1(f):=expand(W(f)[2][3])$
+w2(f):=expand(W(f)[3][1])$
+w3(f):=expand(W(f)[1][2])$
+
+file_output_append:false$
+stringout(Yalgfile,D(f))$
+
+file_output_append:true$
+stringout(Yalgfile,m1(f),
+m2(f),
+m3(f),
+τ1(f),
+τ2(f),
+τ3(f),
+t1(f),
+t2(f),
+t3(f),
+α1(f),
+α2(f),
+α3(f),
+a1(f),
+a2(f),
+a3(f),
+β1(f),
+β2(f),
+β3(f),
+b1(f),
+b2(f),
+b3(f),
+ρ1(f),
+χ1(f),
+χ2(f),
+χ3(f),
+x1(f),
+x2(f),
+x3(f),
+γ1(f),
+γ2(f),
+γ3(f),
+y1(f),
+y2(f),
+y3(f),
+ξ1(f),
+η1(f),
+μ1(f),
+μ2(f),
+μ3(f),
+z1(f),
+z2(f),
+z3(f),
+ψ1(f),
+ψ2(f),
+ψ3(f),
+w1(f),
+w2(f),
+w3(f),
+ζ1(f),
+ω1(f),
+r1(f),
+s1(f),
+u1(f))$
+

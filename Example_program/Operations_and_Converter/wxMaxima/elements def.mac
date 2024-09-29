@@ -1,0 +1,1265 @@
+/* This program code is for matrix representation of e8c */
+/* Input:ade8cR***.mac  248 basis matrices               */
+/* Output:ade8cR***.mac omit zero elements               */
+
+/* Directory where the matrix definition files are stored */
+rdir:"/mnt/UandW"$
+if maxima_tempdir # "/tmp" then rdir:"F:"$
+homedir:sconcat(rdir,"/LieG/E8/Digitalization/")$
+sfile:sconcat(homedir,"Temp/DEF_temp/###.mac")$
+file_search_maxima: append (file_search_maxima,[sfile])$
+    /* Please change to the folder you like  */
+
+/* Output temporary directory and files */
+tempdir:sconcat(homedir,"Temp/DEF_N/")$ 
+       /* Please change to the folder you like  */
+outfile:sconcat(tempdir,"ade8cR.mac")$
+stch:"R"$
+file_output_append:true$
+NZP(sn,en)::=
+for i:sn while (i<en+1) do
+for j:sn while (j<en+1) do (
+ if R1[i][j]#0 then rmat:sconcat(stch,"[",i,"][",j,"]:",R1[i][j]),
+ if R1[i][j]#0 then stringout(outfile,rmat)
+)$
+
+load( "ade8cRd01.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd01.mac")$ 
+stch:"Rd01"$
+stringout(outfile,"Rd01:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd02.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd02.mac")$ 
+stch:"Rd02"$
+stringout(outfile,"Rd02:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd03.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd03.mac")$ 
+stch:"Rd03"$
+stringout(outfile,"Rd03:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd04.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd04.mac")$ 
+stch:"Rd04"$
+stringout(outfile,"Rd04:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd05.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd05.mac")$ 
+stch:"Rd05"$
+stringout(outfile,"Rd05:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd06.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd06.mac")$ 
+stch:"Rd06"$
+stringout(outfile,"Rd06:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd07.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd07.mac")$ 
+stch:"Rd07"$
+stringout(outfile,"Rd07:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd12.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd12.mac")$ 
+stch:"Rd12"$
+stringout(outfile,"Rd12:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd13.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd13.mac")$ 
+stch:"Rd13"$
+stringout(outfile,"Rd13:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd14.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd14.mac")$ 
+stch:"Rd14"$
+stringout(outfile,"Rd14:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd15.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd15.mac")$ 
+stch:"Rd15"$
+stringout(outfile,"Rd15:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd16.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd16.mac")$ 
+stch:"Rd16"$
+stringout(outfile,"Rd16:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd17.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd17.mac")$ 
+stch:"Rd17"$
+stringout(outfile,"Rd17:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd23.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd23.mac")$ 
+stch:"Rd23"$
+stringout(outfile,"Rd23:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd24.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd24.mac")$ 
+stch:"Rd24"$
+stringout(outfile,"Rd24:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd25.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd25.mac")$ 
+stch:"Rd25"$
+stringout(outfile,"Rd25:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd26.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd26.mac")$ 
+stch:"Rd26"$
+stringout(outfile,"Rd26:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd27.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd27.mac")$ 
+stch:"Rd27"$
+stringout(outfile,"Rd27:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd34.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd34.mac")$ 
+stch:"Rd34"$
+stringout(outfile,"Rd34:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd35.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd35.mac")$ 
+stch:"Rd35"$
+stringout(outfile,"Rd35:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd36.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd36.mac")$ 
+stch:"Rd36"$
+stringout(outfile,"Rd36:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd37.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd37.mac")$ 
+stch:"Rd37"$
+stringout(outfile,"Rd37:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd45.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd45.mac")$ 
+stch:"Rd45"$
+stringout(outfile,"Rd45:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd46.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd46.mac")$ 
+stch:"Rd46"$
+stringout(outfile,"Rd46:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd47.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd47.mac")$ 
+stch:"Rd47"$
+stringout(outfile,"Rd47:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd56.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd56.mac")$ 
+stch:"Rd56"$
+stringout(outfile,"Rd56:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd57.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd57.mac")$ 
+stch:"Rd57"$
+stringout(outfile,"Rd57:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRd67.mac")$ 
+outfile:sconcat(tempdir,"ade8cRd67.mac")$ 
+stch:"Rd67"$
+stringout(outfile,"Rd67:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRm10.mac")$ 
+outfile:sconcat(tempdir,"ade8cRm10.mac")$ 
+stch:"Rm10"$
+stringout(outfile,"Rm10:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRm11.mac")$ 
+outfile:sconcat(tempdir,"ade8cRm11.mac")$ 
+stch:"Rm11"$
+stringout(outfile,"Rm11:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRm12.mac")$ 
+outfile:sconcat(tempdir,"ade8cRm12.mac")$ 
+stch:"Rm12"$
+stringout(outfile,"Rm12:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRm13.mac")$ 
+outfile:sconcat(tempdir,"ade8cRm13.mac")$ 
+stch:"Rm13"$
+stringout(outfile,"Rm13:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRm14.mac")$ 
+outfile:sconcat(tempdir,"ade8cRm14.mac")$ 
+stch:"Rm14"$
+stringout(outfile,"Rm14:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRm15.mac")$ 
+outfile:sconcat(tempdir,"ade8cRm15.mac")$ 
+stch:"Rm15"$
+stringout(outfile,"Rm15:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRm16.mac")$ 
+outfile:sconcat(tempdir,"ade8cRm16.mac")$ 
+stch:"Rm16"$
+stringout(outfile,"Rm16:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRm17.mac")$ 
+outfile:sconcat(tempdir,"ade8cRm17.mac")$ 
+stch:"Rm17"$
+stringout(outfile,"Rm17:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRm20.mac")$ 
+outfile:sconcat(tempdir,"ade8cRm20.mac")$ 
+stch:"Rm20"$
+stringout(outfile,"Rm20:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRm21.mac")$ 
+outfile:sconcat(tempdir,"ade8cRm21.mac")$ 
+stch:"Rm21"$
+stringout(outfile,"Rm21:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRm22.mac")$ 
+outfile:sconcat(tempdir,"ade8cRm22.mac")$ 
+stch:"Rm22"$
+stringout(outfile,"Rm22:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRm23.mac")$ 
+outfile:sconcat(tempdir,"ade8cRm23.mac")$ 
+stch:"Rm23"$
+stringout(outfile,"Rm23:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRm24.mac")$ 
+outfile:sconcat(tempdir,"ade8cRm24.mac")$ 
+stch:"Rm24"$
+stringout(outfile,"Rm24:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRm25.mac")$ 
+outfile:sconcat(tempdir,"ade8cRm25.mac")$ 
+stch:"Rm25"$
+stringout(outfile,"Rm25:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRm26.mac")$ 
+outfile:sconcat(tempdir,"ade8cRm26.mac")$ 
+stch:"Rm26"$
+stringout(outfile,"Rm26:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRm27.mac")$ 
+outfile:sconcat(tempdir,"ade8cRm27.mac")$ 
+stch:"Rm27"$
+stringout(outfile,"Rm27:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRm30.mac")$ 
+outfile:sconcat(tempdir,"ade8cRm30.mac")$ 
+stch:"Rm30"$
+stringout(outfile,"Rm30:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRm31.mac")$ 
+outfile:sconcat(tempdir,"ade8cRm31.mac")$ 
+stch:"Rm31"$
+stringout(outfile,"Rm31:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRm32.mac")$ 
+outfile:sconcat(tempdir,"ade8cRm32.mac")$ 
+stch:"Rm32"$
+stringout(outfile,"Rm32:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRm33.mac")$ 
+outfile:sconcat(tempdir,"ade8cRm33.mac")$ 
+stch:"Rm33"$
+stringout(outfile,"Rm33:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRm34.mac")$ 
+outfile:sconcat(tempdir,"ade8cRm34.mac")$ 
+stch:"Rm34"$
+stringout(outfile,"Rm34:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRm35.mac")$ 
+outfile:sconcat(tempdir,"ade8cRm35.mac")$ 
+stch:"Rm35"$
+stringout(outfile,"Rm35:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRm36.mac")$ 
+outfile:sconcat(tempdir,"ade8cRm36.mac")$ 
+stch:"Rm36"$
+stringout(outfile,"Rm36:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRm37.mac")$ 
+outfile:sconcat(tempdir,"ade8cRm37.mac")$ 
+stch:"Rm37"$
+stringout(outfile,"Rm37:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRtt1.mac")$ 
+outfile:sconcat(tempdir,"ade8cRtt1.mac")$ 
+stch:"Rτ1"$
+stringout(outfile,"Rτ1:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRtt2.mac")$ 
+outfile:sconcat(tempdir,"ade8cRtt2.mac")$ 
+stch:"Rτ2"$
+stringout(outfile,"Rτ2:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRt10.mac")$ 
+outfile:sconcat(tempdir,"ade8cRt10.mac")$ 
+stch:"Rt10"$
+stringout(outfile,"Rt10:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRt11.mac")$ 
+outfile:sconcat(tempdir,"ade8cRt11.mac")$ 
+stch:"Rt11"$
+stringout(outfile,"Rt11:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRt12.mac")$ 
+outfile:sconcat(tempdir,"ade8cRt12.mac")$ 
+stch:"Rt12"$
+stringout(outfile,"Rt12:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRt13.mac")$ 
+outfile:sconcat(tempdir,"ade8cRt13.mac")$ 
+stch:"Rt13"$
+stringout(outfile,"Rt13:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRt14.mac")$ 
+outfile:sconcat(tempdir,"ade8cRt14.mac")$ 
+stch:"Rt14"$
+stringout(outfile,"Rt14:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRt15.mac")$ 
+outfile:sconcat(tempdir,"ade8cRt15.mac")$ 
+stch:"Rt15"$
+stringout(outfile,"Rt15:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRt16.mac")$ 
+outfile:sconcat(tempdir,"ade8cRt16.mac")$ 
+stch:"Rt16"$
+stringout(outfile,"Rt16:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRt17.mac")$ 
+outfile:sconcat(tempdir,"ade8cRt17.mac")$ 
+stch:"Rt17"$
+stringout(outfile,"Rt17:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRt20.mac")$ 
+outfile:sconcat(tempdir,"ade8cRt20.mac")$ 
+stch:"Rt20"$
+stringout(outfile,"Rt20:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRt21.mac")$ 
+outfile:sconcat(tempdir,"ade8cRt21.mac")$ 
+stch:"Rt21"$
+stringout(outfile,"Rt21:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRt22.mac")$ 
+outfile:sconcat(tempdir,"ade8cRt22.mac")$ 
+stch:"Rt22"$
+stringout(outfile,"Rt22:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRt23.mac")$ 
+outfile:sconcat(tempdir,"ade8cRt23.mac")$ 
+stch:"Rt23"$
+stringout(outfile,"Rt23:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRt24.mac")$ 
+outfile:sconcat(tempdir,"ade8cRt24.mac")$ 
+stch:"Rt24"$
+stringout(outfile,"Rt24:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRt25.mac")$ 
+outfile:sconcat(tempdir,"ade8cRt25.mac")$ 
+stch:"Rt25"$
+stringout(outfile,"Rt25:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRt26.mac")$ 
+outfile:sconcat(tempdir,"ade8cRt26.mac")$ 
+stch:"Rt26"$
+stringout(outfile,"Rt26:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRt27.mac")$ 
+outfile:sconcat(tempdir,"ade8cRt27.mac")$ 
+stch:"Rt27"$
+stringout(outfile,"Rt27:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRt30.mac")$ 
+outfile:sconcat(tempdir,"ade8cRt30.mac")$ 
+stch:"Rt30"$
+stringout(outfile,"Rt30:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRt31.mac")$ 
+outfile:sconcat(tempdir,"ade8cRt31.mac")$ 
+stch:"Rt31"$
+stringout(outfile,"Rt31:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRt32.mac")$ 
+outfile:sconcat(tempdir,"ade8cRt32.mac")$ 
+stch:"Rt32"$
+stringout(outfile,"Rt32:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRt33.mac")$ 
+outfile:sconcat(tempdir,"ade8cRt33.mac")$ 
+stch:"Rt33"$
+stringout(outfile,"Rt33:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRt34.mac")$ 
+outfile:sconcat(tempdir,"ade8cRt34.mac")$ 
+stch:"Rt34"$
+stringout(outfile,"Rt34:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRt35.mac")$ 
+outfile:sconcat(tempdir,"ade8cRt35.mac")$ 
+stch:"Rt35"$
+stringout(outfile,"Rt35:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRt36.mac")$ 
+outfile:sconcat(tempdir,"ade8cRt36.mac")$ 
+stch:"Rt36"$
+stringout(outfile,"Rt36:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRt37.mac")$ 
+outfile:sconcat(tempdir,"ade8cRt37.mac")$ 
+stch:"Rt37"$
+stringout(outfile,"Rt37:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRaa1.mac")$ 
+outfile:sconcat(tempdir,"ade8cRaa1.mac")$ 
+stch:"Rα1"$
+stringout(outfile,"Rα1:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRaa2.mac")$ 
+outfile:sconcat(tempdir,"ade8cRaa2.mac")$ 
+stch:"Rα2"$
+stringout(outfile,"Rα2:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRaa3.mac")$ 
+outfile:sconcat(tempdir,"ade8cRaa3.mac")$ 
+stch:"Rα3"$
+stringout(outfile,"Rα3:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRa10.mac")$ 
+outfile:sconcat(tempdir,"ade8cRa10.mac")$ 
+stch:"Ra10"$
+stringout(outfile,"Ra10:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRa11.mac")$ 
+outfile:sconcat(tempdir,"ade8cRa11.mac")$ 
+stch:"Ra11"$
+stringout(outfile,"Ra11:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRa12.mac")$ 
+outfile:sconcat(tempdir,"ade8cRa12.mac")$ 
+stch:"Ra12"$
+stringout(outfile,"Ra12:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRa13.mac")$ 
+outfile:sconcat(tempdir,"ade8cRa13.mac")$ 
+stch:"Ra13"$
+stringout(outfile,"Ra13:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRa14.mac")$ 
+outfile:sconcat(tempdir,"ade8cRa14.mac")$ 
+stch:"Ra14"$
+stringout(outfile,"Ra14:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRa15.mac")$ 
+outfile:sconcat(tempdir,"ade8cRa15.mac")$ 
+stch:"Ra15"$
+stringout(outfile,"Ra15:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRa16.mac")$ 
+outfile:sconcat(tempdir,"ade8cRa16.mac")$ 
+stch:"Ra16"$
+stringout(outfile,"Ra16:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRa17.mac")$ 
+outfile:sconcat(tempdir,"ade8cRa17.mac")$ 
+stch:"Ra17"$
+stringout(outfile,"Ra17:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRa20.mac")$ 
+outfile:sconcat(tempdir,"ade8cRa20.mac")$ 
+stch:"Ra20"$
+stringout(outfile,"Ra20:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRa21.mac")$ 
+outfile:sconcat(tempdir,"ade8cRa21.mac")$ 
+stch:"Ra21"$
+stringout(outfile,"Ra21:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRa22.mac")$ 
+outfile:sconcat(tempdir,"ade8cRa22.mac")$ 
+stch:"Ra22"$
+stringout(outfile,"Ra22:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRa23.mac")$ 
+outfile:sconcat(tempdir,"ade8cRa23.mac")$ 
+stch:"Ra23"$
+stringout(outfile,"Ra23:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRa24.mac")$ 
+outfile:sconcat(tempdir,"ade8cRa24.mac")$ 
+stch:"Ra24"$
+stringout(outfile,"Ra24:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRa25.mac")$ 
+outfile:sconcat(tempdir,"ade8cRa25.mac")$ 
+stch:"Ra25"$
+stringout(outfile,"Ra25:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRa26.mac")$ 
+outfile:sconcat(tempdir,"ade8cRa26.mac")$ 
+stch:"Ra26"$
+stringout(outfile,"Ra26:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRa27.mac")$ 
+outfile:sconcat(tempdir,"ade8cRa27.mac")$ 
+stch:"Ra27"$
+stringout(outfile,"Ra27:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRa30.mac")$ 
+outfile:sconcat(tempdir,"ade8cRa30.mac")$ 
+stch:"Ra30"$
+stringout(outfile,"Ra30:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRa31.mac")$ 
+outfile:sconcat(tempdir,"ade8cRa31.mac")$ 
+stch:"Ra31"$
+stringout(outfile,"Ra31:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRa32.mac")$ 
+outfile:sconcat(tempdir,"ade8cRa32.mac")$ 
+stch:"Ra32"$
+stringout(outfile,"Ra32:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRa33.mac")$ 
+outfile:sconcat(tempdir,"ade8cRa33.mac")$ 
+stch:"Ra33"$
+stringout(outfile,"Ra33:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRa34.mac")$ 
+outfile:sconcat(tempdir,"ade8cRa34.mac")$ 
+stch:"Ra34"$
+stringout(outfile,"Ra34:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRa35.mac")$ 
+outfile:sconcat(tempdir,"ade8cRa35.mac")$ 
+stch:"Ra35"$
+stringout(outfile,"Ra35:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRa36.mac")$ 
+outfile:sconcat(tempdir,"ade8cRa36.mac")$ 
+stch:"Ra36"$
+stringout(outfile,"Ra36:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRa37.mac")$ 
+outfile:sconcat(tempdir,"ade8cRa37.mac")$ 
+stch:"Ra37"$
+stringout(outfile,"Ra37:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRbb1.mac")$ 
+outfile:sconcat(tempdir,"ade8cRbb1.mac")$ 
+stch:"Rβ1"$
+stringout(outfile,"Rβ1:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRbb2.mac")$ 
+outfile:sconcat(tempdir,"ade8cRbb2.mac")$ 
+stch:"Rβ2"$
+stringout(outfile,"Rβ2:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRbb3.mac")$ 
+outfile:sconcat(tempdir,"ade8cRbb3.mac")$ 
+stch:"Rβ3"$
+stringout(outfile,"Rβ3:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRb10.mac")$ 
+outfile:sconcat(tempdir,"ade8cRb10.mac")$ 
+stch:"Rb10"$
+stringout(outfile,"Rb10:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRb11.mac")$ 
+outfile:sconcat(tempdir,"ade8cRb11.mac")$ 
+stch:"Rb11"$
+stringout(outfile,"Rb11:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRb12.mac")$ 
+outfile:sconcat(tempdir,"ade8cRb12.mac")$ 
+stch:"Rb12"$
+stringout(outfile,"Rb12:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRb13.mac")$ 
+outfile:sconcat(tempdir,"ade8cRb13.mac")$ 
+stch:"Rb13"$
+stringout(outfile,"Rb13:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRb14.mac")$ 
+outfile:sconcat(tempdir,"ade8cRb14.mac")$ 
+stch:"Rb14"$
+stringout(outfile,"Rb14:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRb15.mac")$ 
+outfile:sconcat(tempdir,"ade8cRb15.mac")$ 
+stch:"Rb15"$
+stringout(outfile,"Rb15:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRb16.mac")$ 
+outfile:sconcat(tempdir,"ade8cRb16.mac")$ 
+stch:"Rb16"$
+stringout(outfile,"Rb16:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRb17.mac")$ 
+outfile:sconcat(tempdir,"ade8cRb17.mac")$ 
+stch:"Rb17"$
+stringout(outfile,"Rb17:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRb20.mac")$ 
+outfile:sconcat(tempdir,"ade8cRb20.mac")$ 
+stch:"Rb20"$
+stringout(outfile,"Rb20:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRb21.mac")$ 
+outfile:sconcat(tempdir,"ade8cRb21.mac")$ 
+stch:"Rb21"$
+stringout(outfile,"Rb21:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRb22.mac")$ 
+outfile:sconcat(tempdir,"ade8cRb22.mac")$ 
+stch:"Rb22"$
+stringout(outfile,"Rb22:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRb23.mac")$ 
+outfile:sconcat(tempdir,"ade8cRb23.mac")$ 
+stch:"Rb23"$
+stringout(outfile,"Rb23:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRb24.mac")$ 
+outfile:sconcat(tempdir,"ade8cRb24.mac")$ 
+stch:"Rb24"$
+stringout(outfile,"Rb24:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRb25.mac")$ 
+outfile:sconcat(tempdir,"ade8cRb25.mac")$ 
+stch:"Rb25"$
+stringout(outfile,"Rb25:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRb26.mac")$ 
+outfile:sconcat(tempdir,"ade8cRb26.mac")$ 
+stch:"Rb26"$
+stringout(outfile,"Rb26:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRb27.mac")$ 
+outfile:sconcat(tempdir,"ade8cRb27.mac")$ 
+stch:"Rb27"$
+stringout(outfile,"Rb27:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRb30.mac")$ 
+outfile:sconcat(tempdir,"ade8cRb30.mac")$ 
+stch:"Rb30"$
+stringout(outfile,"Rb30:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRb31.mac")$ 
+outfile:sconcat(tempdir,"ade8cRb31.mac")$ 
+stch:"Rb31"$
+stringout(outfile,"Rb31:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRb32.mac")$ 
+outfile:sconcat(tempdir,"ade8cRb32.mac")$ 
+stch:"Rb32"$
+stringout(outfile,"Rb32:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRb33.mac")$ 
+outfile:sconcat(tempdir,"ade8cRb33.mac")$ 
+stch:"Rb33"$
+stringout(outfile,"Rb33:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRb34.mac")$ 
+outfile:sconcat(tempdir,"ade8cRb34.mac")$ 
+stch:"Rb34"$
+stringout(outfile,"Rb34:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRb35.mac")$ 
+outfile:sconcat(tempdir,"ade8cRb35.mac")$ 
+stch:"Rb35"$
+stringout(outfile,"Rb35:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRb36.mac")$ 
+outfile:sconcat(tempdir,"ade8cRb36.mac")$ 
+stch:"Rb36"$
+stringout(outfile,"Rb36:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRb37.mac")$ 
+outfile:sconcat(tempdir,"ade8cRb37.mac")$ 
+stch:"Rb37"$
+stringout(outfile,"Rb37:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRp1.mac")$ 
+outfile:sconcat(tempdir,"ade8cRp1.mac")$ 
+stch:"Rρ1"$
+stringout(outfile,"Rρ1:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRxx1.mac")$ 
+outfile:sconcat(tempdir,"ade8cRxx1.mac")$ 
+stch:"Rχ1"$
+stringout(outfile,"Rχ1:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRxx2.mac")$ 
+outfile:sconcat(tempdir,"ade8cRxx2.mac")$ 
+stch:"Rχ2"$
+stringout(outfile,"Rχ2:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRxx3.mac")$ 
+outfile:sconcat(tempdir,"ade8cRxx3.mac")$ 
+stch:"Rχ3"$
+stringout(outfile,"Rχ3:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRx10.mac")$ 
+outfile:sconcat(tempdir,"ade8cRx10.mac")$ 
+stch:"Rx10"$
+stringout(outfile,"Rx10:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRx11.mac")$ 
+outfile:sconcat(tempdir,"ade8cRx11.mac")$ 
+stch:"Rx11"$
+stringout(outfile,"Rx11:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRx12.mac")$ 
+outfile:sconcat(tempdir,"ade8cRx12.mac")$ 
+stch:"Rx12"$
+stringout(outfile,"Rx12:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRx13.mac")$ 
+outfile:sconcat(tempdir,"ade8cRx13.mac")$ 
+stch:"Rx13"$
+stringout(outfile,"Rx13:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRx14.mac")$ 
+outfile:sconcat(tempdir,"ade8cRx14.mac")$ 
+stch:"Rx14"$
+stringout(outfile,"Rx14:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRx15.mac")$ 
+outfile:sconcat(tempdir,"ade8cRx15.mac")$ 
+stch:"Rx15"$
+stringout(outfile,"Rx15:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRx16.mac")$ 
+outfile:sconcat(tempdir,"ade8cRx16.mac")$ 
+stch:"Rx16"$
+stringout(outfile,"Rx16:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRx17.mac")$ 
+outfile:sconcat(tempdir,"ade8cRx17.mac")$ 
+stch:"Rx17"$
+stringout(outfile,"Rx17:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRx20.mac")$ 
+outfile:sconcat(tempdir,"ade8cRx20.mac")$ 
+stch:"Rx20"$
+stringout(outfile,"Rx20:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRx21.mac")$ 
+outfile:sconcat(tempdir,"ade8cRx21.mac")$ 
+stch:"Rx21"$
+stringout(outfile,"Rx21:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRx22.mac")$ 
+outfile:sconcat(tempdir,"ade8cRx22.mac")$ 
+stch:"Rx22"$
+stringout(outfile,"Rx22:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRx23.mac")$ 
+outfile:sconcat(tempdir,"ade8cRx23.mac")$ 
+stch:"Rx23"$
+stringout(outfile,"Rx23:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRx24.mac")$ 
+outfile:sconcat(tempdir,"ade8cRx24.mac")$ 
+stch:"Rx24"$
+stringout(outfile,"Rx24:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRx25.mac")$ 
+outfile:sconcat(tempdir,"ade8cRx25.mac")$ 
+stch:"Rx25"$
+stringout(outfile,"Rx25:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRx26.mac")$ 
+outfile:sconcat(tempdir,"ade8cRx26.mac")$ 
+stch:"Rx26"$
+stringout(outfile,"Rx26:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRx27.mac")$ 
+outfile:sconcat(tempdir,"ade8cRx27.mac")$ 
+stch:"Rx27"$
+stringout(outfile,"Rx27:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRx30.mac")$ 
+outfile:sconcat(tempdir,"ade8cRx30.mac")$ 
+stch:"Rx30"$
+stringout(outfile,"Rx30:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRx31.mac")$ 
+outfile:sconcat(tempdir,"ade8cRx31.mac")$ 
+stch:"Rx31"$
+stringout(outfile,"Rx31:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRx32.mac")$ 
+outfile:sconcat(tempdir,"ade8cRx32.mac")$ 
+stch:"Rx32"$
+stringout(outfile,"Rx32:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRx33.mac")$ 
+outfile:sconcat(tempdir,"ade8cRx33.mac")$ 
+stch:"Rx33"$
+stringout(outfile,"Rx33:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRx34.mac")$ 
+outfile:sconcat(tempdir,"ade8cRx34.mac")$ 
+stch:"Rx34"$
+stringout(outfile,"Rx34:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRx35.mac")$ 
+outfile:sconcat(tempdir,"ade8cRx35.mac")$ 
+stch:"Rx35"$
+stringout(outfile,"Rx35:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRx36.mac")$ 
+outfile:sconcat(tempdir,"ade8cRx36.mac")$ 
+stch:"Rx36"$
+stringout(outfile,"Rx36:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRx37.mac")$ 
+outfile:sconcat(tempdir,"ade8cRx37.mac")$ 
+stch:"Rx37"$
+stringout(outfile,"Rx37:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRyy1.mac")$ 
+outfile:sconcat(tempdir,"ade8cRyy1.mac")$ 
+stch:"Rγ1"$
+stringout(outfile,"Rγ1:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRyy2.mac")$ 
+outfile:sconcat(tempdir,"ade8cRyy2.mac")$ 
+stch:"Rγ2"$
+stringout(outfile,"Rγ2:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRyy3.mac")$ 
+outfile:sconcat(tempdir,"ade8cRyy3.mac")$ 
+stch:"Rγ3"$
+stringout(outfile,"Rγ3:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRy10.mac")$ 
+outfile:sconcat(tempdir,"ade8cRy10.mac")$ 
+stch:"Ry10"$
+stringout(outfile,"Ry10:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRy11.mac")$ 
+outfile:sconcat(tempdir,"ade8cRy11.mac")$ 
+stch:"Ry11"$
+stringout(outfile,"Ry11:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRy12.mac")$ 
+outfile:sconcat(tempdir,"ade8cRy12.mac")$ 
+stch:"Ry12"$
+stringout(outfile,"Ry12:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRy13.mac")$ 
+outfile:sconcat(tempdir,"ade8cRy13.mac")$ 
+stch:"Ry13"$
+stringout(outfile,"Ry13:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRy14.mac")$ 
+outfile:sconcat(tempdir,"ade8cRy14.mac")$ 
+stch:"Ry14"$
+stringout(outfile,"Ry14:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRy15.mac")$ 
+outfile:sconcat(tempdir,"ade8cRy15.mac")$ 
+stch:"Ry15"$
+stringout(outfile,"Ry15:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRy16.mac")$ 
+outfile:sconcat(tempdir,"ade8cRy16.mac")$ 
+stch:"Ry16"$
+stringout(outfile,"Ry16:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRy17.mac")$ 
+outfile:sconcat(tempdir,"ade8cRy17.mac")$ 
+stch:"Ry17"$
+stringout(outfile,"Ry17:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRy20.mac")$ 
+outfile:sconcat(tempdir,"ade8cRy20.mac")$ 
+stch:"Ry20"$
+stringout(outfile,"Ry20:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRy21.mac")$ 
+outfile:sconcat(tempdir,"ade8cRy21.mac")$ 
+stch:"Ry21"$
+stringout(outfile,"Ry21:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRy22.mac")$ 
+outfile:sconcat(tempdir,"ade8cRy22.mac")$ 
+stch:"Ry22"$
+stringout(outfile,"Ry22:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRy23.mac")$ 
+outfile:sconcat(tempdir,"ade8cRy23.mac")$ 
+stch:"Ry23"$
+stringout(outfile,"Ry23:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRy24.mac")$ 
+outfile:sconcat(tempdir,"ade8cRy24.mac")$ 
+stch:"Ry24"$
+stringout(outfile,"Ry24:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRy25.mac")$ 
+outfile:sconcat(tempdir,"ade8cRy25.mac")$ 
+stch:"Ry25"$
+stringout(outfile,"Ry25:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRy26.mac")$ 
+outfile:sconcat(tempdir,"ade8cRy26.mac")$ 
+stch:"Ry26"$
+stringout(outfile,"Ry26:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRy27.mac")$ 
+outfile:sconcat(tempdir,"ade8cRy27.mac")$ 
+stch:"Ry27"$
+stringout(outfile,"Ry27:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRy30.mac")$ 
+outfile:sconcat(tempdir,"ade8cRy30.mac")$ 
+stch:"Ry30"$
+stringout(outfile,"Ry30:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRy31.mac")$ 
+outfile:sconcat(tempdir,"ade8cRy31.mac")$ 
+stch:"Ry31"$
+stringout(outfile,"Ry31:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRy32.mac")$ 
+outfile:sconcat(tempdir,"ade8cRy32.mac")$ 
+stch:"Ry32"$
+stringout(outfile,"Ry32:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRy33.mac")$ 
+outfile:sconcat(tempdir,"ade8cRy33.mac")$ 
+stch:"Ry33"$
+stringout(outfile,"Ry33:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRy34.mac")$ 
+outfile:sconcat(tempdir,"ade8cRy34.mac")$ 
+stch:"Ry34"$
+stringout(outfile,"Ry34:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRy35.mac")$ 
+outfile:sconcat(tempdir,"ade8cRy35.mac")$ 
+stch:"Ry35"$
+stringout(outfile,"Ry35:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRy36.mac")$ 
+outfile:sconcat(tempdir,"ade8cRy36.mac")$ 
+stch:"Ry36"$
+stringout(outfile,"Ry36:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRy37.mac")$ 
+outfile:sconcat(tempdir,"ade8cRy37.mac")$ 
+stch:"Ry37"$
+stringout(outfile,"Ry37:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRgu1.mac")$ 
+outfile:sconcat(tempdir,"ade8cRgu1.mac")$ 
+stch:"Rξ1"$
+stringout(outfile,"Rξ1:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRea1.mac")$ 
+outfile:sconcat(tempdir,"ade8cRea1.mac")$ 
+stch:"Rη1"$
+stringout(outfile,"Rη1:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRzz1.mac")$ 
+outfile:sconcat(tempdir,"ade8cRzz1.mac")$ 
+stch:"Rμ1"$
+stringout(outfile,"Rμ1:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRzz2.mac")$ 
+outfile:sconcat(tempdir,"ade8cRzz2.mac")$ 
+stch:"Rμ2"$
+stringout(outfile,"Rμ2:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRzz3.mac")$ 
+outfile:sconcat(tempdir,"ade8cRzz3.mac")$ 
+stch:"Rμ3"$
+stringout(outfile,"Rμ3:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRz10.mac")$ 
+outfile:sconcat(tempdir,"ade8cRz10.mac")$ 
+stch:"Rz10"$
+stringout(outfile,"Rz10:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRz11.mac")$ 
+outfile:sconcat(tempdir,"ade8cRz11.mac")$ 
+stch:"Rz11"$
+stringout(outfile,"Rz11:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRz12.mac")$ 
+outfile:sconcat(tempdir,"ade8cRz12.mac")$ 
+stch:"Rz12"$
+stringout(outfile,"Rz12:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRz13.mac")$ 
+outfile:sconcat(tempdir,"ade8cRz13.mac")$ 
+stch:"Rz13"$
+stringout(outfile,"Rz13:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRz14.mac")$ 
+outfile:sconcat(tempdir,"ade8cRz14.mac")$ 
+stch:"Rz14"$
+stringout(outfile,"Rz14:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRz15.mac")$ 
+outfile:sconcat(tempdir,"ade8cRz15.mac")$ 
+stch:"Rz15"$
+stringout(outfile,"Rz15:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRz16.mac")$ 
+outfile:sconcat(tempdir,"ade8cRz16.mac")$ 
+stch:"Rz16"$
+stringout(outfile,"Rz16:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRz17.mac")$ 
+outfile:sconcat(tempdir,"ade8cRz17.mac")$ 
+stch:"Rz17"$
+stringout(outfile,"Rz17:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRz20.mac")$ 
+outfile:sconcat(tempdir,"ade8cRz20.mac")$ 
+stch:"Rz20"$
+stringout(outfile,"Rz20:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRz21.mac")$ 
+outfile:sconcat(tempdir,"ade8cRz21.mac")$ 
+stch:"Rz21"$
+stringout(outfile,"Rz21:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRz22.mac")$ 
+outfile:sconcat(tempdir,"ade8cRz22.mac")$ 
+stch:"Rz22"$
+stringout(outfile,"Rz22:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRz23.mac")$ 
+outfile:sconcat(tempdir,"ade8cRz23.mac")$ 
+stch:"Rz23"$
+stringout(outfile,"Rz23:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRz24.mac")$ 
+outfile:sconcat(tempdir,"ade8cRz24.mac")$ 
+stch:"Rz24"$
+stringout(outfile,"Rz24:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRz25.mac")$ 
+outfile:sconcat(tempdir,"ade8cRz25.mac")$ 
+stch:"Rz25"$
+stringout(outfile,"Rz25:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRz26.mac")$ 
+outfile:sconcat(tempdir,"ade8cRz26.mac")$ 
+stch:"Rz26"$
+stringout(outfile,"Rz26:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRz27.mac")$ 
+outfile:sconcat(tempdir,"ade8cRz27.mac")$ 
+stch:"Rz27"$
+stringout(outfile,"Rz27:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRz30.mac")$ 
+outfile:sconcat(tempdir,"ade8cRz30.mac")$ 
+stch:"Rz30"$
+stringout(outfile,"Rz30:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRz31.mac")$ 
+outfile:sconcat(tempdir,"ade8cRz31.mac")$ 
+stch:"Rz31"$
+stringout(outfile,"Rz31:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRz32.mac")$ 
+outfile:sconcat(tempdir,"ade8cRz32.mac")$ 
+stch:"Rz32"$
+stringout(outfile,"Rz32:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRz33.mac")$ 
+outfile:sconcat(tempdir,"ade8cRz33.mac")$ 
+stch:"Rz33"$
+stringout(outfile,"Rz33:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRz34.mac")$ 
+outfile:sconcat(tempdir,"ade8cRz34.mac")$ 
+stch:"Rz34"$
+stringout(outfile,"Rz34:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRz35.mac")$ 
+outfile:sconcat(tempdir,"ade8cRz35.mac")$ 
+stch:"Rz35"$
+stringout(outfile,"Rz35:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRz36.mac")$ 
+outfile:sconcat(tempdir,"ade8cRz36.mac")$ 
+stch:"Rz36"$
+stringout(outfile,"Rz36:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRz37.mac")$ 
+outfile:sconcat(tempdir,"ade8cRz37.mac")$ 
+stch:"Rz37"$
+stringout(outfile,"Rz37:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRww1.mac")$ 
+outfile:sconcat(tempdir,"ade8cRww1.mac")$ 
+stch:"Rψ1"$
+stringout(outfile,"Rψ1:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRww2.mac")$ 
+outfile:sconcat(tempdir,"ade8cRww2.mac")$ 
+stch:"Rψ2"$
+stringout(outfile,"Rψ2:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRww3.mac")$ 
+outfile:sconcat(tempdir,"ade8cRww3.mac")$ 
+stch:"Rψ3"$
+stringout(outfile,"Rψ3:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRw10.mac")$ 
+outfile:sconcat(tempdir,"ade8cRw10.mac")$ 
+stch:"Rw10"$
+stringout(outfile,"Rw10:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRw11.mac")$ 
+outfile:sconcat(tempdir,"ade8cRw11.mac")$ 
+stch:"Rw11"$
+stringout(outfile,"Rw11:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRw12.mac")$ 
+outfile:sconcat(tempdir,"ade8cRw12.mac")$ 
+stch:"Rw12"$
+stringout(outfile,"Rw12:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRw13.mac")$ 
+outfile:sconcat(tempdir,"ade8cRw13.mac")$ 
+stch:"Rw13"$
+stringout(outfile,"Rw13:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRw14.mac")$ 
+outfile:sconcat(tempdir,"ade8cRw14.mac")$ 
+stch:"Rw14"$
+stringout(outfile,"Rw14:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRw15.mac")$ 
+outfile:sconcat(tempdir,"ade8cRw15.mac")$ 
+stch:"Rw15"$
+stringout(outfile,"Rw15:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRw16.mac")$ 
+outfile:sconcat(tempdir,"ade8cRw16.mac")$ 
+stch:"Rw16"$
+stringout(outfile,"Rw16:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRw17.mac")$ 
+outfile:sconcat(tempdir,"ade8cRw17.mac")$ 
+stch:"Rw17"$
+stringout(outfile,"Rw17:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRw20.mac")$ 
+outfile:sconcat(tempdir,"ade8cRw20.mac")$ 
+stch:"Rw20"$
+stringout(outfile,"Rw20:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRw21.mac")$ 
+outfile:sconcat(tempdir,"ade8cRw21.mac")$ 
+stch:"Rw21"$
+stringout(outfile,"Rw21:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRw22.mac")$ 
+outfile:sconcat(tempdir,"ade8cRw22.mac")$ 
+stch:"Rw22"$
+stringout(outfile,"Rw22:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRw23.mac")$ 
+outfile:sconcat(tempdir,"ade8cRw23.mac")$ 
+stch:"Rw23"$
+stringout(outfile,"Rw23:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRw24.mac")$ 
+outfile:sconcat(tempdir,"ade8cRw24.mac")$ 
+stch:"Rw24"$
+stringout(outfile,"Rw24:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRw25.mac")$ 
+outfile:sconcat(tempdir,"ade8cRw25.mac")$ 
+stch:"Rw25"$
+stringout(outfile,"Rw25:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRw26.mac")$ 
+outfile:sconcat(tempdir,"ade8cRw26.mac")$ 
+stch:"Rw26"$
+stringout(outfile,"Rw26:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRw27.mac")$ 
+outfile:sconcat(tempdir,"ade8cRw27.mac")$ 
+stch:"Rw27"$
+stringout(outfile,"Rw27:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRw30.mac")$ 
+outfile:sconcat(tempdir,"ade8cRw30.mac")$ 
+stch:"Rw30"$
+stringout(outfile,"Rw30:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRw31.mac")$ 
+outfile:sconcat(tempdir,"ade8cRw31.mac")$ 
+stch:"Rw31"$
+stringout(outfile,"Rw31:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRw32.mac")$ 
+outfile:sconcat(tempdir,"ade8cRw32.mac")$ 
+stch:"Rw32"$
+stringout(outfile,"Rw32:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRw33.mac")$ 
+outfile:sconcat(tempdir,"ade8cRw33.mac")$ 
+stch:"Rw33"$
+stringout(outfile,"Rw33:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRw34.mac")$ 
+outfile:sconcat(tempdir,"ade8cRw34.mac")$ 
+stch:"Rw34"$
+stringout(outfile,"Rw34:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRw35.mac")$ 
+outfile:sconcat(tempdir,"ade8cRw35.mac")$ 
+stch:"Rw35"$
+stringout(outfile,"Rw35:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRw36.mac")$ 
+outfile:sconcat(tempdir,"ade8cRw36.mac")$ 
+stch:"Rw36"$
+stringout(outfile,"Rw36:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRw37.mac")$ 
+outfile:sconcat(tempdir,"ade8cRw37.mac")$ 
+stch:"Rw37"$
+stringout(outfile,"Rw37:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRze1.mac")$ 
+outfile:sconcat(tempdir,"ade8cRze1.mac")$ 
+stch:"Rζ1"$
+stringout(outfile,"Rζ1:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRom1.mac")$ 
+outfile:sconcat(tempdir,"ade8cRom1.mac")$ 
+stch:"Rω1"$
+stringout(outfile,"Rω1:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRr1.mac")$ 
+outfile:sconcat(tempdir,"ade8cRr1.mac")$ 
+stch:"Rr1"$
+stringout(outfile,"Rr1:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRs1.mac")$ 
+outfile:sconcat(tempdir,"ade8cRs1.mac")$ 
+stch:"Rs1"$
+stringout(outfile,"Rs1:zeromatrix(248,248)")$
+NZP(1,248)$
+load( "ade8cRu1.mac")$ 
+outfile:sconcat(tempdir,"ade8cRu1.mac")$ 
+stch:"Ru1"$
+stringout(outfile,"Ru1:zeromatrix(248,248)")$
+NZP(1,248)$
