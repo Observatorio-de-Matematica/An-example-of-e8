@@ -1,0 +1,4258 @@
+/* Reduce the size of matrix for 133X133  */
+Rd01:genmatrix(lambda([i,j],Rd01[i][j]),133,133,1,1)$
+Rd02:genmatrix(lambda([i,j],Rd02[i][j]),133,133,1,1)$
+Rd03:genmatrix(lambda([i,j],Rd03[i][j]),133,133,1,1)$
+Rd04:genmatrix(lambda([i,j],Rd04[i][j]),133,133,1,1)$
+Rd05:genmatrix(lambda([i,j],Rd05[i][j]),133,133,1,1)$
+Rd06:genmatrix(lambda([i,j],Rd06[i][j]),133,133,1,1)$
+Rd07:genmatrix(lambda([i,j],Rd07[i][j]),133,133,1,1)$
+Rd12:genmatrix(lambda([i,j],Rd12[i][j]),133,133,1,1)$
+Rd13:genmatrix(lambda([i,j],Rd13[i][j]),133,133,1,1)$
+Rd14:genmatrix(lambda([i,j],Rd14[i][j]),133,133,1,1)$
+Rd15:genmatrix(lambda([i,j],Rd15[i][j]),133,133,1,1)$
+Rd16:genmatrix(lambda([i,j],Rd16[i][j]),133,133,1,1)$
+Rd17:genmatrix(lambda([i,j],Rd17[i][j]),133,133,1,1)$
+Rd23:genmatrix(lambda([i,j],Rd23[i][j]),133,133,1,1)$
+Rd24:genmatrix(lambda([i,j],Rd24[i][j]),133,133,1,1)$
+Rd25:genmatrix(lambda([i,j],Rd25[i][j]),133,133,1,1)$
+Rd26:genmatrix(lambda([i,j],Rd26[i][j]),133,133,1,1)$
+Rd27:genmatrix(lambda([i,j],Rd27[i][j]),133,133,1,1)$
+Rd34:genmatrix(lambda([i,j],Rd34[i][j]),133,133,1,1)$
+Rd35:genmatrix(lambda([i,j],Rd35[i][j]),133,133,1,1)$
+Rd36:genmatrix(lambda([i,j],Rd36[i][j]),133,133,1,1)$
+Rd37:genmatrix(lambda([i,j],Rd37[i][j]),133,133,1,1)$
+Rd45:genmatrix(lambda([i,j],Rd45[i][j]),133,133,1,1)$
+Rd46:genmatrix(lambda([i,j],Rd46[i][j]),133,133,1,1)$
+Rd47:genmatrix(lambda([i,j],Rd47[i][j]),133,133,1,1)$
+Rd56:genmatrix(lambda([i,j],Rd56[i][j]),133,133,1,1)$
+Rd57:genmatrix(lambda([i,j],Rd57[i][j]),133,133,1,1)$
+Rd67:genmatrix(lambda([i,j],Rd67[i][j]),133,133,1,1)$
+Rm10:genmatrix(lambda([i,j],Rm10[i][j]),133,133,1,1)$
+Rm11:genmatrix(lambda([i,j],Rm11[i][j]),133,133,1,1)$
+Rm12:genmatrix(lambda([i,j],Rm12[i][j]),133,133,1,1)$
+Rm13:genmatrix(lambda([i,j],Rm13[i][j]),133,133,1,1)$
+Rm14:genmatrix(lambda([i,j],Rm14[i][j]),133,133,1,1)$
+Rm15:genmatrix(lambda([i,j],Rm15[i][j]),133,133,1,1)$
+Rm16:genmatrix(lambda([i,j],Rm16[i][j]),133,133,1,1)$
+Rm17:genmatrix(lambda([i,j],Rm17[i][j]),133,133,1,1)$
+Rm20:genmatrix(lambda([i,j],Rm20[i][j]),133,133,1,1)$
+Rm21:genmatrix(lambda([i,j],Rm21[i][j]),133,133,1,1)$
+Rm22:genmatrix(lambda([i,j],Rm22[i][j]),133,133,1,1)$
+Rm23:genmatrix(lambda([i,j],Rm23[i][j]),133,133,1,1)$
+Rm24:genmatrix(lambda([i,j],Rm24[i][j]),133,133,1,1)$
+Rm25:genmatrix(lambda([i,j],Rm25[i][j]),133,133,1,1)$
+Rm26:genmatrix(lambda([i,j],Rm26[i][j]),133,133,1,1)$
+Rm27:genmatrix(lambda([i,j],Rm27[i][j]),133,133,1,1)$
+Rm30:genmatrix(lambda([i,j],Rm30[i][j]),133,133,1,1)$
+Rm31:genmatrix(lambda([i,j],Rm31[i][j]),133,133,1,1)$
+Rm32:genmatrix(lambda([i,j],Rm32[i][j]),133,133,1,1)$
+Rm33:genmatrix(lambda([i,j],Rm33[i][j]),133,133,1,1)$
+Rm34:genmatrix(lambda([i,j],Rm34[i][j]),133,133,1,1)$
+Rm35:genmatrix(lambda([i,j],Rm35[i][j]),133,133,1,1)$
+Rm36:genmatrix(lambda([i,j],Rm36[i][j]),133,133,1,1)$
+Rm37:genmatrix(lambda([i,j],Rm37[i][j]),133,133,1,1)$
+Rt10:genmatrix(lambda([i,j],Rt10[i][j]),133,133,1,1)$
+Rt11:genmatrix(lambda([i,j],Rt11[i][j]),133,133,1,1)$
+Rt12:genmatrix(lambda([i,j],Rt12[i][j]),133,133,1,1)$
+Rt13:genmatrix(lambda([i,j],Rt13[i][j]),133,133,1,1)$
+Rt14:genmatrix(lambda([i,j],Rt14[i][j]),133,133,1,1)$
+Rt15:genmatrix(lambda([i,j],Rt15[i][j]),133,133,1,1)$
+Rt16:genmatrix(lambda([i,j],Rt16[i][j]),133,133,1,1)$
+Rt17:genmatrix(lambda([i,j],Rt17[i][j]),133,133,1,1)$
+Rt20:genmatrix(lambda([i,j],Rt20[i][j]),133,133,1,1)$
+Rt21:genmatrix(lambda([i,j],Rt21[i][j]),133,133,1,1)$
+Rt22:genmatrix(lambda([i,j],Rt22[i][j]),133,133,1,1)$
+Rt23:genmatrix(lambda([i,j],Rt23[i][j]),133,133,1,1)$
+Rt24:genmatrix(lambda([i,j],Rt24[i][j]),133,133,1,1)$
+Rt25:genmatrix(lambda([i,j],Rt25[i][j]),133,133,1,1)$
+Rt26:genmatrix(lambda([i,j],Rt26[i][j]),133,133,1,1)$
+Rt27:genmatrix(lambda([i,j],Rt27[i][j]),133,133,1,1)$
+Rt30:genmatrix(lambda([i,j],Rt30[i][j]),133,133,1,1)$
+Rt31:genmatrix(lambda([i,j],Rt31[i][j]),133,133,1,1)$
+Rt32:genmatrix(lambda([i,j],Rt32[i][j]),133,133,1,1)$
+Rt33:genmatrix(lambda([i,j],Rt33[i][j]),133,133,1,1)$
+Rt34:genmatrix(lambda([i,j],Rt34[i][j]),133,133,1,1)$
+Rt35:genmatrix(lambda([i,j],Rt35[i][j]),133,133,1,1)$
+Rt36:genmatrix(lambda([i,j],Rt36[i][j]),133,133,1,1)$
+Rt37:genmatrix(lambda([i,j],Rt37[i][j]),133,133,1,1)$
+Rτ1:genmatrix(lambda([i,j],Rτ1[i][j]),133,133,1,1)$
+Rτ2:genmatrix(lambda([i,j],Rτ2[i][j]),133,133,1,1)$
+Ra10:genmatrix(lambda([i,j],Ra10[i][j]),133,133,1,1)$
+Ra11:genmatrix(lambda([i,j],Ra11[i][j]),133,133,1,1)$
+Ra12:genmatrix(lambda([i,j],Ra12[i][j]),133,133,1,1)$
+Ra13:genmatrix(lambda([i,j],Ra13[i][j]),133,133,1,1)$
+Ra14:genmatrix(lambda([i,j],Ra14[i][j]),133,133,1,1)$
+Ra15:genmatrix(lambda([i,j],Ra15[i][j]),133,133,1,1)$
+Ra16:genmatrix(lambda([i,j],Ra16[i][j]),133,133,1,1)$
+Ra17:genmatrix(lambda([i,j],Ra17[i][j]),133,133,1,1)$
+Ra20:genmatrix(lambda([i,j],Ra20[i][j]),133,133,1,1)$
+Ra21:genmatrix(lambda([i,j],Ra21[i][j]),133,133,1,1)$
+Ra22:genmatrix(lambda([i,j],Ra22[i][j]),133,133,1,1)$
+Ra23:genmatrix(lambda([i,j],Ra23[i][j]),133,133,1,1)$
+Ra24:genmatrix(lambda([i,j],Ra24[i][j]),133,133,1,1)$
+Ra25:genmatrix(lambda([i,j],Ra25[i][j]),133,133,1,1)$
+Ra26:genmatrix(lambda([i,j],Ra26[i][j]),133,133,1,1)$
+Ra27:genmatrix(lambda([i,j],Ra27[i][j]),133,133,1,1)$
+Ra30:genmatrix(lambda([i,j],Ra30[i][j]),133,133,1,1)$
+Ra31:genmatrix(lambda([i,j],Ra31[i][j]),133,133,1,1)$
+Ra32:genmatrix(lambda([i,j],Ra32[i][j]),133,133,1,1)$
+Ra33:genmatrix(lambda([i,j],Ra33[i][j]),133,133,1,1)$
+Ra34:genmatrix(lambda([i,j],Ra34[i][j]),133,133,1,1)$
+Ra35:genmatrix(lambda([i,j],Ra35[i][j]),133,133,1,1)$
+Ra36:genmatrix(lambda([i,j],Ra36[i][j]),133,133,1,1)$
+Ra37:genmatrix(lambda([i,j],Ra37[i][j]),133,133,1,1)$
+Rα1:genmatrix(lambda([i,j],Rα1[i][j]),133,133,1,1)$
+Rα2:genmatrix(lambda([i,j],Rα2[i][j]),133,133,1,1)$
+Rα3:genmatrix(lambda([i,j],Rα3[i][j]),133,133,1,1)$
+Rb10:genmatrix(lambda([i,j],Rb10[i][j]),133,133,1,1)$
+Rb11:genmatrix(lambda([i,j],Rb11[i][j]),133,133,1,1)$
+Rb12:genmatrix(lambda([i,j],Rb12[i][j]),133,133,1,1)$
+Rb13:genmatrix(lambda([i,j],Rb13[i][j]),133,133,1,1)$
+Rb14:genmatrix(lambda([i,j],Rb14[i][j]),133,133,1,1)$
+Rb15:genmatrix(lambda([i,j],Rb15[i][j]),133,133,1,1)$
+Rb16:genmatrix(lambda([i,j],Rb16[i][j]),133,133,1,1)$
+Rb17:genmatrix(lambda([i,j],Rb17[i][j]),133,133,1,1)$
+Rb20:genmatrix(lambda([i,j],Rb20[i][j]),133,133,1,1)$
+Rb21:genmatrix(lambda([i,j],Rb21[i][j]),133,133,1,1)$
+Rb22:genmatrix(lambda([i,j],Rb22[i][j]),133,133,1,1)$
+Rb23:genmatrix(lambda([i,j],Rb23[i][j]),133,133,1,1)$
+Rb24:genmatrix(lambda([i,j],Rb24[i][j]),133,133,1,1)$
+Rb25:genmatrix(lambda([i,j],Rb25[i][j]),133,133,1,1)$
+Rb26:genmatrix(lambda([i,j],Rb26[i][j]),133,133,1,1)$
+Rb27:genmatrix(lambda([i,j],Rb27[i][j]),133,133,1,1)$
+Rb30:genmatrix(lambda([i,j],Rb30[i][j]),133,133,1,1)$
+Rb31:genmatrix(lambda([i,j],Rb31[i][j]),133,133,1,1)$
+Rb32:genmatrix(lambda([i,j],Rb32[i][j]),133,133,1,1)$
+Rb33:genmatrix(lambda([i,j],Rb33[i][j]),133,133,1,1)$
+Rb34:genmatrix(lambda([i,j],Rb34[i][j]),133,133,1,1)$
+Rb35:genmatrix(lambda([i,j],Rb35[i][j]),133,133,1,1)$
+Rb36:genmatrix(lambda([i,j],Rb36[i][j]),133,133,1,1)$
+Rb37:genmatrix(lambda([i,j],Rb37[i][j]),133,133,1,1)$
+Rβ1:genmatrix(lambda([i,j],Rβ1[i][j]),133,133,1,1)$
+Rβ2:genmatrix(lambda([i,j],Rβ2[i][j]),133,133,1,1)$
+Rβ3:genmatrix(lambda([i,j],Rβ3[i][j]),133,133,1,1)$
+Rρ1:genmatrix(lambda([i,j],Rρ1[i][j]),133,133,1,1)$
+
+/* Definition D */
+
+CD:[Rd01,Rd02,Rd03,Rd04,Rd05,Rd06,Rd07,Rd12,Rd13,Rd14,Rd15,Rd16,Rd17,
+ Rd23,Rd24,Rd25,Rd26,Rd27,Rd34,Rd35,Rd36,Rd37,Rd45,Rd46,Rd47,Rd56,Rd57,Rd67]$
+
+LCD:([0,CD[8],CD[9],CD[10],CD[11],CD[12],CD[13],-CD[2],-CD[3],-CD[4],-CD[5],-CD[6],-CD[7],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+-CD[8],0,CD[14],CD[15],CD[16],CD[17],CD[18],CD[1],0,0,0,0,0,-CD[3],-CD[4],-CD[5],-CD[6],-CD[7],0,0,0,0,0,0,0,0,0,0,
+-CD[9],-CD[14],0,CD[19],CD[20],CD[21],CD[22],0,CD[1],0,0,0,0,CD[2],0,0,0,0,-CD[4],-CD[5],-CD[6],-CD[7],0,0,0,0,0,0,
+-CD[10],-CD[15],-CD[19],0,CD[23],CD[24],CD[25],0,0,CD[1],0,0,0,0,CD[2],0,0,0,CD[3],0,0,0,-CD[5],-CD[6],-CD[7],0,0,0,
+-CD[11],-CD[16],-CD[20],-CD[23],0,CD[26],CD[27],0,0,0,CD[1],0,0,0,0,CD[2],0,0,0,CD[3],0,0,CD[4],0,0,-CD[6],-CD[7],0,
+-CD[12],-CD[17],-CD[21],-CD[24],-CD[26],0,CD[28],0,0,0,0,CD[1],0,0,0,0,CD[2],0,0,0,CD[3],0,0,CD[4],0,CD[5],0,-CD[7],
+-CD[13],-CD[18],-CD[22],-CD[25],-CD[27],-CD[28],0,0,0,0,0,0,CD[1],0,0,0,0,CD[2],0,0,0,CD[3],0,0,CD[4],0,CD[5],CD[6],
+CD[2],-CD[1],0,0,0,0,0,0,CD[14],CD[15],CD[16],CD[17],CD[18],-CD[9],-CD[10],-CD[11],-CD[12],-CD[13],0,0,0,0,0,0,0,0,0,0,
+CD[3],0,-CD[1],0,0,0,0,-CD[14],0,CD[19],CD[20],CD[21],CD[22],CD[8],0,0,0,0,-CD[10],-CD[11],-CD[12],-CD[13],0,0,0,0,0,0,
+CD[4],0,0,-CD[1],0,0,0,-CD[15],-CD[19],0,CD[23],CD[24],CD[25],0,CD[8],0,0,0,CD[9],0,0,0,-CD[11],-CD[12],-CD[13],0,0,0,
+CD[5],0,0,0,-CD[1],0,0,-CD[16],-CD[20],-CD[23],0,CD[26],CD[27],0,0,CD[8],0,0,0,CD[9],0,0,CD[10],0,0,-CD[12],-CD[13],0,
+CD[6],0,0,0,0,-CD[1],0,-CD[17],-CD[21],-CD[24],-CD[26],0,CD[28],0,0,0,CD[8],0,0,0,CD[9],0,0,CD[10],0,CD[11],0,-CD[13],
+CD[7],0,0,0,0,0,-CD[1],-CD[18],-CD[22],-CD[25],-CD[27],-CD[28],0,0,0,0,0,CD[8],0,0,0,CD[9],0,0,CD[10],0,CD[11],CD[12],
+0,CD[3],-CD[2],0,0,0,0,CD[9],-CD[8],0,0,0,0,0,CD[19],CD[20],CD[21],CD[22],-CD[15],-CD[16],-CD[17],-CD[18],0,0,0,0,0,0,
+0,CD[4],0,-CD[2],0,0,0,CD[10],0,-CD[8],0,0,0,-CD[19],0,CD[23],CD[24],CD[25],CD[14],0,0,0,-CD[16],-CD[17],-CD[18],0,0,0,
+0,CD[5],0,0,-CD[2],0,0,CD[11],0,0,-CD[8],0,0,-CD[20],-CD[23],0,CD[26],CD[27],0,CD[14],0,0,CD[15],0,0,-CD[17],-CD[18],0,
+0,CD[6],0,0,0,-CD[2],0,CD[12],0,0,0,-CD[8],0,-CD[21],-CD[24],-CD[26],0,CD[28],0,0,CD[14],0,0,CD[15],0,CD[16],0,-CD[18],
+0,CD[7],0,0,0,0,-CD[2],CD[13],0,0,0,0,-CD[8],-CD[22],-CD[25],-CD[27],-CD[28],0,0,0,0,CD[14],0,0,CD[15],0,CD[16],CD[17],
+0,0,CD[4],-CD[3],0,0,0,0,CD[10],-CD[9],0,0,0,CD[15],-CD[14],0,0,0,0,CD[23],CD[24],CD[25],-CD[20],-CD[21],-CD[22],0,0,0,
+0,0,CD[5],0,-CD[3],0,0,0,CD[11],0,-CD[9],0,0,CD[16],0,-CD[14],0,0,-CD[23],0,CD[26],CD[27],CD[19],0,0,-CD[21],-CD[22],0,
+0,0,CD[6],0,0,-CD[3],0,0,CD[12],0,0,-CD[9],0,CD[17],0,0,-CD[14],0,-CD[24],-CD[26],0,CD[28],0,CD[19],0,CD[20],0,-CD[22],
+0,0,CD[7],0,0,0,-CD[3],0,CD[13],0,0,0,-CD[9],CD[18],0,0,0,-CD[14],-CD[25],-CD[27],-CD[28],0,0,0,CD[19],0,CD[20],CD[21],
+0,0,0,CD[5],-CD[4],0,0,0,0,CD[11],-CD[10],0,0,0,CD[16],-CD[15],0,0,CD[20],-CD[19],0,0,0,CD[26],CD[27],-CD[24],-CD[25],0,
+0,0,0,CD[6],0,-CD[4],0,0,0,CD[12],0,-CD[10],0,0,CD[17],0,-CD[15],0,CD[21],0,-CD[19],0,-CD[26],0,CD[28],CD[23],0,-CD[25],
+0,0,0,CD[7],0,0,-CD[4],0,0,CD[13],0,0,-CD[10],0,CD[18],0,0,-CD[15],CD[22],0,0,-CD[19],-CD[27],-CD[28],0,0,CD[23],CD[24],
+0,0,0,0,CD[6],-CD[5],0,0,0,0,CD[12],-CD[11],0,0,0,CD[17],-CD[16],0,0,CD[21],-CD[20],0,CD[24],-CD[23],0,0,CD[28],-CD[27],
+0,0,0,0,CD[7],0,-CD[5],0,0,0,CD[13],0,-CD[11],0,0,CD[18],0,-CD[16],0,CD[22],0,-CD[20],CD[25],0,-CD[23],-CD[28],0,CD[26],
+0,0,0,0,0,CD[7],-CD[6],0,0,0,0,CD[13],-CD[12],0,0,0,CD[18],-CD[17],0,0,CD[22],-CD[21],0,CD[25],-CD[24],CD[27],-CD[26],0])$
+
+dd:[d01,d02,d03,d04,d05,d06,d07,d12,d13,d14,d15,d16,d17,d23,d24,d25,d26,d27,d34,d35,d36,d37,d45,d46,d47,d56,d57,d67]$
+
+Ldd:([1,dd[8],dd[9],dd[10],dd[11],dd[12],dd[13],dd[2],dd[3],dd[4],dd[5],dd[6],dd[7],1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+dd[8],1,dd[14],dd[15],dd[16],dd[17],dd[18],dd[1],1,1,1,1,1,dd[3],dd[4],dd[5],dd[6],dd[7],1,1,1,1,1,1,1,1,1,1,
+dd[9],dd[14],1,dd[19],dd[20],dd[21],dd[22],1,dd[1],1,1,1,1,dd[2],1,1,1,1,dd[4],dd[5],dd[6],dd[7],1,1,1,1,1,1,
+dd[10],dd[15],dd[19],1,dd[23],dd[24],dd[25],1,1,dd[1],1,1,1,1,dd[2],1,1,1,dd[3],1,1,1,dd[5],dd[6],dd[7],1,1,1,
+dd[11],dd[16],dd[20],dd[23],1,dd[26],dd[27],1,1,1,dd[1],1,1,1,1,dd[2],1,1,1,dd[3],1,1,dd[4],1,1,dd[6],dd[7],1,
+dd[12],dd[17],dd[21],dd[24],dd[26],1,dd[28],1,1,1,1,dd[1],1,1,1,1,dd[2],1,1,1,dd[3],1,1,dd[4],1,dd[5],1,dd[7],
+dd[13],dd[18],dd[22],dd[25],dd[27],dd[28],1,1,1,1,1,1,dd[1],1,1,1,1,dd[2],1,1,1,dd[3],1,1,dd[4],1,dd[5],dd[6],
+dd[2],dd[1],1,1,1,1,1,1,dd[14],dd[15],dd[16],dd[17],dd[18],dd[9],dd[10],dd[11],dd[12],dd[13],1,1,1,1,1,1,1,1,1,1,
+dd[3],1,dd[1],1,1,1,1,dd[14],1,dd[19],dd[20],dd[21],dd[22],dd[8],1,1,1,1,dd[10],dd[11],dd[12],dd[13],1,1,1,1,1,1,
+dd[4],1,1,dd[1],1,1,1,dd[15],dd[19],1,dd[23],dd[24],dd[25],1,dd[8],1,1,1,dd[9],1,1,1,dd[11],dd[12],dd[13],1,1,1,
+dd[5],1,1,1,dd[1],1,1,dd[16],dd[20],dd[23],1,dd[26],dd[27],1,1,dd[8],1,1,1,dd[9],1,1,dd[10],1,1,dd[12],dd[13],1,
+dd[6],1,1,1,1,dd[1],1,dd[17],dd[21],dd[24],dd[26],1,dd[28],1,1,1,dd[8],1,1,1,dd[9],1,1,dd[10],1,dd[11],1,dd[13],
+dd[7],1,1,1,1,1,dd[1],dd[18],dd[22],dd[25],dd[27],dd[28],1,1,1,1,1,dd[8],1,1,1,dd[9],1,1,dd[10],1,dd[11],dd[12],
+1,dd[3],dd[2],1,1,1,1,dd[9],dd[8],1,1,1,1,1,dd[19],dd[20],dd[21],dd[22],dd[15],dd[16],dd[17],dd[18],1,1,1,1,1,1,
+1,dd[4],1,dd[2],1,1,1,dd[10],1,dd[8],1,1,1,dd[19],1,dd[23],dd[24],dd[25],dd[14],1,1,1,dd[16],dd[17],dd[18],1,1,1,
+1,dd[5],1,1,dd[2],1,1,dd[11],1,1,dd[8],1,1,dd[20],dd[23],1,dd[26],dd[27],1,dd[14],1,1,dd[15],1,1,dd[17],dd[18],1,
+1,dd[6],1,1,1,dd[2],1,dd[12],1,1,1,dd[8],1,dd[21],dd[24],dd[26],1,dd[28],1,1,dd[14],1,1,dd[15],1,dd[16],1,dd[18],
+1,dd[7],1,1,1,1,dd[2],dd[13],1,1,1,1,dd[8],dd[22],dd[25],dd[27],dd[28],1,1,1,1,dd[14],1,1,dd[15],1,dd[16],dd[17],
+1,1,dd[4],dd[3],1,1,1,1,dd[10],dd[9],1,1,1,dd[15],dd[14],1,1,1,1,dd[23],dd[24],dd[25],dd[20],dd[21],dd[22],1,1,1,
+1,1,dd[5],1,dd[3],1,1,1,dd[11],1,dd[9],1,1,dd[16],1,dd[14],1,1,dd[23],1,dd[26],dd[27],dd[19],1,1,dd[21],dd[22],1,
+1,1,dd[6],1,1,dd[3],1,1,dd[12],1,1,dd[9],1,dd[17],1,1,dd[14],1,dd[24],dd[26],1,dd[28],1,dd[19],1,dd[20],1,dd[22],
+1,1,dd[7],1,1,1,dd[3],1,dd[13],1,1,1,dd[9],dd[18],1,1,1,dd[14],dd[25],dd[27],dd[28],1,1,1,dd[19],1,dd[20],dd[21],
+1,1,1,dd[5],dd[4],1,1,1,1,dd[11],dd[10],1,1,1,dd[16],dd[15],1,1,dd[20],dd[19],1,1,1,dd[26],dd[27],dd[24],dd[25],1,
+1,1,1,dd[6],1,dd[4],1,1,1,dd[12],1,dd[10],1,1,dd[17],1,dd[15],1,dd[21],1,dd[19],1,dd[26],1,dd[28],dd[23],1,dd[25],
+1,1,1,dd[7],1,1,dd[4],1,1,dd[13],1,1,dd[10],1,dd[18],1,1,dd[15],dd[22],1,1,dd[19],dd[27],dd[28],1,1,dd[23],dd[24],
+1,1,1,1,dd[6],dd[5],1,1,1,1,dd[12],dd[11],1,1,1,dd[17],dd[16],1,1,dd[21],dd[20],1,dd[24],dd[23],1,1,dd[28],dd[27],
+1,1,1,1,dd[7],1,dd[5],1,1,1,dd[13],1,dd[11],1,1,dd[18],1,dd[16],1,dd[22],1,dd[20],dd[25],1,dd[23],dd[28],1,dd[26],
+1,1,1,1,1,dd[7],dd[6],1,1,1,1,dd[13],dd[12],1,1,1,dd[18],dd[17],1,1,dd[22],dd[21],1,dd[25],dd[24],dd[27],dd[26],1])$
+
+
+RD1:zeromatrix(133,133)$
+for k:1 while (k<29) do(
+RD1:RD1+CD[k]
+)$
+
+/* Definition 6.22 Mv */
+Mv:matrix([-1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
+          [ 0,-1, 0, 0, 0, 0, 0, 0,-1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,-1, 0, 0, 1, 0],
+          [ 0, 0,-1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0],
+          [ 0, 0, 0,-1, 0, 0, 0, 0, 0, 0,-1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0,-1, 0, 0, 0, 0, 0, 0],
+          [ 0, 0, 0, 0,-1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0,-1, 0, 0,-1, 0, 0, 0, 0, 0, 0, 0],
+          [ 0, 0, 0, 0, 0,-1, 0, 0, 0, 0, 0, 0,-1, 0,-1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+          [ 0, 0, 0, 0, 0, 0,-1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          [ 0, 0,-1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,-1,-1, 0, 0],
+          [ 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,-1, 0, 0, 1, 0],
+          [ 0, 0, 0, 0,-1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+          [ 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0,-1, 0, 0, 0, 0, 0, 0],
+          [ 0, 0, 0, 0, 0, 0,-1, 0, 0, 0, 0, 1, 0, 0, 0,-1, 0, 0,-1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          [ 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0,-1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+          [-1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,-1, 0, 0, 0, 0,-1],
+          [ 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0,-1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+          [ 0, 0, 0, 0, 0, 0,-1, 0, 0, 0, 0,-1, 0, 0, 0, 1, 0, 0,-1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          [ 0, 0, 0,-1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
+          [ 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0,-1, 0, 0, 0, 0, 0, 0, 0],
+          [ 0, 0, 0, 0, 0, 0,-1, 0, 0, 0, 0,-1, 0, 0, 0,-1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          [ 0, 0, 0, 0, 0,-1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+          [ 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0,-1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+          [ 0, 0, 0, 1, 0, 0, 0, 0, 0, 0,-1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
+          [-1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,-1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0,-1],
+          [ 0, 1, 0, 0, 0, 0, 0, 0,-1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0],
+          [ 0, 0,-1, 0, 0, 0, 0,-1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,-1, 0, 0],
+          [ 0, 0,-1, 0, 0, 0, 0,-1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,-1, 1, 0, 0],
+          [ 0,-1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0],
+          [-1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,-1, 0, 0, 0, 0, 0, 0, 0, 0,-1, 0, 0, 0, 0, 1])/2$
+
+Mv2:Mv.Mv$
+
+/* Definition D */
+D:matrix([d01],[d02],[d03],[d04],[d05],[d06],[d07],
+[d12],[d13],[d14],[d15],[d16],[d17],[d23],[d24],[d25],[d26],[d27],
+[d34],[d35],[d36],[d37],[d45],[d46],[d47],[d56],[d57],[d67])$
+
+/* Definition M */
+CM1:[Rm10,Rm11,Rm12,Rm13,Rm14,Rm15,Rm16,Rm17]$
+CM2:[Rm20,Rm21,Rm22,Rm23,Rm24,Rm25,Rm26,Rm27]$
+CM3:[Rm30,Rm31,Rm32,Rm33,Rm34,Rm35,Rm36,Rm37]$
+m1:[m10,m11,m12,m13,m14,m15,m16,m17]$
+m2:[m20,m21,m22,m23,m24,m25,m26,m27]$
+m3:[m30,m31,m32,m33,m34,m35,m36,m37]$
+
+/* Definition T */
+CT0:[Rτ1,Rτ2]$
+CT1:[Rt10,Rt11,Rt12,Rt13,Rt14,Rt15,Rt16,Rt17]$
+CT2:[Rt20,Rt21,Rt22,Rt23,Rt24,Rt25,Rt26,Rt27]$
+CT3:[Rt30,Rt31,Rt32,Rt33,Rt34,Rt35,Rt36,Rt37]$
+t0:[τ1,τ2]$
+t1:[t10,t11,t12,t13,t14,t15,t16,t17]$
+t2:[t20,t21,t22,t23,t24,t25,t26,t27]$
+t3:[t30,t31,t32,t33,t34,t35,t36,t37]$
+
+/* Definition A α */
+CA0:[Rα1,Rα2,Rα3]$
+CA1:[Ra10,Ra11,Ra12,Ra13,Ra14,Ra15,Ra16,Ra17]$
+CA2:[Ra20,Ra21,Ra22,Ra23,Ra24,Ra25,Ra26,Ra27]$
+CA3:[Ra30,Ra31,Ra32,Ra33,Ra34,Ra35,Ra36,Ra37]$
+a0:[α1,α2,α3]$
+a1:[a10,a11,a12,a13,a14,a15,a16,a17]$
+a2:[a20,a21,a22,a23,a24,a25,a26,a27]$
+a3:[a30,a31,a32,a33,a34,a35,a36,a37]$
+
+/* Definition B  β*/
+CB0:[Rβ1,Rβ2,Rβ3]$
+CB1:[Rb10,Rb11,Rb12,Rb13,Rb14,Rb15,Rb16,Rb17]$
+CB2:[Rb20,Rb21,Rb22,Rb23,Rb24,Rb25,Rb26,Rb27]$
+CB3:[Rb30,Rb31,Rb32,Rb33,Rb34,Rb35,Rb36,Rb37]$
+b0:[β1,β2,β3]$
+b1:[b10,b11,b12,b13,b14,b15,b16,b17]$
+b2:[b20,b21,b22,b23,b24,b25,b26,b27]$
+b3:[b30,b31,b32,b33,b34,b35,b36,b37]$
+
+Ca:matrix([0,1,2,3,4,5,6,7],
+          [1,0,3,2,5,4,7,6],
+          [2,3,0,1,6,7,4,5],
+          [3,2,1,0,7,6,5,4],
+          [4,5,6,7,0,1,2,3],
+          [5,4,7,6,1,0,3,2],
+          [6,7,4,5,2,3,0,1],
+          [7,6,5,4,3,2,1,0])$
+Sn:matrix([ 1,-1,-1,-1,-1,-1,-1,-1],
+          [-1,-1,-1, 1,-1, 1,-1, 1],
+          [-1, 1,-1,-1, 1,-1,-1, 1],
+          [-1,-1, 1,-1,-1,-1, 1, 1],
+          [-1, 1,-1, 1,-1,-1, 1,-1],
+          [-1,-1, 1, 1, 1,-1,-1,-1],
+          [-1, 1, 1,-1,-1, 1,-1,-1],
+          [-1,-1,-1,-1, 1, 1, 1,-1])$
+ud:matrix([ 0, 1, 2, 3, 4, 5, 6, 7],
+          [ 1, 0, 8, 9,10,11,12,13],
+          [ 2, 8, 0,14,15,16,17,18],
+          [ 3, 9,14, 0,19,20,21,22],
+          [ 4,10,15,19, 0,23,24,25],
+          [ 5,11,16,20,23, 0,26,27],
+          [ 6,12,17,21,24,26, 0,28],
+          [ 7,13,18,22,25,27,28, 0])$
+
+Ki:[0,0,0,0,0,0,0,1,1,1,1,1,1,2,2,2,2,2,3,3,3,3,4,4,4,5,5,6]$
+Kj:[1,2,3,4,5,6,7,2,3,4,5,6,7,3,4,5,6,7,4,5,6,7,5,6,7,6,7,7]$
+
+for i:1 while (i<29) do (
+UD2[i]:zeromatrix(133,133),
+for j:1 while (j<29) do (
+UD2[i]:UD2[i]+Mv[i][j]*CD[j]/dd[j]
+)
+)$
+
+for i:1 while (i<29) do (
+UD3[i]:zeromatrix(133,133),
+for j:1 while (j<29) do (
+UD3[i]:UD3[i]+Mv2[i][j]*CD[j]/dd[j]
+)
+)$
+
+RD1:zeromatrix(133,133)$
+for k:1 while (k<29) do(
+RD1:RD1+CD[k]
+)$
+
+/* skew symmetric for RD */
+ RR:RD1+transpose(RD1)$
+ stringout(Bopfile,"skew symmetric")$
+ NZP(1,133)$
+
+/*  Lie bracket operation  Lemma 13.5 */
+stringout(Bopfile,"Lie bracket operation")$
+for i:1 while(i<29) do
+for j:i+1 while(j<29) do(
+ C1:CD[i].CD[j]-CD[j].CD[i],
+ C2:LCD[(i-1)*28+j],
+ RR:C1/(dd[i]*dd[j])+C2/Ldd[(i-1)*28+j],
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+/*  Lie bracket operation Lemma 14.3. and Lemma 14.4. */
+stringout(Bopfile,"Lie bracket operation","[m1,m2]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM1[i].CM2[j]-CM2[j].CM1[i],
+ C1:C1/(m1[i]*m2[j]),
+ k:Ca[i][j]+1,
+ C2:-1/2*Sn[i][j]*CM3[k]/m3[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m2,m3]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM2[i].CM3[j]-CM3[j].CM2[i],
+ C1:C1/(m2[i]*m3[j]),
+ k:Ca[i][j]+1,
+ C2:-1/2*Sn[i][j]*CM1[k]/m1[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m3,m1]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM3[i].CM1[j]-CM1[j].CM3[i],
+ C1:C1/(m3[i]*m1[j]),
+ k:Ca[i][j]+1,
+ C2:-1/2*Sn[i][j]*CM2[k]/m2[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m1,m1]")$
+for i:0 while(i<7) do
+for j:i+1 while(j<8) do(
+ C1:CM1[i+1].CM1[j+1]-CM1[j+1].CM1[i+1],
+ C1:C1/(m1[i+1]*m1[j+1]),
+  k:ud[i+1][j+1],
+ C2:-CD[k]/dd[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+
+stringout(Bopfile,"Lie bracket operation","[m2,m2]")$
+k:0$
+for i:0 while(i<7) do
+for j:i+1 while(j<8) do(
+ C1:CM2[i+1].CM2[j+1]-CM2[j+1].CM2[i+1],
+ C1:C1/(m2[i+1]*m2[j+1]),
+  k:k+1,
+ C2:-UD2[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m3,m3]")$
+k:0$
+for i:0 while(i<7) do
+for j:i+1 while(j<8) do(
+ C1:CM3[i+1].CM3[j+1]-CM3[j+1].CM3[i+1],
+ C1:C1/(m3[i+1]*m3[j+1]),
+  k:k+1,
+ C2:-UD3[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[D,m1]")$
+for i:0 while(i<7) do(
+for j:i+1 while(j<8) do(
+l:ud[i+1][j+1],
+C1:CD[l]/dd[l],
+stringout(Bopfile,"i j",i,j),
+for k:0 while(k<8) do(
+C2:CM1[k+1]/m1[k+1],
+if k = i then RR:C1.C2-C2.C1+CM1[j+1]/m1[j+1]
+elseif k = j then RR:C1.C2-C2.C1-CM1[i+1]/m1[i+1]
+else RR:C1.C2-C2.C1,
+stringout(Bopfile,"k",k),
+NZP(1,133)
+)
+)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[D,m2]")$
+for l:1 while(l<29) do(
+C1:CD[l]/dd[l],
+stringout(Bopfile,"l",l),
+for k:0 while(k<8) do(
+C2:CM2[k+1]/m2[k+1],
+R1:C1.C2-C2.C1,
+R2:zeromatrix(133,133),
+for j:1 while(j<29) do(
+k1:Ki[j],
+k2:Kj[j],
+if k = k1 then R2:R2+Mv2[l][j]*CM2[k2+1]/m2[k2+1]
+else if k = k2 then R2:R2-Mv2[l][j]*CM2[k1+1]/m2[k1+1]
+),
+RR:R1+R2,
+stringout(Bopfile,"k",k),
+NZP(1,133)
+)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[D,m3]")$
+for l:1 while(l<29) do(
+C1:CD[l]/dd[l],
+stringout(Bopfile,"l",l),
+for k:0 while(k<8) do(
+C2:CM3[k+1]/m3[k+1],
+R1:C1.C2-C2.C1,
+R2:zeromatrix(133,133),
+for j:1 while(j<29) do(
+k1:Ki[j],
+k2:Kj[j],
+if k = k1 then R2:R2+Mv[l][j]*CM3[k2+1]/m3[k2+1]
+else if k = k2 then R2:R2-Mv[l][j]*CM3[k1+1]/m3[k1+1]
+),
+RR:R1+R2,
+stringout(Bopfile,"k",k),
+NZP(1,133)
+)
+)$
+
+/* Lie bracket operation Lemma 15.2. 15.3. and 15.4.*/
+stringout(Bopfile,"Lie bracket operation","[t1,t2]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CT1[i].CT2[j]-CT2[j].CT1[i],
+ C1:C1/(t1[i]*t2[j]),
+ k:Ca[i][j]+1,
+ C2:-1/2*Sn[i][j]*CM3[k]/m3[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[t2,t3]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CT2[i].CT3[j]-CT3[j].CT2[i],
+ C1:C1/(t2[i]*t3[j]),
+ k:Ca[i][j]+1,
+ C2:-1/2*Sn[i][j]*CM1[k]/m1[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[t3,t1]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CT3[i].CT1[j]-CT1[j].CT3[i],
+ C1:C1/(t3[i]*t1[j]),
+ k:Ca[i][j]+1,
+ C2:-1/2*Sn[i][j]*CM2[k]/m2[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[t1,t1]")$
+for i:0 while(i<7) do
+for j:i+1 while(j<8) do(
+ C1:CT1[i+1].CT1[j+1]-CT1[j+1].CT1[i+1],
+ C1:C1/(t1[i+1]*t1[j+1]),
+  k:ud[i+1][j+1],
+ C2:CD[k]/dd[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[t2,t2]")$
+k:0$
+for i:0 while(i<7) do
+for j:i+1 while(j<8) do(
+ C1:CT2[i+1].CT2[j+1]-CT2[j+1].CT2[i+1],
+ C1:C1/(t2[i+1]*t2[j+1]),
+  k:k+1,
+ C2:UD2[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[t3,t3]")$
+k:0$
+for i:0 while(i<7) do
+for j:i+1 while(j<8) do(
+ C1:CT3[i+1].CT3[j+1]-CT3[j+1].CT3[i+1],
+ C1:C1/(t3[i+1]*t3[j+1]),
+  k:k+1,
+ C2:UD3[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[D,T1]")$
+for i:0 while(i<7) do(
+for j:i+1 while(j<8) do(
+l:ud[i+1][j+1],
+C1:CD[l]/dd[l],
+stringout(Bopfile,"i j",i,j),
+for k:0 while(k<8) do(
+C2:CT1[k+1]/t1[k+1],
+if k = i then RR:C1.C2-C2.C1+CT1[j+1]/t1[j+1]
+elseif k = j then RR:C1.C2-C2.C1-CT1[i+1]/t1[i+1]
+else RR:C1.C2-C2.C1,
+stringout(Bopfile,"k",k),
+NZP(1,133)
+)
+)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[D,T2]")$
+for l:1 while(l<29) do(
+C1:CD[l]/dd[l],
+stringout(Bopfile,"l",l),
+for k:0 while(k<8) do(
+C2:CT2[k+1]/t2[k+1],
+R1:C1.C2-C2.C1,
+R2:zeromatrix(133,133),
+for j:1 while(j<29) do(
+k1:Ki[j],
+k2:Kj[j],
+if k = k1 then R2:R2+Mv2[l][j]*CT2[k2+1]/t2[k2+1]
+else if k = k2 then R2:R2-Mv2[l][j]*CT2[k1+1]/t2[k1+1]
+),
+RR:R1+R2,
+stringout(Bopfile,"k",k),
+NZP(1,133)
+)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[D,T3]")$
+for l:1 while(l<29) do(
+C1:CD[l]/dd[l],
+stringout(Bopfile,"l",l),
+for k:0 while(k<8) do(
+C2:CT3[k+1]/t3[k+1],
+R1:C1.C2-C2.C1,
+R2:zeromatrix(133,133),
+for j:1 while(j<29) do(
+k1:Ki[j],
+k2:Kj[j],
+if k = k1 then R2:R2+Mv[l][j]*CT3[k2+1]/t3[k2+1]
+else if k = k2 then R2:R2-Mv[l][j]*CT3[k1+1]/t3[k1+1]
+),
+RR:R1+R2,
+stringout(Bopfile,"k",k),
+NZP(1,133)
+)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ1,t1]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CT0[i].CT1[j]-CT1[j].CT0[i],
+ C1:C1/(t0[i]*t1[j]),
+ C2:1/2*CM1[j]/m1[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ2,t1]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CT0[i].CT1[j]-CT1[j].CT0[i],
+ C1:C1/(t0[i]*t1[j]),
+ C2:CM1[j]/m1[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ1,t2]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CT0[i].CT2[j]-CT2[j].CT0[i],
+ C1:C1/(t0[i]*t2[j]),
+ C2:-CM2[j]/m2[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ2,t2]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CT0[i].CT2[j]-CT2[j].CT0[i],
+ C1:C1/(t0[i]*t2[j]),
+ C2:-1/2*CM2[j]/m2[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ1,t3]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CT0[i].CT3[j]-CT3[j].CT0[i],
+ C1:C1/(t0[i]*t3[j]),
+ C2:1/2*CM3[j]/m3[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ2,t3]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CT0[i].CT3[j]-CT3[j].CT0[i],
+ C1:C1/(t0[i]*t3[j]),
+ C2:-1/2*CM3[j]/m3[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[D,τ]")$
+for i:1 while(i<3) do
+for l:1 while(l<29) do(
+RR:CD[l].CT0[i]-CT0[i].CD[l],
+stringout(Bopfile,i,l),
+NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m1,t2]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM1[i].CT2[j]-CT2[j].CM1[i],
+ C1:C1/(m1[i]*t2[j]),
+ k:Ca[i][j]+1,
+ C2:1/2*Sn[i][j]*CT3[k]/t3[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m1,t3]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM1[i].CT3[j]-CT3[j].CM1[i],
+ C1:C1/(m1[i]*t3[j]),
+ k:Ca[j][i]+1,
+ C2:-1/2*Sn[j][i]*CT2[k]/t2[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m2,t1]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM2[i].CT1[j]-CT1[j].CM2[i],
+ C1:C1/(m2[i]*t1[j]),
+ k:Ca[j][i]+1,
+ C2:-1/2*Sn[j][i]*CT3[k]/t3[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m2,t3]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM2[i].CT3[j]-CT3[j].CM2[i],
+ C1:C1/(m2[i]*t3[j]),
+ k:Ca[i][j]+1,
+ C2:1/2*Sn[i][j]*CT1[k]/t1[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m3,t1]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM3[i].CT1[j]-CT1[j].CM3[i],
+ C1:C1/(m3[i]*t1[j]),
+ k:Ca[i][j]+1,
+ C2:1/2*Sn[i][j]*CT2[k]/t2[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m3,t2]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM3[i].CT2[j]-CT2[j].CM3[i],
+ C1:C1/(m3[i]*t2[j]),
+ k:Ca[j][i]+1,
+ C2:-1/2*Sn[j][i]*CT1[k]/t1[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m1,t1]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM1[i].CT1[j]-CT1[j].CM1[i],
+ C1:C1/(m1[i]*t1[j]),
+ if i=j then C2:CT0[2]/t0[2]
+ else C2:zeromatrix(133,133),
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m2,t2]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM2[i].CT2[j]-CT2[j].CM2[i],
+ C1:C1/(m2[i]*t2[j]),
+ if i=j then C2:-CT0[1]/t0[1]
+ else C2:zeromatrix(133,133),
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m3,t3]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM3[i].CT3[j]-CT3[j].CM3[i],
+ C1:C1/(m3[i]*t3[j]),
+ if i=j then C2:CT0[1]/t0[1]-CT0[2]/t0[2]
+ else C2:zeromatrix(133,133),
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ1,m1]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CT0[i].CM1[j]-CM1[j].CT0[i],
+ C1:C1/(t0[i]*m1[j]),
+ C2:1/2*CT1[j]/t1[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ2,m1]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CT0[i].CM1[j]-CM1[j].CT0[i],
+ C1:C1/(t0[i]*m1[j]),
+ C2:CT1[j]/t1[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ1,m2]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CT0[i].CM2[j]-CM2[j].CT0[i],
+ C1:C1/(t0[i]*m2[j]),
+ C2:-CT2[j]/t2[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ2,m2]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CT0[i].CM2[j]-CM2[j].CT0[i],
+ C1:C1/(t0[i]*m2[j]),
+ C2:-1/2*CT2[j]/t2[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ1,m3]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CT0[i].CM3[j]-CM3[j].CT0[i],
+ C1:C1/(t0[i]*m3[j]),
+ C2:1/2*CT3[j]/t3[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ2,m3]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CT0[i].CM3[j]-CM3[j].CT0[i],
+ C1:C1/(t0[i]*m3[j]),
+ C2:-1/2*CT3[j]/t3[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+ 
+ /* Bracket operation Lemma 16.2. - 16.6. */
+stringout(Bopfile,"Lie bracket operation","[a1,b2]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CA1[i].CB2[j]-CB2[j].CA1[i],
+ C1:C1/(a1[i]*b2[j]),
+ k:Ca[i][j]+1,
+ C2:-Sn[i][j]*CM3[k]/m3[k]+Sn[i][j]*CT3[k]/t3[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a1,b3]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CB3[i].CA1[j]-CA1[j].CB3[i],
+ C1:C1/(b3[i]*a1[j]),
+ k:Ca[i][j]+1,
+ C2:-Sn[i][j]*CM2[k]/m2[k]-Sn[i][j]*CT2[k]/t2[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a2,b1]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CB1[i].CA2[j]-CA2[j].CB1[i],
+ C1:C1/(b1[i]*a2[j]),
+ k:Ca[i][j]+1,
+ C2:-Sn[i][j]*CM3[k]/m3[k]-Sn[i][j]*CT3[k]/t3[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a2,b3]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CA2[i].CB3[j]-CB3[j].CA2[i],
+ C1:C1/(a2[i]*b3[j]),
+ k:Ca[i][j]+1,
+ C2:-Sn[i][j]*CM1[k]/m1[k]+Sn[i][j]*CT1[k]/t1[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a3,b1]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CA3[i].CB1[j]-CB1[j].CA3[i],
+ C1:C1/(a3[i]*b1[j]),
+ k:Ca[i][j]+1,
+ C2:-Sn[i][j]*CM2[k]/m2[k]+Sn[i][j]*CT2[k]/t2[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a3,b2]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CB2[i].CA3[j]-CA3[j].CB2[i],
+ C1:C1/(b2[i]*a3[j]),
+ k:Ca[i][j]+1,
+ C2:-Sn[i][j]*CM1[k]/m1[k]-Sn[i][j]*CT1[k]/t1[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a1,b1]")$
+for i:0 while(i<7) do
+for j:i+1 while(j<8) do(
+ C1:CA1[i+1].CB1[j+1]-CB1[j+1].CA1[i+1],
+ C1:C1/(a1[i+1]*b1[j+1]),
+  k:ud[i+1][j+1],
+ C2:2*CD[k]/dd[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[b1,a1]")$
+for i:0 while(i<7) do
+for j:i+1 while(j<8) do(
+ C1:CB1[i+1].CA1[j+1]-CA1[j+1].CB1[i+1],
+ C1:C1/(b1[i+1]*a1[j+1]),
+  k:ud[i+1][j+1],
+ C2:2*CD[k]/dd[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a1,b1]")$
+for i:1 while(i<9) do(
+ C1:CA1[i].CB1[i]-CB1[i].CA1[i],
+ C1:C1/(a1[i]*b1[i]),
+ C2:-4/3*CT0[1]/t0[1]+2/3*CT0[2]/t0[2]+2*Rρ1/ρ1,
+ RR:C1-C2,
+ stringout(Bopfile,i),
+ NZP(1,133)
+)$
+
+
+stringout(Bopfile,"Lie bracket operation","[a2,b2]")$
+k:0$
+for i:0 while(i<7) do
+for j:i+1 while(j<8) do(
+ C1:CA2[i+1].CB2[j+1]-CB2[j+1].CA2[i+1],
+ C1:C1/(a2[i+1]*b2[j+1]),
+  k:k+1,
+ C2:2*UD2[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[b2,a2]")$
+k:0$
+for i:0 while(i<7) do
+for j:i+1 while(j<8) do(
+ C1:CB2[i+1].CA2[j+1]-CA2[j+1].CB2[i+1],
+ C1:C1/(b2[i+1]*a2[j+1]),
+  k:k+1,
+ C2:2*UD2[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a2,b2]")$
+for i:1 while(i<9) do(
+ C1:CA2[i].CB2[i]-CB2[i].CA2[i],
+ C1:C1/(a2[i]*b2[i]),
+ C2:2/3*CT0[1]/t0[1]-4/3*CT0[2]/t0[2]+2*Rρ1/ρ1,
+ RR:C1-C2,
+ stringout(Bopfile,i),
+ NZP(1,133)
+)$
+
+
+stringout(Bopfile,"Lie bracket operation","[a3,b3]")$
+k:0$
+for i:0 while(i<7) do
+for j:i+1 while(j<8) do(
+ C1:CA3[i+1].CB3[j+1]-CB3[j+1].CA3[i+1],
+ C1:C1/(a3[i+1]*b3[j+1]),
+  k:k+1,
+ C2:2*UD3[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[b3,a3]")$
+k:0$
+for i:0 while(i<7) do
+for j:i+1 while(j<8) do(
+ C1:CB3[i+1].CA3[j+1]-CA3[j+1].CB3[i+1],
+ C1:C1/(b3[i+1]*a3[j+1]),
+  k:k+1,
+ C2:2*UD3[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a3,b3]")$
+for i:1 while(i<9) do(
+ C1:CA3[i].CB3[i]-CB3[i].CA3[i],
+ C1:C1/(a3[i]*b3[i]),
+ C2:2/3*CT0[1]/t0[1]+2/3*CT0[2]/t0[2]+2*Rρ1/ρ1,
+ RR:C1-C2,
+ stringout(Bopfile,i),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[α1,b1]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CA0[i].CB1[j]-CB1[j].CA0[i],
+ C1:C1/(a0[i]*b1[j]),
+ 
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[α1,b2]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CA0[i].CB2[j]-CB2[j].CA0[i],
+ C1:C1/(a0[i]*b2[j]),
+ C2:-CM2[j]/m2[j]+CT2[j]/t2[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[α1,b3]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CA0[i].CB3[j]-CB3[j].CA0[i],
+ C1:C1/(a0[i]*b3[j]),
+ C2:CM3[j]/m3[j]+CT3[j]/t3[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a1,β1]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CA1[j].CB0[i]-CB0[i].CA1[j],
+ C1:C1/(b0[i]*a1[j]),
+ 
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a2,β1]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CA2[j].CB0[i]-CB0[i].CA2[j],
+ C1:C1/(b0[i]*a2[j]),
+ C2:CM2[j]/m2[j]+CT2[j]/t2[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a3,β1]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CA3[j].CB0[i]-CB0[i].CA3[j],
+ C1:C1/(b0[i]*a3[j]),
+ C2:-CM3[j]/m3[j]+CT3[j]/t3[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[α2,b1]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CA0[i].CB1[j]-CB1[j].CA0[i],
+ C1:C1/(a0[i]*b1[j]),
+ C2:CM1[j]/m1[j]+CT1[j]/t1[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[α2,b2]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CA0[i].CB2[j]-CB2[j].CA0[i],
+ C1:C1/(a0[i]*b2[j]),
+ 
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[α2,b3]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CA0[i].CB3[j]-CB3[j].CA0[i],
+ C1:C1/(a0[i]*b3[j]),
+ C2:-CM3[j]/m3[j]+CT3[j]/t3[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a1,β2]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CA1[j].CB0[i]-CB0[i].CA1[j],
+ C1:C1/(b0[i]*a1[j]),
+ C2:-CM1[j]/m1[j]+CT1[j]/t1[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a2,β2]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CA2[j].CB0[i]-CB0[i].CA2[j],
+ C1:C1/(b0[i]*a2[j]),
+ 
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a3,β2]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CA3[j].CB0[i]-CB0[i].CA3[j],
+ C1:C1/(b0[i]*a3[j]),
+ C2:CM3[j]/m3[j]+CT3[j]/t3[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[α3,b1]")$
+for i:3 while(i<4) do
+for j:1 while(j<9) do(
+ C1:CA0[i].CB1[j]-CB1[j].CA0[i],
+ C1:C1/(a0[i]*b1[j]),
+ C2:-CM1[j]/m1[j]+CT1[j]/t1[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[α3,b2]")$
+for i:3 while(i<4) do
+for j:1 while(j<9) do(
+ C1:CA0[i].CB2[j]-CB2[j].CA0[i],
+ C1:C1/(a0[i]*b2[j]),
+ C2:CM2[j]/m2[j]+CT2[j]/t2[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[α3,b3]")$
+for i:3 while(i<4) do
+for j:1 while(j<9) do(
+ C1:CA0[i].CB3[j]-CB3[j].CA0[i],
+ C1:C1/(a0[i]*b3[j]),
+ 
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a1,β3]")$
+for i:3 while(i<4) do
+for j:1 while(j<9) do(
+ C1:CA1[j].CB0[i]-CB0[i].CA1[j],
+ C1:C1/(b0[i]*a1[j]),
+ C2:CM1[j]/m1[j]+CT1[j]/t1[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a2,β3]")$
+for i:3 while(i<4) do
+for j:1 while(j<9) do(
+ C1:CA2[j].CB0[i]-CB0[i].CA2[j],
+ C1:C1/(b0[i]*a2[j]),
+ C2:-CM2[j]/m2[j]+CT2[j]/t2[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a3,β3]")$
+for i:3 while(i<4) do
+for j:1 while(j<9) do(
+ C1:CA3[j].CB0[i]-CB0[i].CA3[j],
+ C1:C1/(b0[i]*a3[j]),
+ 
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[α1,β1]")$
+
+ C1:CA0[1].CB0[1]-CB0[1].CA0[1]$
+ C1:C1/(a0[1]*b0[1])$
+ C2:4/3*CT0[1]/t0[1]-2/3*CT0[2]/t0[2]+Rρ1/ρ1$
+ RR:C1-C2$
+ stringout(Bopfile,i)$
+ NZP(1,133)$
+
+stringout(Bopfile,"Lie bracket operation","[α1,β2]")$
+
+ C1:CA0[1].CB0[2]-CB0[2].CA0[1]$
+ C1:C1/(a0[1]*b0[2])$
+ 
+ RR:C1$
+ stringout(Bopfile,i)$
+ NZP(1,133)$
+
+stringout(Bopfile,"Lie bracket operation","[α1,β3]")$
+
+ C1:CA0[1].CB0[3]-CB0[3].CA0[1]$
+ C1:C1/(a0[1]*b0[3])$
+ 
+ RR:C1$
+ stringout(Bopfile,i)$
+ NZP(1,133)$
+
+stringout(Bopfile,"Lie bracket operation","[α2,β1]")$
+
+ C1:CA0[2].CB0[1]-CB0[1].CA0[2]$
+ C1:C1/(a0[2]*b0[1])$
+ 
+ RR:C1$
+ stringout(Bopfile,i)$
+ NZP(1,133)$
+
+stringout(Bopfile,"Lie bracket operation","[α2,β2]")$
+
+ C1:CA0[2].CB0[2]-CB0[2].CA0[2]$
+ C1:C1/(a0[2]*b0[2])$
+ C2:-2/3*CT0[1]/t0[1]+4/3*CT0[2]/t0[2]+Rρ1/ρ1$
+ RR:C1-C2$
+ stringout(Bopfile,i)$
+ NZP(1,133)$
+
+stringout(Bopfile,"Lie bracket operation","[α2,β3]")$
+
+ C1:CA0[2].CB0[3]-CB0[3].CA0[2]$
+ C1:C1/(a0[2]*b0[3])$
+ 
+ RR:C1$
+ stringout(Bopfile,i)$
+ NZP(1,133)$
+
+stringout(Bopfile,"Lie bracket operation","[α3,β1]")$
+
+ C1:CA0[3].CB0[1]-CB0[1].CA0[3]$
+ C1:C1/(a0[3]*b0[1])$
+ 
+ RR:C1$
+ stringout(Bopfile,i)$
+ NZP(1,133)$
+
+stringout(Bopfile,"Lie bracket operation","[α3,β2]")$
+
+ C1:CA0[3].CB0[2]-CB0[2].CA0[3]$
+ C1:C1/(a0[3]*b0[2])$
+ 
+ RR:C1$
+ stringout(Bopfile,i)$
+ NZP(1,133)$
+
+stringout(Bopfile,"Lie bracket operation","[α3,β3]")$
+
+ C1:CA0[3].CB0[3]-CB0[3].CA0[3]$
+ C1:C1/(a0[3]*b0[3])$
+ C2:-2/3*CT0[1]/t0[1]-2/3*CT0[2]/t0[2]+Rρ1/ρ1$
+ RR:C1-C2$
+ stringout(Bopfile,i)$
+ NZP(1,133)$
+
+stringout(Bopfile,"Lie bracket operation","[a1,a1]")$
+for i:0 while(i<7) do
+for j:i+1 while(j<8) do(
+ C1:CA1[i+1].CA1[j+1]-CA1[j+1].CA1[i+1],
+ C1:C1/(a1[i+1]*a1[j+1]),
+
+
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+
+stringout(Bopfile,"Lie bracket operation","[a1,a2]")$
+for i:0 while(i<8) do
+for j:0 while(j<8) do(
+ C1:CA1[i+1].CA2[j+1]-CA2[j+1].CA1[i+1],
+ C1:C1/(a1[i+1]*a2[j+1]),
+
+
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a1,a3]")$
+for i:0 while(i<8) do
+for j:0 while(j<8) do(
+ C1:CA1[i+1].CA3[j+1]-CA3[j+1].CA1[i+1],
+ C1:C1/(a1[i+1]*a3[j+1]),
+
+
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a1,α]")$
+for i:0 while(i<8) do
+for j:0 while(j<3) do(
+ C1:CA1[i+1].CA0[j+1]-CA0[j+1].CA1[i+1],
+ C1:C1/(a1[i+1]*a0[j+1]),
+
+
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a2,a2]")$
+for i:0 while(i<7) do
+for j:i+1 while(j<8) do(
+ C1:CA2[i+1].CA2[j+1]-CA2[j+1].CA2[i+1],
+ C1:C1/(a2[i+1]*a2[j+1]),
+
+
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a2,a3]")$
+for i:0 while(i<7) do
+for j:i+1 while(j<8) do(
+ C1:CA2[i+1].CA3[j+1]-CA3[j+1].CA2[i+1],
+ C1:C1/(a2[i+1]*a3[j+1]),
+
+
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a3,a3]")$
+for i:0 while(i<7) do
+for j:i+1 while(j<8) do(
+ C1:CA3[i+1].CA3[j+1]-CA3[j+1].CA3[i+1],
+ C1:C1/(a3[i+1]*a3[j+1]),
+
+
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a2,α]")$
+for i:0 while(i<8) do
+for j:0 while(j<3) do(
+ C1:CA2[i+1].CA0[j+1]-CA0[j+1].CA2[i+1],
+ C1:C1/(a2[i+1]*a0[j+1]),
+
+
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a3,α]")$
+for i:0 while(i<8) do
+for j:0 while(j<3) do(
+ C1:CA3[i+1].CA0[j+1]-CA0[j+1].CA3[i+1],
+ C1:C1/(a3[i+1]*a0[j+1]),
+
+
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[b1,b1]")$
+for i:0 while(i<7) do
+for j:i+1 while(j<8) do(
+ C1:CB1[i+1].CB1[j+1]-CB1[j+1].CB1[i+1],
+ C1:C1/(b1[i+1]*b1[j+1]),
+
+
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+
+stringout(Bopfile,"Lie bracket operation","[b1,b2]")$
+for i:0 while(i<8) do
+for j:0 while(j<8) do(
+ C1:CB1[i+1].CB2[j+1]-CB2[j+1].CB1[i+1],
+ C1:C1/(b1[i+1]*b2[j+1]),
+
+
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[b1,b3]")$
+for i:0 while(i<8) do
+for j:0 while(j<8) do(
+ C1:CB1[i+1].CB3[j+1]-CB3[j+1].CB1[i+1],
+ C1:C1/(b1[i+1]*b3[j+1]),
+
+
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[b2,b2]")$
+for i:0 while(i<7) do
+for j:i+1 while(j<8) do(
+ C1:CB2[i+1].CB2[j+1]-CB2[j+1].CB2[i+1],
+ C1:C1/(b2[i+1]*b2[j+1]),
+
+
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[b2,b3]")$
+for i:0 while(i<7) do
+for j:i+1 while(j<8) do(
+ C1:CB2[i+1].CB3[j+1]-CB3[j+1].CB2[i+1],
+ C1:C1/(b2[i+1]*b3[j+1]),
+
+
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[b3,b3]")$
+for i:0 while(i<7) do
+for j:i+1 while(j<8) do(
+ C1:CB3[i+1].CB3[j+1]-CB3[j+1].CB3[i+1],
+ C1:C1/(b3[i+1]*b3[j+1]),
+
+
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[b1,β]")$
+for i:0 while(i<7) do
+for j:0 while(j<3) do(
+ C1:CB1[i+1].CB0[j+1]-CB0[j+1].CB1[i+1],
+ C1:C1/(b1[i+1]*b0[j+1]),
+
+
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+stringout(Bopfile,"Lie bracket operation","[b2,β]")$
+for i:0 while(i<7) do
+for j:0 while(j<3) do(
+ C1:CB2[i+1].CB0[j+1]-CB0[j+1].CB2[i+1],
+ C1:C1/(b2[i+1]*b0[j+1]),
+
+
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[b3,β]")$
+for i:0 while(i<7) do
+for j:0 while(j<3) do(
+ C1:CB3[i+1].CB0[j+1]-CB0[j+1].CB3[i+1],
+ C1:C1/(b3[i+1]*b0[j+1]),
+
+
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[α1,α2]")$
+
+ C1:CA0[1].CA0[2]-CA0[2].CA0[1]$
+ C1:C1/(a0[1]*a0[2])$
+ 
+ RR:C1$
+ stringout(Bopfile,i)$
+ NZP(1,133)$
+
+stringout(Bopfile,"Lie bracket operation","[α1,α3]")$
+
+ C1:CA0[1].CA0[3]-CA0[3].CA0[1]$
+ C1:C1/(a0[1]*a0[3])$
+ 
+ RR:C1$
+ stringout(Bopfile,i)$
+ NZP(1,133)$
+
+stringout(Bopfile,"Lie bracket operation","[α2,α3]")$
+
+ C1:CA0[2].CA0[3]-CA0[3].CA0[2]$
+ C1:C1/(a0[2]*a0[3])$
+ 
+ RR:C1$
+ stringout(Bopfile,i)$
+ NZP(1,133)$
+
+stringout(Bopfile,"Lie bracket operation","[β1,β2]")$
+
+ C1:CB0[1].CB0[2]-CB0[2].CB0[1]$
+ C1:C1/(b0[1]*b0[2])$
+ 
+ RR:C1$
+ stringout(Bopfile,i)$
+ NZP(1,133)$
+
+stringout(Bopfile,"Lie bracket operation","[β1,β3]")$
+
+ C1:CB0[1].CB0[3]-CB0[3].CB0[1]$
+ C1:C1/(b0[1]*b0[3])$
+ 
+ RR:C1$
+ stringout(Bopfile,i)$
+ NZP(1,133)$
+
+stringout(Bopfile,"Lie bracket operation","[β2,β3]")$
+
+ C1:CB0[2].CB0[3]-CB0[3].CB0[2]$
+ C1:C1/(b0[2]*b0[3])$
+ 
+ RR:C1$
+ stringout(Bopfile,i)$
+ NZP(1,133)$
+
+
+stringout(Bopfile,"Lie bracket operation","[D,a1]")$
+for i:0 while(i<7) do(
+for j:i+1 while(j<8) do(
+l:ud[i+1][j+1],
+C1:CD[l]/dd[l],
+stringout(Bopfile,"i j",i,j),
+for k:0 while(k<8) do(
+C2:CA1[k+1]/a1[k+1],
+if k = i then RR:C1.C2-C2.C1+CA1[j+1]/a1[j+1]
+elseif k = j then RR:C1.C2-C2.C1-CA1[i+1]/a1[i+1]
+else RR:C1.C2-C2.C1,
+stringout(Bopfile,"k",k),
+NZP(1,133)
+)
+)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[D,a2]")$
+for l:1 while(l<29) do(
+C1:CD[l]/dd[l],
+stringout(Bopfile,"l",l),
+for k:0 while(k<8) do(
+C2:CA2[k+1]/a2[k+1],
+R1:C1.C2-C2.C1,
+R2:zeromatrix(133,133),
+for j:1 while(j<29) do(
+k1:Ki[j],
+k2:Kj[j],
+if k = k1 then R2:R2+Mv2[l][j]*CA2[k2+1]/a2[k2+1]
+else if k = k2 then R2:R2-Mv2[l][j]*CA2[k1+1]/a2[k1+1]
+),
+RR:R1+R2,
+stringout(Bopfile,"k",k),
+NZP(1,133)
+)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[D,a3]")$
+for l:1 while(l<29) do(
+C1:CD[l]/dd[l],
+stringout(Bopfile,"l",l),
+for k:0 while(k<8) do(
+C2:CA3[k+1]/a3[k+1],
+R1:C1.C2-C2.C1,
+R2:zeromatrix(133,133),
+for j:1 while(j<29) do(
+k1:Ki[j],
+k2:Kj[j],
+if k = k1 then R2:R2+Mv[l][j]*CA3[k2+1]/a3[k2+1]
+else if k = k2 then R2:R2-Mv[l][j]*CA3[k1+1]/a3[k1+1]
+),
+RR:R1+R2,
+stringout(Bopfile,"k",k),
+NZP(1,133)
+)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[D,α]")$
+for l:1 while(l<29) do(
+C1:CD[l]/dd[l],
+stringout(Bopfile,"l",l),
+for k:1 while(k<4) do(
+C2:CA0[k]/a0[k],
+RR:C1.C2-C2.C1,
+stringout(Bopfile,"k",k),
+NZP(1,133)
+)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[D,b1]")$
+for i:0 while(i<7) do(
+for j:i+1 while(j<8) do(
+l:ud[i+1][j+1],
+C1:CD[l]/dd[l],
+stringout(Bopfile,"i j",i,j),
+for k:0 while(k<8) do(
+C2:CB1[k+1]/b1[k+1],
+if k = i then RR:C1.C2-C2.C1+CB1[j+1]/b1[j+1]
+elseif k = j then RR:C1.C2-C2.C1-CB1[i+1]/b1[i+1]
+else RR:C1.C2-C2.C1,
+stringout(Bopfile,"k",k),
+NZP(1,133)
+)
+)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[D,b2]")$
+for l:1 while(l<29) do(
+C1:CD[l]/dd[l],
+stringout(Bopfile,"l",l),
+for k:0 while(k<8) do(
+C2:CB2[k+1]/b2[k+1],
+R1:C1.C2-C2.C1,
+R2:zeromatrix(133,133),
+for j:1 while(j<29) do(
+k1:Ki[j],
+k2:Kj[j],
+if k = k1 then R2:R2+Mv2[l][j]*CB2[k2+1]/b2[k2+1]
+else if k = k2 then R2:R2-Mv2[l][j]*CB2[k1+1]/b2[k1+1]
+),
+RR:R1+R2,
+stringout(Bopfile,"k",k),
+NZP(1,133)
+)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[D,b3]")$
+for l:1 while(l<29) do(
+C1:CD[l]/dd[l],
+stringout(Bopfile,"l",l),
+for k:0 while(k<8) do(
+C2:CB3[k+1]/b3[k+1],
+R1:C1.C2-C2.C1,
+R2:zeromatrix(133,133),
+for j:1 while(j<29) do(
+k1:Ki[j],
+k2:Kj[j],
+if k = k1 then R2:R2+Mv[l][j]*CB3[k2+1]/b3[k2+1]
+else if k = k2 then R2:R2-Mv[l][j]*CB3[k1+1]/b3[k1+1]
+),
+RR:R1+R2,
+stringout(Bopfile,"k",k),
+NZP(1,133)
+)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[D,β]")$
+for l:1 while(l<29) do(
+C1:CD[l]/dd[l],
+stringout(Bopfile,"l",l),
+for k:1 while(k<4) do(
+C2:CB0[k]/b0[k],
+RR:C1.C2-C2.C1,
+stringout(Bopfile,"k",k),
+NZP(1,133)
+)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m1,a1]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM1[i].CA1[j]-CA1[j].CM1[i],
+ C1:C1/(m1[i]*a1[j]),
+if i=j then  C2:CA0[2]/a0[2]-CA0[3]/a0[3]
+else C2:zeromatrix(133,133),
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m1,a2]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM1[i].CA2[j]-CA2[j].CM1[i],
+ C1:C1/(m1[i]*a2[j]),
+ k:Ca[i][j]+1,
+ C2:1/2*Sn[i][j]*CA3[k]/a3[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m1,a3]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM1[j].CA3[i]-CA3[i].CM1[j],
+ C1:C1/(m1[j]*a3[i]),
+ k:Ca[i][j]+1,
+ C2:-1/2*Sn[i][j]*CA2[k]/a2[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m2,a1]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM2[i].CA1[j]-CA1[j].CM2[i],
+ C1:C1/(m2[i]*a1[j]),
+ k:Ca[j][i]+1,
+ C2:-1/2*Sn[j][i]*CA3[k]/a3[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m2,a2]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM2[i].CA2[j]-CA2[j].CM2[i],
+ C1:C1/(m2[i]*a2[j]),
+ if i=j then C2:-CA0[1]/a0[1]+CA0[3]/a0[3]
+ else C2:zeromatrix(133,133),
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m2,a3]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM2[i].CA3[j]-CA3[j].CM2[i],
+ C1:C1/(m2[i]*a3[j]),
+ k:Ca[i][j]+1,
+ C2:1/2*Sn[i][j]*CA1[k]/a1[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m3,a1]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM3[i].CA1[j]-CA1[j].CM3[i],
+ C1:C1/(m3[i]*a1[j]),
+ k:Ca[i][j]+1,
+ C2:1/2*Sn[i][j]*CA2[k]/a2[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m3,a2]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM3[i].CA2[j]-CA2[j].CM3[i],
+ C1:C1/(m3[i]*a2[j]),
+ k:Ca[j][i]+1,
+ C2:-1/2*Sn[j][i]*CA1[k]/a1[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m3,a3]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM3[i].CA3[j]-CA3[j].CM3[i],
+ C1:C1/(m3[i]*a3[j]),
+ if i=j then C2:CA0[1]/a0[1]-CA0[2]/a0[2]
+ else C2:zeromatrix(133,133),
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m1,b1]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM1[i].CB1[j]-CB1[j].CM1[i],
+ C1:C1/(m1[i]*b1[j]),
+if i=j then  C2:CB0[2]/b0[2]-CB0[3]/b0[3]
+else C2:zeromatrix(133,133),
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m1,b2]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM1[i].CB2[j]-CB2[j].CM1[i],
+ C1:C1/(m1[i]*b2[j]),
+ k:Ca[i][j]+1,
+ C2:1/2*Sn[i][j]*CB3[k]/b3[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m1,b3]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM1[j].CB3[i]-CB3[i].CM1[j],
+ C1:C1/(m1[j]*b3[i]),
+ k:Ca[i][j]+1,
+ C2:-1/2*Sn[i][j]*CB2[k]/b2[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m2,b1]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM2[i].CB1[j]-CB1[j].CM2[i],
+ C1:C1/(m2[i]*b1[j]),
+ k:Ca[j][i]+1,
+ C2:-1/2*Sn[j][i]*CB3[k]/b3[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m2,b2]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM2[i].CB2[j]-CB2[j].CM2[i],
+ C1:C1/(m2[i]*b2[j]),
+ if i=j then C2:-CB0[1]/b0[1]+CB0[3]/b0[3]
+ else C2:zeromatrix(133,133),
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m2,b3]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM2[i].CB3[j]-CB3[j].CM2[i],
+ C1:C1/(m2[i]*b3[j]),
+ k:Ca[i][j]+1,
+ C2:1/2*Sn[i][j]*CB1[k]/b1[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m3,b1]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM3[i].CB1[j]-CB1[j].CM3[i],
+ C1:C1/(m3[i]*b1[j]),
+ k:Ca[i][j]+1,
+ C2:1/2*Sn[i][j]*CB2[k]/b2[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m3,b2]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM3[i].CB2[j]-CB2[j].CM3[i],
+ C1:C1/(m3[i]*b2[j]),
+ k:Ca[j][i]+1,
+ C2:-1/2*Sn[j][i]*CB1[k]/b1[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m3,b3]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CM3[i].CB3[j]-CB3[j].CM3[i],
+ C1:C1/(m3[i]*b3[j]),
+ if i=j then C2:CB0[1]/b0[1]-CB0[2]/b0[2]
+ else C2:zeromatrix(133,133),
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m1,α1]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CM1[j].CA0[i]-CA0[i].CM1[j],
+ C1:C1/(a0[i]*m1[j]),
+ 
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m1,α2]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CM1[j].CA0[i]-CA0[i].CM1[j],
+ C1:C1/(a0[i]*m1[j]),
+ C2:-1/2*CA1[j]/a1[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m1,α3]")$
+for i:3 while(i<4) do
+for j:1 while(j<9) do(
+ C1:CM1[j].CA0[i]-CA0[i].CM1[j],
+ C1:C1/(a0[i]*m1[j]),
+ C2:1/2*CA1[j]/a1[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m2,α1]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CM2[j].CA0[i]-CA0[i].CM2[j],
+ C1:C1/(a0[i]*m2[j]),
+ C2:1/2*CA2[j]/a2[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m2,α2]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CM2[j].CA0[i]-CA0[i].CM2[j],
+ C1:C1/(a0[i]*m2[j]),
+ 
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m2,α3]")$
+for i:3 while(i<4) do
+for j:1 while(j<9) do(
+ C1:CM2[j].CA0[i]-CA0[i].CM2[j],
+ C1:C1/(a0[i]*m2[j]),
+ C2:-1/2*CA2[j]/a2[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m3,α1]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CM3[j].CA0[i]-CA0[i].CM3[j],
+ C1:C1/(a0[i]*m3[j]),
+ C2:-1/2*CA3[j]/a3[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m3,α2]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CM3[j].CA0[i]-CA0[i].CM3[j],
+ C1:C1/(a0[i]*m3[j]),
+ C2:1/2*CA3[j]/a3[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m3,α3]")$
+for i:3 while(i<4) do
+for j:1 while(j<9) do(
+ C1:CM3[j].CA0[i]-CA0[i].CM3[j],
+ C1:C1/(a0[i]*m3[j]),
+
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m1,β1]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CM1[j].CB0[i]-CB0[i].CM1[j],
+ C1:C1/(b0[i]*m1[j]),
+ 
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m1,β2]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CM1[j].CB0[i]-CB0[i].CM1[j],
+ C1:C1/(b0[i]*m1[j]),
+ C2:-1/2*CB1[j]/b1[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m1,β3]")$
+for i:3 while(i<4) do
+for j:1 while(j<9) do(
+ C1:CM1[j].CB0[i]-CB0[i].CM1[j],
+ C1:C1/(b0[i]*m1[j]),
+ C2:1/2*CB1[j]/b1[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m2,β1]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CM2[j].CB0[i]-CB0[i].CM2[j],
+ C1:C1/(b0[i]*m2[j]),
+ C2:1/2*CB2[j]/b2[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m2,β2]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CM2[j].CB0[i]-CB0[i].CM2[j],
+ C1:C1/(b0[i]*m2[j]),
+ 
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m2,β3]")$
+for i:3 while(i<4) do
+for j:1 while(j<9) do(
+ C1:CM2[j].CB0[i]-CB0[i].CM2[j],
+ C1:C1/(b0[i]*m2[j]),
+ C2:-1/2*CB2[j]/b2[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m3,β1]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CM3[j].CB0[i]-CB0[i].CM3[j],
+ C1:C1/(b0[i]*m3[j]),
+ C2:-1/2*CB3[j]/b3[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m3,β2]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CM3[j].CB0[i]-CB0[i].CM3[j],
+ C1:C1/(b0[i]*m3[j]),
+ C2:1/2*CB3[j]/b3[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m3,β3]")$
+for i:3 while(i<4) do
+for j:1 while(j<9) do(
+ C1:CM3[j].CB0[i]-CB0[i].CM3[j],
+ C1:C1/(b0[i]*m3[j]),
+
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a1,t1]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CA1[i].CT1[j]-CT1[j].CA1[i],
+ C1:C1/(a1[i]*t1[j]),
+ if i=j then C2:-CA0[2]/a0[2]-CA0[3]/a0[3]
+ else C2:zeromatrix(133,133),
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a2,t1]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CA2[i].CT1[j]-CT1[j].CA2[i],
+ C1:C1/(a2[i]*t1[j]),
+ k:Ca[j][i]+1,
+ C2:-1/2*Sn[j][i]*CA3[k]/a3[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a3,t1]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CA3[i].CT1[j]-CT1[j].CA3[i],
+ C1:C1/(a3[i]*t1[j]),
+ k:Ca[i][j]+1,
+ C2:-1/2*Sn[i][j]*CA2[k]/a2[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[α1,t1]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CA0[i].CT1[j]-CT1[j].CA0[i],
+ C1:C1/(a0[i]*t1[j]),
+
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[α2,t1]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CA0[i].CT1[j]-CT1[j].CA0[i],
+ C1:C1/(a0[i]*t1[j]),
+ C2:-1/2*CA1[j]/a1[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[α3,t1]")$
+for i:3 while(i<4) do
+for j:1 while(j<9) do(
+ C1:CA0[i].CT1[j]-CT1[j].CA0[i],
+ C1:C1/(a0[i]*t1[j]),
+ C2:-1/2*CA1[j]/a1[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a1,t2]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CA1[i].CT2[j]-CT2[j].CA1[i],
+ C1:C1/(a1[i]*t2[j]),
+ k:Ca[i][j]+1,
+ C2:-1/2*Sn[i][j]*CA3[k]/a3[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a2,t2]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CA2[i].CT2[j]-CT2[j].CA2[i],
+ C1:C1/(a2[i]*t2[j]),
+ if i=j then C2:-CA0[1]/a0[1]-CA0[3]/a0[3]
+ else C2:zeromatrix(133,133),
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a3,t2]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CA3[i].CT2[j]-CT2[j].CA3[i],
+ C1:C1/(a3[i]*t2[j]),
+ k:Ca[j][i]+1,
+ C2:-1/2*Sn[j][i]*CA1[k]/a1[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[α1,t2]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CA0[i].CT2[j]-CT2[j].CA0[i],
+ C1:C1/(a0[i]*t2[j]),
+ C2:-1/2*CA2[j]/a2[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[α2,t2]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CA0[i].CT2[j]-CT2[j].CA0[i],
+ C1:C1/(a0[i]*t2[j]),
+
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[α3,t2]")$
+for i:3 while(i<4) do
+for j:1 while(j<9) do(
+ C1:CA0[i].CT2[j]-CT2[j].CA0[i],
+ C1:C1/(a0[i]*t2[j]),
+ C2:-1/2*CA2[j]/a2[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a1,t3]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CA1[i].CT3[j]-CT3[j].CA1[i],
+ C1:C1/(a1[i]*t3[j]),
+ k:Ca[j][i]+1,
+ C2:-1/2*Sn[j][i]*CA2[k]/a2[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a2,t3]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CA2[i].CT3[j]-CT3[j].CA2[i],
+ C1:C1/(a2[i]*t3[j]),
+ k:Ca[i][j]+1,
+ C2:-1/2*Sn[i][j]*CA1[k]/a1[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a3,t3]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CA3[i].CT3[j]-CT3[j].CA3[i],
+ C1:C1/(a3[i]*t3[j]),
+ if i=j then C2:-CA0[1]/a0[1]-CA0[2]/a0[2]
+ else C2:zeromatrix(133,133),
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[α1,t3]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CA0[i].CT3[j]-CT3[j].CA0[i],
+ C1:C1/(a0[i]*t3[j]),
+ C2:-1/2*CA3[j]/a3[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[α2,t3]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CA0[i].CT3[j]-CT3[j].CA0[i],
+ C1:C1/(a0[i]*t3[j]),
+ C2:-1/2*CA3[j]/a3[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[α3,t3]")$
+for i:3 while(i<4) do
+for j:1 while(j<9) do(
+ C1:CA0[i].CT3[j]-CT3[j].CA0[i],
+ C1:C1/(a0[i]*t3[j]),
+
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ1,a1]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CT0[i].CA1[j]-CA1[j].CT0[i],
+ C1:C1/(t0[i]*a1[j]),
+ C2:-1/2*CA1[j]/a1[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ1,a2]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CT0[i].CA2[j]-CA2[j].CT0[i],
+ C1:C1/(t0[i]*a2[j]),
+ 
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ1,a3]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CT0[i].CA3[j]-CA3[j].CT0[i],
+ C1:C1/(t0[i]*a3[j]),
+ C2:1/2*CA3[j]/a3[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ1,α1]")$
+for i:1 while(i<2) do
+for j:1 while(j<2) do(
+ C1:CT0[i].CA0[j]-CA0[j].CT0[i],
+ C1:C1/(t0[i]*a0[j]),
+ C2:CA0[1]/a0[1],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ1,α2]")$
+for i:1 while(i<2) do
+for j:2 while(j<3) do(
+ C1:CT0[i].CA0[j]-CA0[j].CT0[i],
+ C1:C1/(t0[i]*a0[j]),
+ 
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ1,α3]")$
+for i:1 while(i<2) do
+for j:3 while(j<4) do(
+ C1:CT0[i].CA0[j]-CA0[j].CT0[i],
+ C1:C1/(t0[i]*a0[j]),
+ C2:-CA0[3]/a0[3],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ2,a1]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CT0[i].CA1[j]-CA1[j].CT0[i],
+ C1:C1/(t0[i]*a1[j]),
+ 
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ2,a2]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CT0[i].CA2[j]-CA2[j].CT0[i],
+ C1:C1/(t0[i]*a2[j]),
+ C2:-1/2*CA2[j]/a2[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ2,a3]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CT0[i].CA3[j]-CA3[j].CT0[i],
+ C1:C1/(t0[i]*a3[j]),
+ C2:1/2*CA3[j]/a3[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ2,α1]")$
+for i:2 while(i<3) do
+for j:1 while(j<2) do(
+ C1:CT0[i].CA0[j]-CA0[j].CT0[i],
+ C1:C1/(t0[i]*a0[j]),
+ 
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ2,α2]")$
+for i:2 while(i<3) do
+for j:2 while(j<3) do(
+ C1:CT0[i].CA0[j]-CA0[j].CT0[i],
+ C1:C1/(t0[i]*a0[j]),
+ C2:CA0[2]/a0[2],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ2,α3]")$
+for i:2 while(i<3) do
+for j:3 while(j<4) do(
+ C1:CT0[i].CA0[j]-CA0[j].CT0[i],
+ C1:C1/(t0[i]*a0[j]),
+ C2:-CA0[3]/a0[3],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+
+stringout(Bopfile,"Lie bracket operation","[b1,t1]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CB1[i].CT1[j]-CT1[j].CB1[i],
+ C1:C1/(b1[i]*t1[j]),
+ if i=j then C2:CB0[2]/b0[2]+CB0[3]/b0[3]
+ else C2:zeromatrix(133,133),
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[b2,t1]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CB2[i].CT1[j]-CT1[j].CB2[i],
+ C1:C1/(b2[i]*t1[j]),
+ k:Ca[j][i]+1,
+ C2:1/2*Sn[j][i]*CB3[k]/b3[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[b3,t1]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CB3[i].CT1[j]-CT1[j].CB3[i],
+ C1:C1/(b3[i]*t1[j]),
+ k:Ca[i][j]+1,
+ C2:1/2*Sn[i][j]*CB2[k]/b2[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[β1,t1]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CB0[i].CT1[j]-CT1[j].CB0[i],
+ C1:C1/(b0[i]*t1[j]),
+
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[β2,t1]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CB0[i].CT1[j]-CT1[j].CB0[i],
+ C1:C1/(b0[i]*t1[j]),
+ C2:1/2*CB1[j]/b1[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[β3,t1]")$
+for i:3 while(i<4) do
+for j:1 while(j<9) do(
+ C1:CB0[i].CT1[j]-CT1[j].CB0[i],
+ C1:C1/(b0[i]*t1[j]),
+ C2:1/2*CB1[j]/b1[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[b1,t2]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CB1[i].CT2[j]-CT2[j].CB1[i],
+ C1:C1/(b1[i]*t2[j]),
+ k:Ca[i][j]+1,
+ C2:1/2*Sn[i][j]*CB3[k]/b3[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[b2,t2]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CB2[i].CT2[j]-CT2[j].CB2[i],
+ C1:C1/(b2[i]*t2[j]),
+ if i=j then C2:CB0[1]/b0[1]+CB0[3]/b0[3]
+ else C2:zeromatrix(133,133),
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[b3,t2]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CB3[i].CT2[j]-CT2[j].CB3[i],
+ C1:C1/(b3[i]*t2[j]),
+ k:Ca[j][i]+1,
+ C2:1/2*Sn[j][i]*CB1[k]/b1[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[β1,t2]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CB0[i].CT2[j]-CT2[j].CB0[i],
+ C1:C1/(b0[i]*t2[j]),
+ C2:1/2*CB2[j]/b2[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[β2,t2]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CB0[i].CT2[j]-CT2[j].CB0[i],
+ C1:C1/(b0[i]*t2[j]),
+
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[β3,t2]")$
+for i:3 while(i<4) do
+for j:1 while(j<9) do(
+ C1:CB0[i].CT2[j]-CT2[j].CB0[i],
+ C1:C1/(b0[i]*t2[j]),
+ C2:1/2*CB2[j]/b2[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[b1,t3]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CB1[i].CT3[j]-CT3[j].CB1[i],
+ C1:C1/(b1[i]*t3[j]),
+ k:Ca[j][i]+1,
+ C2:1/2*Sn[j][i]*CB2[k]/b2[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[b2,t3]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CB2[i].CT3[j]-CT3[j].CB2[i],
+ C1:C1/(b2[i]*t3[j]),
+ k:Ca[i][j]+1,
+ C2:1/2*Sn[i][j]*CB1[k]/b1[k],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[b3,t3]")$
+for i:1 while(i<9) do
+for j:1 while(j<9) do(
+ C1:CB3[i].CT3[j]-CT3[j].CB3[i],
+ C1:C1/(b3[i]*t3[j]),
+ if i=j then C2:CB0[1]/b0[1]+CB0[2]/b0[2]
+ else C2:zeromatrix(133,133),
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[β1,t3]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CB0[i].CT3[j]-CT3[j].CB0[i],
+ C1:C1/(b0[i]*t3[j]),
+ C2:1/2*CB3[j]/b3[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[β2,t3]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CB0[i].CT3[j]-CT3[j].CB0[i],
+ C1:C1/(b0[i]*t3[j]),
+ C2:1/2*CB3[j]/b3[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[β3,t3]")$
+for i:3 while(i<4) do
+for j:1 while(j<9) do(
+ C1:CB0[i].CT3[j]-CT3[j].CB0[i],
+ C1:C1/(b0[i]*t3[j]),
+
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ1,b1]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CT0[i].CB1[j]-CB1[j].CT0[i],
+ C1:C1/(t0[i]*b1[j]),
+ C2:1/2*CB1[j]/b1[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ1,b2]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CT0[i].CB2[j]-CB2[j].CT0[i],
+ C1:C1/(t0[i]*b2[j]),
+ 
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ1,b3]")$
+for i:1 while(i<2) do
+for j:1 while(j<9) do(
+ C1:CT0[i].CB3[j]-CB3[j].CT0[i],
+ C1:C1/(t0[i]*b3[j]),
+ C2:-1/2*CB3[j]/b3[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ1,β1]")$
+for i:1 while(i<2) do
+for j:1 while(j<2) do(
+ C1:CT0[i].CB0[j]-CB0[j].CT0[i],
+ C1:C1/(t0[i]*b0[j]),
+ C2:-CB0[1]/b0[1],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ1,β2]")$
+for i:1 while(i<2) do
+for j:2 while(j<3) do(
+ C1:CT0[i].CB0[j]-CB0[j].CT0[i],
+ C1:C1/(t0[i]*b0[j]),
+ 
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ1,β3]")$
+for i:1 while(i<2) do
+for j:3 while(j<4) do(
+ C1:CT0[i].CB0[j]-CB0[j].CT0[i],
+ C1:C1/(t0[i]*b0[j]),
+ C2:CB0[3]/b0[3],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ2,b1]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CT0[i].CB1[j]-CB1[j].CT0[i],
+ C1:C1/(t0[i]*b1[j]),
+ 
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ2,b2]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CT0[i].CB2[j]-CB2[j].CT0[i],
+ C1:C1/(t0[i]*b2[j]),
+ C2:1/2*CB2[j]/b2[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ2,b3]")$
+for i:2 while(i<3) do
+for j:1 while(j<9) do(
+ C1:CT0[i].CB3[j]-CB3[j].CT0[i],
+ C1:C1/(t0[i]*b3[j]),
+ C2:-1/2*CB3[j]/b3[j],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ2,β1]")$
+for i:2 while(i<3) do
+for j:1 while(j<2) do(
+ C1:CT0[i].CB0[j]-CB0[j].CT0[i],
+ C1:C1/(t0[i]*b0[j]),
+ 
+ RR:C1,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ2,β2]")$
+for i:2 while(i<3) do
+for j:2 while(j<3) do(
+ C1:CT0[i].CB0[j]-CB0[j].CT0[i],
+ C1:C1/(t0[i]*b0[j]),
+ C2:-CB0[2]/b0[2],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ2,β3]")$
+for i:2 while(i<3) do
+for j:3 while(j<4) do(
+ C1:CT0[i].CB0[j]-CB0[j].CT0[i],
+ C1:C1/(t0[i]*b0[j]),
+ C2:CB0[3]/b0[3],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+
+stringout(Bopfile,"Lie bracket operation","[D,ρ1]")$
+ C2:Rρ1/ρ1$
+for l:1 while(l<29) do(
+ C1:CD[l]/dd[l],
+ stringout(Bopfile,"l",l),
+ RR:C1.C2-C2.C1,
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m1,ρ1]")$
+ C2:Rρ1/ρ1$
+for i:1 while(i<9) do(
+ C1:CM1[i]/m1[i],
+ stringout(Bopfile,"i",i),
+ RR:C1.C2-C2.C1,
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m2,ρ1]")$
+ C2:Rρ1/ρ1$
+for i:1 while(i<9) do(
+ C1:CM2[i]/m2[i],
+ stringout(Bopfile,"i",i),
+ RR:C1.C2-C2.C1,
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[m3,ρ1]")$
+ C2:Rρ1/ρ1$
+for i:1 while(i<9) do(
+ C1:CM3[i]/m3[i],
+ stringout(Bopfile,"i",i),
+ RR:C1.C2-C2.C1,
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[t1,ρ1]")$
+ C2:Rρ1/ρ1$
+for i:1 while(i<9) do(
+ C1:CT1[i]/t1[i],
+ stringout(Bopfile,"i",i),
+ RR:C1.C2-C2.C1,
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[t2,ρ1]")$
+ C2:Rρ1/ρ1$
+for i:1 while(i<9) do(
+ C1:CT2[i]/t2[i],
+ stringout(Bopfile,"i",i),
+ RR:C1.C2-C2.C1,
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[t3,ρ1]")$
+ C2:Rρ1/ρ1$
+for i:1 while(i<9) do(
+ C1:CT3[i]/t3[i],
+ stringout(Bopfile,"i",i),
+ RR:C1.C2-C2.C1,
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ1,ρ1]")$
+ C2:Rρ1/ρ1$
+for i:1 while(i<2) do(
+ C1:CT0[i]/t0[i],
+ stringout(Bopfile,"i",i),
+ RR:C1.C2-C2.C1,
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[τ2,ρ1]")$
+ C2:Rρ1/ρ1$
+for i:2 while(i<3) do(
+ C1:CT0[i]/t0[i],
+ stringout(Bopfile,"i",i),
+ RR:C1.C2-C2.C1,
+ NZP(1,133)
+)$
+
+
+stringout(Bopfile,"Lie bracket operation","[a1,ρ1]")$
+for i:1 while(i<9) do(
+ C1:CA1[i].Rρ1-Rρ1.CA1[i],
+ C1:C1/(a1[i]*ρ1),
+ C2:-2/3*CA1[i]/a1[i],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a2,ρ1]")$
+for i:1 while(i<9) do(
+ C1:CA2[i].Rρ1-Rρ1.CA2[i],
+ C1:C1/(a2[i]*ρ1),
+ C2:-2/3*CA2[i]/a2[i],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[a3,ρ1]")$
+for i:1 while(i<9) do(
+ C1:CA3[i].Rρ1-Rρ1.CA3[i],
+ C1:C1/(a3[i]*ρ1),
+ C2:-2/3*CA3[i]/a3[i],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[α,ρ1]")$
+for i:1 while(i<4) do(
+ C1:CA0[i].Rρ1-Rρ1.CA0[i],
+ C1:C1/(a0[i]*ρ1),
+ C2:-2/3*CA0[i]/a0[i],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+
+stringout(Bopfile,"Lie bracket operation","[b1,ρ1]")$
+for i:1 while(i<9) do(
+ C1:CB1[i].Rρ1-Rρ1.CB1[i],
+ C1:C1/(b1[i]*ρ1),
+ C2:2/3*CB1[i]/b1[i],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[b2,ρ1]")$
+for i:1 while(i<9) do(
+ C1:CB2[i].Rρ1-Rρ1.CB2[i],
+ C1:C1/(b2[i]*ρ1),
+ C2:2/3*CB2[i]/b2[i],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[b3,ρ1]")$
+for i:1 while(i<9) do(
+ C1:CB3[i].Rρ1-Rρ1.CB3[i],
+ C1:C1/(b3[i]*ρ1),
+ C2:2/3*CB3[i]/b3[i],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+stringout(Bopfile,"Lie bracket operation","[β,ρ1]")$
+for i:1 while(i<4) do(
+ C1:CB0[i].Rρ1-Rρ1.CB0[i],
+ C1:C1/(b0[i]*ρ1),
+ C2:2/3*CB0[i]/b0[i],
+ RR:C1-C2,
+ stringout(Bopfile,i,j),
+ NZP(1,133)
+)$
+
+/* roots Lemma 14.7. */
+hu0:-%i*Rd04/d04$
+hu1:-%i*Rd15/d15$
+hu2:-%i*Rd26/d26$
+hu3:-%i*Rd37/d37$
+
+hs1:λ0*hu0+λ1*hu1+λ2*hu2+λ3*hu3$
+h1:hs1$
+
+hs2:λ4*hu0+λ5*hu1+λ6*hu2+λ7*hu3$
+h2:hs2$
+
+ud01:Rd01/d01$
+ud02:Rd02/d02$
+ud03:Rd03/d03$
+ud04:Rd04/d04$
+ud05:Rd05/d05$
+ud06:Rd06/d06$
+ud07:Rd07/d07$
+ud12:Rd12/d12$
+ud13:Rd13/d13$
+ud14:Rd14/d14$
+ud15:Rd15/d15$
+ud16:Rd16/d16$
+ud17:Rd17/d17$
+ud23:Rd23/d23$
+ud24:Rd24/d24$
+ud25:Rd25/d25$
+ud26:Rd26/d26$
+ud27:Rd27/d27$
+ud34:Rd34/d34$
+ud35:Rd35/d35$
+ud36:Rd36/d36$
+ud37:Rd37/d37$
+ud45:Rd45/d45$
+ud46:Rd46/d46$
+ud47:Rd47/d47$
+ud56:Rd56/d56$
+ud57:Rd57/d57$
+ud67:Rd67/d67$
+
+Sd11:(ud01+ud45)-%i*(ud05+ud14)$
+Sd12:(ud02+ud46)-%i*(ud06+ud24)$
+Sd13:(ud03+ud47)-%i*(ud07+ud34)$
+Sd14:(ud12+ud56)-%i*(ud16+ud25)$
+Sd15:(ud13+ud57)-%i*(ud17+ud35)$
+Sd16:(ud23+ud67)-%i*(ud27+ud36)$
+
+Sd21:%i*(ud01+ud45)-(ud05+ud14)$
+Sd22:%i*(ud02+ud46)-(ud06+ud24)$
+Sd23:%i*(ud03+ud47)-(ud07+ud34)$
+Sd24:%i*(ud12+ud56)-(ud16+ud25)$
+Sd25:%i*(ud13+ud57)-(ud17+ud35)$
+Sd26:%i*(ud23+ud67)-(ud27+ud36)$
+
+Sd31:(ud01-ud45)+%i*(ud05-ud14)$
+Sd32:(ud02-ud46)+%i*(ud06-ud24)$
+Sd33:(ud03-ud47)+%i*(ud07-ud34)$
+Sd34:(ud12-ud56)+%i*(ud16-ud25)$
+Sd35:(ud13-ud57)+%i*(ud17-ud35)$
+Sd36:(ud23-ud67)+%i*(ud27-ud36)$
+
+Sd41:%i*(ud01-ud45)+(ud05-ud14)$
+Sd42:%i*(ud02-ud46)+(ud06-ud24)$
+Sd43:%i*(ud03-ud47)+(ud07-ud34)$
+Sd44:%i*(ud12-ud56)+(ud16-ud25)$
+Sd45:%i*(ud13-ud57)+(ud17-ud35)$
+Sd46:%i*(ud23-ud67)+(ud27-ud36)$
+
+dS11:λ0-λ1$
+dS12:λ0-λ2$
+dS13:λ0-λ3$
+dS14:λ1-λ2$
+dS15:λ1-λ3$
+dS16:λ2-λ3$
+
+dS21:-λ0+λ1$
+dS22:-λ0+λ2$
+dS23:-λ0+λ3$
+dS24:-λ1+λ2$
+dS25:-λ1+λ3$
+dS26:-λ2+λ3$
+
+dS31:λ0+λ1$
+dS32:λ0+λ2$
+dS33:λ0+λ3$
+dS34:λ1+λ2$
+dS35:λ1+λ3$
+dS36:λ2+λ3$
+
+dS41:-λ0-λ1$
+dS42:-λ0-λ2$
+dS43:-λ0-λ3$
+dS44:-λ1-λ2$
+dS45:-λ1-λ3$
+dS46:-λ2-λ3$
+
+Bd11:h1.Sd11-Sd11.h1-dS11*Sd11$
+RR:expand(Bd11)$
+stringout(Ropfile,"Bd11")$
+ NZPR(1,133)$
+Bd12:h1.Sd12-Sd12.h1-dS12*Sd12$
+RR:expand(Bd12)$
+stringout(Ropfile,"Bd12")$
+ NZPR(1,133)$
+Bd13:h1.Sd13-Sd13.h1-dS13*Sd13$
+RR:expand(Bd13)$
+stringout(Ropfile,"Bd13")$
+ NZPR(1,133)$
+Bd14:h1.Sd14-Sd14.h1-dS14*Sd14$
+RR:expand(Bd14)$
+stringout(Ropfile,"Bd14")$
+ NZPR(1,133)$
+Bd15:h1.Sd15-Sd15.h1-dS15*Sd15$
+RR:expand(Bd15)$
+stringout(Ropfile,"Bd15")$
+ NZPR(1,133)$
+Bd16:h1.Sd16-Sd16.h1-dS16*Sd16$
+RR:expand(Bd16)$
+stringout(Ropfile,"Bd16")$
+ NZPR(1,133)$
+
+Bd21:h1.Sd21-Sd21.h1-dS21*Sd21$
+RR:expand(Bd21)$
+stringout(Ropfile,"Bd21")$
+ NZPR(1,133)$
+Bd22:h1.Sd22-Sd22.h1-dS22*Sd22$
+RR:expand(Bd22)$
+stringout(Ropfile,"Bd22")$
+ NZPR(1,133)$
+Bd23:h1.Sd23-Sd23.h1-dS23*Sd23$
+RR:expand(Bd23)$
+stringout(Ropfile,"Bd23")$
+ NZPR(1,133)$
+Bd24:h1.Sd24-Sd24.h1-dS24*Sd24$
+RR:expand(Bd24)$
+stringout(Ropfile,"Bd24")$
+ NZPR(1,133)$
+Bd25:h1.Sd25-Sd25.h1-dS25*Sd25$
+RR:expand(Bd25)$
+stringout(Ropfile,"Bd25")$
+ NZPR(1,133)$
+Bd26:h1.Sd26-Sd26.h1-dS26*Sd26$
+RR:expand(Bd26)$
+stringout(Ropfile,"Bd26")$
+ NZPR(1,133)$
+
+Bd31:h1.Sd31-Sd31.h1-dS31*Sd31$
+RR:expand(Bd31)$
+stringout(Ropfile,"Bd31")$
+ NZPR(1,133)$
+Bd32:h1.Sd32-Sd32.h1-dS32*Sd32$
+RR:expand(Bd32)$
+stringout(Ropfile,"Bd32")$
+ NZPR(1,133)$
+Bd33:h1.Sd33-Sd33.h1-dS33*Sd33$
+RR:expand(Bd33)$
+stringout(Ropfile,"Bd33")$
+ NZPR(1,133)$
+Bd34:h1.Sd34-Sd34.h1-dS34*Sd34$
+RR:expand(Bd34)$
+stringout(Ropfile,"Bd34")$
+ NZPR(1,133)$
+Bd35:h1.Sd35-Sd35.h1-dS35*Sd35$
+RR:expand(Bd35)$
+stringout(Ropfile,"Bd35")$
+ NZPR(1,133)$
+Bd36:h1.Sd36-Sd36.h1-dS36*Sd36$
+RR:expand(Bd36)$
+stringout(Ropfile,"Bd36")$
+ NZPR(1,133)$
+
+Bd41:h1.Sd41-Sd41.h1-dS41*Sd41$
+RR:expand(Bd41)$
+stringout(Ropfile,"Bd41")$
+ NZPR(1,133)$
+Bd42:h1.Sd42-Sd42.h1-dS42*Sd42$
+RR:expand(Bd42)$
+stringout(Ropfile,"Bd42")$
+ NZPR(1,133)$
+Bd43:h1.Sd43-Sd43.h1-dS43*Sd43$
+RR:expand(Bd43)$
+stringout(Ropfile,"Bd43")$
+ NZPR(1,133)$
+Bd44:h1.Sd44-Sd44.h1-dS44*Sd44$
+RR:expand(Bd44)$
+stringout(Ropfile,"Bd44")$
+ NZPR(1,133)$
+Bd45:h1.Sd45-Sd45.h1-dS45*Sd45$
+RR:expand(Bd45)$
+stringout(Ropfile,"Bd45")$
+ NZPR(1,133)$
+Bd46:h1.Sd46-Sd46.h1-dS46*Sd46$
+RR:expand(Bd46)$
+stringout(Ropfile,"Bd46")$
+ NZPR(1,133)$
+
+/* roots Lemma 14.8. */
+hu0:-%i*Rd04/d04$
+hu1:-%i*Rd15/d15$
+hu2:-%i*Rd26/d26$
+hu3:-%i*Rd37/d37$
+
+hs1:λ0*hu0+λ1*hu1+λ2*hu2+λ3*hu3$
+h1:hs1$
+
+hs2:λ4*hu0+λ5*hu1+λ6*hu2+λ7*hu3$
+h2:hs2$
+
+Sm10:Rm10/m10+%i*Rm14/m14$
+Sm11:Rm11/m11+%i*Rm15/m15$
+Sm12:Rm12/m12+%i*Rm16/m16$
+Sm13:Rm13/m13+%i*Rm17/m17$
+Sm14:Rm10/m10-%i*Rm14/m14$
+Sm15:Rm11/m11-%i*Rm15/m15$
+Sm16:Rm12/m12-%i*Rm16/m16$
+Sm17:Rm13/m13-%i*Rm17/m17$
+mS10:λ0$
+mS11:λ1$
+mS12:λ2$
+mS13:λ3$
+mS14:-λ0$
+mS15:-λ1$
+mS16:-λ2$
+mS17:-λ3$
+
+Sm20:Rm20/m20+%i*Rm24/m24$
+Sm21:Rm21/m21+%i*Rm25/m25$
+Sm22:Rm22/m22+%i*Rm26/m26$
+Sm23:Rm23/m23+%i*Rm27/m27$
+Sm24:Rm20/m20-%i*Rm24/m24$
+Sm25:Rm21/m21-%i*Rm25/m25$
+Sm26:Rm22/m22-%i*Rm26/m26$
+Sm27:Rm23/m23-%i*Rm27/m27$
+mS20:1/2*(-λ0-λ1+λ2-λ3)$
+mS21:1/2*(λ0+λ1+λ2-λ3)$
+mS22:1/2*(-λ0+λ1+λ2+λ3)$
+mS23:1/2*(λ0-λ1+λ2+λ3)$
+mS24:-1/2*(-λ0-λ1+λ2-λ3)$
+mS25:-1/2*(λ0+λ1+λ2-λ3)$
+mS26:-1/2*(-λ0+λ1+λ2+λ3)$
+mS27:-1/2*(λ0-λ1+λ2+λ3)$
+
+Sm30:Rm30/m30+%i*Rm34/m34$
+Sm31:Rm31/m31+%i*Rm35/m35$
+Sm32:Rm32/m32+%i*Rm36/m36$
+Sm33:Rm33/m33+%i*Rm37/m37$
+Sm34:Rm30/m30-%i*Rm34/m34$
+Sm35:Rm31/m31-%i*Rm35/m35$
+Sm36:Rm32/m32-%i*Rm36/m36$
+Sm37:Rm33/m33-%i*Rm37/m37$
+mS30: 1/2*(-λ0+λ1-λ2+λ3)$
+mS31: 1/2*(-λ0+λ1+λ2-λ3)$
+mS32: 1/2*(λ0+λ1+λ2+λ3)$
+mS33: 1/2*(-λ0-λ1+λ2+λ3)$
+mS34:-1/2*(-λ0+λ1-λ2+λ3)$
+mS35:-1/2*(-λ0+λ1+λ2-λ3)$
+mS36:-1/2*(λ0+λ1+λ2+λ3)$
+mS37:-1/2*(-λ0-λ1+λ2+λ3)$
+
+Bm10:h1.Sm10-Sm10.h1-mS10*Sm10$
+RR:expand(Bm10)$
+stringout(Ropfile,"Bm10")$
+ NZPR(1,133)$
+Bm11:h1.Sm11-Sm11.h1-mS11*Sm11$
+RR:expand(Bm11)$
+stringout(Ropfile,"Bm11")$
+ NZPR(1,133)$
+Bm12:h1.Sm12-Sm12.h1-mS12*Sm12$
+RR:expand(Bm12)$
+stringout(Ropfile,"Bm12")$
+ NZPR(1,133)$
+Bm13:h1.Sm13-Sm13.h1-mS13*Sm13$
+RR:expand(Bm13)$
+stringout(Ropfile,"Bm13")$
+ NZPR(1,133)$
+Bm14:h1.Sm14-Sm14.h1-mS14*Sm14$
+RR:expand(Bm14)$
+stringout(Ropfile,"Bm14")$
+ NZPR(1,133)$
+Bm15:h1.Sm15-Sm15.h1-mS15*Sm15$
+RR:expand(Bm15)$
+stringout(Ropfile,"Bm15")$
+ NZPR(1,133)$
+Bm16:h1.Sm16-Sm16.h1-mS16*Sm16$
+RR:expand(Bm16)$
+stringout(Ropfile,"Bm16")$
+ NZPR(1,133)$
+Bm17:h1.Sm17-Sm17.h1-mS17*Sm17$
+RR:expand(Bm17)$
+stringout(Ropfile,"Bm17")$
+ NZPR(1,133)$
+
+Bm20:h1.Sm20-Sm20.h1-mS20*Sm20$
+RR:expand(Bm20)$
+stringout(Ropfile,"Bm20")$
+ NZPR(1,133)$
+Bm21:h1.Sm21-Sm21.h1-mS21*Sm21$
+RR:expand(Bm21)$
+stringout(Ropfile,"Bm21")$
+ NZPR(1,133)$
+Bm22:h1.Sm22-Sm22.h1-mS22*Sm22$
+RR:expand(Bm22)$
+stringout(Ropfile,"Bm22")$
+ NZPR(1,133)$
+Bm23:h1.Sm23-Sm23.h1-mS23*Sm23$
+RR:expand(Bm23)$
+stringout(Ropfile,"Bm23")$
+ NZPR(1,133)$
+Bm24:h1.Sm24-Sm24.h1-mS24*Sm24$
+RR:expand(Bm24)$
+stringout(Ropfile,"Bm24")$
+ NZPR(1,133)$
+Bm25:h1.Sm25-Sm25.h1-mS25*Sm25$
+RR:expand(Bm25)$
+stringout(Ropfile,"Bm25")$
+ NZPR(1,133)$
+Bm26:h1.Sm26-Sm26.h1-mS26*Sm26$
+RR:expand(Bm26)$
+stringout(Ropfile,"Bm26")$
+ NZPR(1,133)$
+Bm27:h1.Sm27-Sm27.h1-mS27*Sm27$
+RR:expand(Bm27)$
+stringout(Ropfile,"Bm27")$
+ NZPR(1,133)$
+
+Bm30:h1.Sm30-Sm30.h1-mS30*Sm30$
+RR:expand(Bm30)$
+stringout(Ropfile,"Bm30")$
+ NZPR(1,133)$
+Bm31:h1.Sm31-Sm31.h1-mS31*Sm31$
+RR:expand(Bm31)$
+stringout(Ropfile,"Bm31")$
+ NZPR(1,133)$
+Bm32:h1.Sm32-Sm32.h1-mS32*Sm32$
+RR:expand(Bm32)$
+stringout(Ropfile,"Bm32")$
+ NZPR(1,133)$
+Bm33:h1.Sm33-Sm33.h1-mS33*Sm33$
+RR:expand(Bm33)$
+stringout(Ropfile,"Bm33")$
+ NZPR(1,133)$
+Bm34:h1.Sm34-Sm34.h1-mS34*Sm34$
+RR:expand(Bm34)$
+stringout(Ropfile,"Bm34")$
+ NZPR(1,133)$
+Bm35:h1.Sm35-Sm35.h1-mS35*Sm35$
+RR:expand(Bm35)$
+stringout(Ropfile,"Bm35")$
+ NZPR(1,133)$
+Bm36:h1.Sm36-Sm36.h1-mS36*Sm36$
+RR:expand(Bm36)$
+stringout(Ropfile,"Bm36")$
+ NZPR(1,133)$
+Bm37:h1.Sm37-Sm37.h1-mS37*Sm37$
+RR:expand(Bm37)$
+stringout(Ropfile,"Bm37")$
+ NZPR(1,133)$
+
+/* root system Theorem 14.9. */
+A1:1/18*(hu0-hu1)$
+A2:1/18*(hu1-hu2)$
+A3:1/18*hu2$
+A4:1/36*(-hu0-hu1-hu2+hu3)$
+Y:(2*A1+3*A2+4*A3+2*A4)$
+print(" root R4C")$
+R:h1.A1$
+expand(mattrace(R));
+R:h1.A2$
+expand(mattrace(R));
+R:h1.A3$
+expand(mattrace(R));
+R:h1.A4$
+expand(mattrace(R));
+
+/* Killing form */
+print(" Killing form R4C in R7C")$
+B4(X,W):=1/2*expand(mattrace(X.W))$
+B4(h1,h2);
+print("A1,A1")$
+B4(A1,A1);
+print("A1,A2")$
+B4(A1,A2);
+print("A1,A3")$
+B4(A1,A3);
+print("A1,A4")$
+B4(A1,A4);
+print("A2,A2")$
+B4(A2,A2);
+print("A2,A3")$
+B4(A2,A3);
+print("A2,A4")$
+B4(A2,A4);
+print("A3,A3")$
+B4(A3,A3);
+print("A3,A4")$
+B4(A3,A4);
+print("A4,A4")$
+B4(A4,A4);
+print("-μ,A1")$
+B4(-Y,A1);
+print("-μ,A2")$
+B4(-Y,A2);
+print("-μ,A3")$
+B4(-Y,A3);
+print("-μ,A4")$
+B4(-Y,A4);
+print("-μ,-μ")$
+B4(-Y,-Y);
+
+/* roots  Lemma 15.7. */
+hu0:-%i*Rd04/d04$
+hu1:-%i*Rd15/d15$
+hu2:-%i*Rd26/d26$
+hu3:-%i*Rd37/d37$
+
+hs1:λ0*hu0+λ1*hu1+λ2*hu2+λ3*hu3$
+H1:μ1*Rτ1/τ1+μ2*Rτ2/τ2$
+h1:hs1+H1$
+
+hs2:λ4*hu0+λ5*hu1+λ6*hu2+λ7*hu3$
+H2:μ3*Rτ1/τ1+μ4*Rτ2/τ2$
+h2:hs2+H2$
+
+expand(mattrace(h1.h2))$
+
+Sa10:1/2*(Rm10/m10+%i*Rm14/m14+Rt10/t10+%i*Rt14/t14)$
+Sa11:1/2*(Rm11/m11+%i*Rm15/m15+Rt11/t11+%i*Rt15/t15)$
+Sa12:1/2*(Rm12/m12+%i*Rm16/m16+Rt12/t12+%i*Rt16/t16)$
+Sa13:1/2*(Rm13/m13+%i*Rm17/m17+Rt13/t13+%i*Rt17/t17)$
+Sb10:1/2*(Rm10/m10-%i*Rm14/m14+Rt10/t10-%i*Rt14/t14)$
+Sb11:1/2*(Rm11/m11-%i*Rm15/m15+Rt11/t11-%i*Rt15/t15)$
+Sb12:1/2*(Rm12/m12-%i*Rm16/m16+Rt12/t12-%i*Rt16/t16)$
+Sb13:1/2*(Rm13/m13-%i*Rm17/m17+Rt13/t13-%i*Rt17/t17)$
+Sc10:1/2*(Rm10/m10+%i*Rm14/m14-Rt10/t10-%i*Rt14/t14)$
+Sc11:1/2*(Rm11/m11+%i*Rm15/m15-Rt11/t11-%i*Rt15/t15)$
+Sc12:1/2*(Rm12/m12+%i*Rm16/m16-Rt12/t12-%i*Rt16/t16)$
+Sc13:1/2*(Rm13/m13+%i*Rm17/m17-Rt13/t13-%i*Rt17/t17)$
+Sd10:1/2*(Rm10/m10-%i*Rm14/m14-Rt10/t10+%i*Rt14/t14)$
+Sd11:1/2*(Rm11/m11-%i*Rm15/m15-Rt11/t11+%i*Rt15/t15)$
+Sd12:1/2*(Rm12/m12-%i*Rm16/m16-Rt12/t12+%i*Rt16/t16)$
+Sd13:1/2*(Rm13/m13-%i*Rm17/m17-Rt13/t13+%i*Rt17/t17)$
+
+Sa20:1/2*(Rm20/m20+%i*Rm24/m24+Rt20/t20+%i*Rt24/t24)$
+Sa21:1/2*(Rm21/m21+%i*Rm25/m25+Rt21/t21+%i*Rt25/t25)$
+Sa22:1/2*(Rm22/m22+%i*Rm26/m26+Rt22/t22+%i*Rt26/t26)$
+Sa23:1/2*(Rm23/m23+%i*Rm27/m27+Rt23/t23+%i*Rt27/t27)$
+Sb20:1/2*(Rm20/m20-%i*Rm24/m24+Rt20/t20-%i*Rt24/t24)$
+Sb21:1/2*(Rm21/m21-%i*Rm25/m25+Rt21/t21-%i*Rt25/t25)$
+Sb22:1/2*(Rm22/m22-%i*Rm26/m26+Rt22/t22-%i*Rt26/t26)$
+Sb23:1/2*(Rm23/m23-%i*Rm27/m27+Rt23/t23-%i*Rt27/t27)$
+Sc20:1/2*(Rm20/m20+%i*Rm24/m24-Rt20/t20-%i*Rt24/t24)$
+Sc21:1/2*(Rm21/m21+%i*Rm25/m25-Rt21/t21-%i*Rt25/t25)$
+Sc22:1/2*(Rm22/m22+%i*Rm26/m26-Rt22/t22-%i*Rt26/t26)$
+Sc23:1/2*(Rm23/m23+%i*Rm27/m27-Rt23/t23-%i*Rt27/t27)$
+Sd20:1/2*(Rm20/m20-%i*Rm24/m24-Rt20/t20+%i*Rt24/t24)$
+Sd21:1/2*(Rm21/m21-%i*Rm25/m25-Rt21/t21+%i*Rt25/t25)$
+Sd22:1/2*(Rm22/m22-%i*Rm26/m26-Rt22/t22+%i*Rt26/t26)$
+Sd23:1/2*(Rm23/m23-%i*Rm27/m27-Rt23/t23+%i*Rt27/t27)$
+
+Sa30:1/2*(Rm30/m30+%i*Rm34/m34+Rt30/t30+%i*Rt34/t34)$
+Sa31:1/2*(Rm31/m31+%i*Rm35/m35+Rt31/t31+%i*Rt35/t35)$
+Sa32:1/2*(Rm32/m32+%i*Rm36/m36+Rt32/t32+%i*Rt36/t36)$
+Sa33:1/2*(Rm33/m33+%i*Rm37/m37+Rt33/t33+%i*Rt37/t37)$
+Sb30:1/2*(Rm30/m30-%i*Rm34/m34+Rt30/t30-%i*Rt34/t34)$
+Sb31:1/2*(Rm31/m31-%i*Rm35/m35+Rt31/t31-%i*Rt35/t35)$
+Sb32:1/2*(Rm32/m32-%i*Rm36/m36+Rt32/t32-%i*Rt36/t36)$
+Sb33:1/2*(Rm33/m33-%i*Rm37/m37+Rt33/t33-%i*Rt37/t37)$
+Sc30:1/2*(Rm30/m30+%i*Rm34/m34-Rt30/t30-%i*Rt34/t34)$
+Sc31:1/2*(Rm31/m31+%i*Rm35/m35-Rt31/t31-%i*Rt35/t35)$
+Sc32:1/2*(Rm32/m32+%i*Rm36/m36-Rt32/t32-%i*Rt36/t36)$
+Sc33:1/2*(Rm33/m33+%i*Rm37/m37-Rt33/t33-%i*Rt37/t37)$
+Sd30:1/2*(Rm30/m30-%i*Rm34/m34-Rt30/t30+%i*Rt34/t34)$
+Sd31:1/2*(Rm31/m31-%i*Rm35/m35-Rt31/t31+%i*Rt35/t35)$
+Sd32:1/2*(Rm32/m32-%i*Rm36/m36-Rt32/t32+%i*Rt36/t36)$
+Sd33:1/2*(Rm33/m33-%i*Rm37/m37-Rt33/t33+%i*Rt37/t37)$
+
+aS10:λ0+1/2*(μ1+2*μ2)$
+aS11:λ1+1/2*(μ1+2*μ2)$
+aS12:λ2+1/2*(μ1+2*μ2)$
+aS13:λ3+1/2*(μ1+2*μ2)$
+bS10:-λ0+1/2*(μ1+2*μ2)$
+bS11:-λ1+1/2*(μ1+2*μ2)$
+bS12:-λ2+1/2*(μ1+2*μ2)$
+bS13:-λ3+1/2*(μ1+2*μ2)$
+cS10:λ0-1/2*(μ1+2*μ2)$
+cS11:λ1-1/2*(μ1+2*μ2)$
+cS12:λ2-1/2*(μ1+2*μ2)$
+cS13:λ3-1/2*(μ1+2*μ2)$
+dS10:-λ0-1/2*(μ1+2*μ2)$
+dS11:-λ1-1/2*(μ1+2*μ2)$
+dS12:-λ2-1/2*(μ1+2*μ2)$
+dS13:-λ3-1/2*(μ1+2*μ2)$
+
+aS20:1/2*(-λ0-λ1+λ2-λ3)+1/2*(-2*μ1-μ2)$
+aS21:1/2*(λ0+λ1+λ2-λ3)+1/2*(-2*μ1-μ2)$
+aS22:1/2*(-λ0+λ1+λ2+λ3)+1/2*(-2*μ1-μ2)$
+aS23:1/2*(λ0-λ1+λ2+λ3)+1/2*(-2*μ1-μ2)$
+bS20:-1/2*(-λ0-λ1+λ2-λ3)+1/2*(-2*μ1-μ2)$
+bS21:-1/2*(λ0+λ1+λ2-λ3)+1/2*(-2*μ1-μ2)$
+bS22:-1/2*(-λ0+λ1+λ2+λ3)+1/2*(-2*μ1-μ2)$
+bS23:-1/2*(λ0-λ1+λ2+λ3)+1/2*(-2*μ1-μ2)$
+cS20:1/2*(-λ0-λ1+λ2-λ3)-1/2*(-2*μ1-μ2)$
+cS21:1/2*(λ0+λ1+λ2-λ3)-1/2*(-2*μ1-μ2)$
+cS22:1/2*(-λ0+λ1+λ2+λ3)-1/2*(-2*μ1-μ2)$
+cS23:1/2*(λ0-λ1+λ2+λ3)-1/2*(-2*μ1-μ2)$
+dS20:-1/2*(-λ0-λ1+λ2-λ3)-1/2*(-2*μ1-μ2)$
+dS21:-1/2*(λ0+λ1+λ2-λ3)-1/2*(-2*μ1-μ2)$
+dS22:-1/2*(-λ0+λ1+λ2+λ3)-1/2*(-2*μ1-μ2)$
+dS23:-1/2*(λ0-λ1+λ2+λ3)-1/2*(-2*μ1-μ2)$
+
+aS30:1/2*(-λ0+λ1-λ2+λ3)+1/2*(μ1-μ2)$
+aS31:1/2*(-λ0+λ1+λ2-λ3)+1/2*(μ1-μ2)$
+aS32:1/2*(λ0+λ1+λ2+λ3)+1/2*(μ1-μ2)$
+aS33:1/2*(-λ0-λ1+λ2+λ3)+1/2*(μ1-μ2)$
+bS30:-1/2*(-λ0+λ1-λ2+λ3)+1/2*(μ1-μ2)$
+bS31:-1/2*(-λ0+λ1+λ2-λ3)+1/2*(μ1-μ2)$
+bS32:-1/2*(λ0+λ1+λ2+λ3)+1/2*(μ1-μ2)$
+bS33:-1/2*(-λ0-λ1+λ2+λ3)+1/2*(μ1-μ2)$
+cS30:1/2*(-λ0+λ1-λ2+λ3)-1/2*(μ1-μ2)$
+cS31:1/2*(-λ0+λ1+λ2-λ3)-1/2*(μ1-μ2)$
+cS32:1/2*(λ0+λ1+λ2+λ3) -1/2*(μ1-μ2)$
+cS33:1/2*(-λ0-λ1+λ2+λ3)-1/2*(μ1-μ2)$
+dS30:-1/2*(-λ0+λ1-λ2+λ3)-1/2*(μ1-μ2)$
+dS31:-1/2*(-λ0+λ1+λ2-λ3)-1/2*(μ1-μ2)$
+dS32:-1/2*(λ0+λ1+λ2+λ3) -1/2*(μ1-μ2)$
+dS33:-1/2*(-λ0-λ1+λ2+λ3)-1/2*(μ1-μ2)$
+
+Ba10:h1.Sa10-Sa10.h1-aS10*Sa10$
+RR:expand(Ba10)$
+stringout(Ropfile,"Ba10")$
+ NZPR(1,133)$
+Ba11:h1.Sa11-Sa11.h1-aS11*Sa11$
+RR:expand(Ba11)$
+stringout(Ropfile,"Ba11")$
+ NZPR(1,133)$
+Ba12:h1.Sa12-Sa12.h1-aS12*Sa12$
+RR:expand(Ba12)$
+stringout(Ropfile,"Ba12")$
+ NZPR(1,133)$
+Ba13:h1.Sa13-Sa13.h1-aS13*Sa13$
+RR:expand(Ba13)$
+stringout(Ropfile,"Ba13")$
+ NZPR(1,133)$
+Bb10:h1.Sb10-Sb10.h1-bS10*Sb10$
+RR:expand(Bb10)$
+stringout(Ropfile,"Bb10")$
+ NZPR(1,133)$
+Bb11:h1.Sb11-Sb11.h1-bS11*Sb11$
+RR:expand(Bb11)$
+stringout(Ropfile,"Bb11")$
+ NZPR(1,133)$
+Bb12:h1.Sb12-Sb12.h1-bS12*Sb12$
+RR:expand(Bb12)$
+stringout(Ropfile,"Bb12")$
+ NZPR(1,133)$
+Bb13:h1.Sb13-Sb13.h1-bS13*Sb13$
+RR:expand(Bb13)$
+stringout(Ropfile,"Bb13")$
+ NZPR(1,133)$
+Bc10:h1.Sc10-Sc10.h1-cS10*Sc10$
+RR:expand(Bc10)$
+stringout(Ropfile,"Bc10")$
+ NZPR(1,133)$
+Bc11:h1.Sc11-Sc11.h1-cS11*Sc11$
+RR:expand(Bc11)$
+stringout(Ropfile,"Bc11")$
+ NZPR(1,133)$
+Bc12:h1.Sc12-Sc12.h1-cS12*Sc12$
+RR:expand(Bc12)$
+stringout(Ropfile,"Bc12")$
+ NZPR(1,133)$
+Bc13:h1.Sc13-Sc13.h1-cS13*Sc13$
+RR:expand(Bc13)$
+stringout(Ropfile,"Bc13")$
+ NZPR(1,133)$
+Bd10:h1.Sd10-Sd10.h1-dS10*Sd10$
+RR:expand(Bd10)$
+stringout(Ropfile,"Bd10")$
+ NZPR(1,133)$
+Bd11:h1.Sd11-Sd11.h1-dS11*Sd11$
+RR:expand(Bd11)$
+stringout(Ropfile,"Bd11")$
+ NZPR(1,133)$
+Bd12:h1.Sd12-Sd12.h1-dS12*Sd12$
+RR:expand(Bd12)$
+stringout(Ropfile,"Bd12")$
+ NZPR(1,133)$
+Bd13:h1.Sd13-Sd13.h1-dS13*Sd13$
+RR:expand(Bd13)$
+stringout(Ropfile,"Bd13")$
+ NZPR(1,133)$
+
+Ba20:h1.Sa20-Sa20.h1-aS20*Sa20$
+RR:expand(Ba20)$
+stringout(Ropfile,"Ba20")$
+ NZPR(1,133)$
+Ba21:h1.Sa21-Sa21.h1-aS21*Sa21$
+RR:expand(Ba21)$
+stringout(Ropfile,"Ba21")$
+ NZPR(1,133)$
+Ba22:h1.Sa22-Sa22.h1-aS22*Sa22$
+RR:expand(Ba22)$
+stringout(Ropfile,"Ba22")$
+ NZPR(1,133)$
+Ba23:h1.Sa23-Sa23.h1-aS23*Sa23$
+RR:expand(Ba23)$
+stringout(Ropfile,"Ba23")$
+ NZPR(1,133)$
+Bb20:h1.Sb20-Sb20.h1-bS20*Sb20$
+RR:expand(Bb20)$
+stringout(Ropfile,"Bb20")$
+ NZPR(1,133)$
+Bb21:h1.Sb21-Sb21.h1-bS21*Sb21$
+RR:expand(Bb21)$
+stringout(Ropfile,"Bb21")$
+ NZPR(1,133)$
+Bb22:h1.Sb22-Sb22.h1-bS22*Sb22$
+RR:expand(Bb22)$
+stringout(Ropfile,"Bb22")$
+ NZPR(1,133)$
+Bb23:h1.Sb23-Sb23.h1-bS23*Sb23$
+RR:expand(Bb23)$
+stringout(Ropfile,"Bb23")$
+ NZPR(1,133)$
+Bc20:h1.Sc20-Sc20.h1-cS20*Sc20$
+RR:expand(Bc20)$
+stringout(Ropfile,"Bc20")$
+ NZPR(1,133)$
+Bc21:h1.Sc21-Sc21.h1-cS21*Sc21$
+RR:expand(Bc21)$
+stringout(Ropfile,"Bc21")$
+ NZPR(1,133)$
+Bc22:h1.Sc22-Sc22.h1-cS22*Sc22$
+RR:expand(Bc22)$
+stringout(Ropfile,"Bc22")$
+ NZPR(1,133)$
+Bc23:h1.Sc23-Sc23.h1-cS23*Sc23$
+RR:expand(Bc23)$
+stringout(Ropfile,"Bc23")$
+ NZPR(1,133)$
+Bd20:h1.Sd20-Sd20.h1-dS20*Sd20$
+RR:expand(Bd20)$
+stringout(Ropfile,"Bd20")$
+ NZPR(1,133)$
+Bd21:h1.Sd21-Sd21.h1-dS21*Sd21$
+RR:expand(Bd21)$
+stringout(Ropfile,"Bd21")$
+ NZPR(1,133)$
+Bd22:h1.Sd22-Sd22.h1-dS22*Sd22$
+RR:expand(Bd22)$
+stringout(Ropfile,"Bd22")$
+ NZPR(1,133)$
+Bd23:h1.Sd23-Sd23.h1-dS23*Sd23$
+RR:expand(Bd23)$
+stringout(Ropfile,"Bd23")$
+ NZPR(1,133)$
+
+Ba30:h1.Sa30-Sa30.h1-aS30*Sa30$
+RR:expand(Ba30)$
+stringout(Ropfile,"Ba30")$
+ NZPR(1,133)$
+Ba31:h1.Sa31-Sa31.h1-aS31*Sa31$
+RR:expand(Ba31)$
+stringout(Ropfile,"Ba31")$
+ NZPR(1,133)$
+Ba32:h1.Sa32-Sa32.h1-aS32*Sa32$
+RR:expand(Ba32)$
+stringout(Ropfile,"Ba32")$
+ NZPR(1,133)$
+Ba33:h1.Sa33-Sa33.h1-aS33*Sa33$
+RR:expand(Ba33)$
+stringout(Ropfile,"Ba33")$
+ NZPR(1,133)$
+Bb30:h1.Sb30-Sb30.h1-bS30*Sb30$
+RR:expand(Bb30)$
+stringout(Ropfile,"Bb30")$
+ NZPR(1,133)$
+Bb31:h1.Sb31-Sb31.h1-bS31*Sb31$
+RR:expand(Bb31)$
+stringout(Ropfile,"Bb31")$
+ NZPR(1,133)$
+Bb32:h1.Sb32-Sb32.h1-bS32*Sb32$
+RR:expand(Bb32)$
+stringout(Ropfile,"Bb32")$
+ NZPR(1,133)$
+Bb33:h1.Sb33-Sb33.h1-bS33*Sb33$
+RR:expand(Bb33)$
+stringout(Ropfile,"Bb33")$
+ NZPR(1,133)$
+Bc30:h1.Sc30-Sc30.h1-cS30*Sc30$
+RR:expand(Bc30)$
+stringout(Ropfile,"Bc30")$
+ NZPR(1,133)$
+Bc31:h1.Sc31-Sc31.h1-cS31*Sc31$
+RR:expand(Bc31)$
+stringout(Ropfile,"Bc31")$
+ NZPR(1,133)$
+Bc32:h1.Sc32-Sc32.h1-cS32*Sc32$
+RR:expand(Bc32)$
+stringout(Ropfile,"Bc32")$
+ NZPR(1,133)$
+Bc33:h1.Sc33-Sc33.h1-cS33*Sc33$
+RR:expand(Bc33)$
+stringout(Ropfile,"Bc33")$
+ NZPR(1,133)$
+Bd30:h1.Sd30-Sd30.h1-dS30*Sd30$
+RR:expand(Bd30)$
+stringout(Ropfile,"Bd30")$
+ NZPR(1,133)$
+Bd31:h1.Sd31-Sd31.h1-dS31*Sd31$
+RR:expand(Bd31)$
+stringout(Ropfile,"Bd31")$
+ NZPR(1,133)$
+Bd32:h1.Sd32-Sd32.h1-dS32*Sd32$
+RR:expand(Bd32)$
+stringout(Ropfile,"Bd32")$
+ NZPR(1,133)$
+Bd33:h1.Sd33-Sd33.h1-dS33*Sd33$
+RR:expand(Bd33)$
+stringout(Ropfile,"Bd33")$
+ NZPR(1,133)$
+
+/* root system  Theorem 14.8. */
+A1:hu0-hu1$
+A2:hu1-hu2$
+A3:hu2-hu3$
+A4:hu3+Rτ2/τ2$
+A5:1/2*(-hu0-hu1-hu2+hu3)-Rτ1/τ1$
+A6:1/2*(hu0+hu1+hu2+hu3)+(Rτ1/τ1-Rτ2/τ2)$
+A1:A1/24$
+A2:A2/24$
+A3:A3/24$
+A4:A4/24$
+A5:A5/24$
+A6:A6/24$
+Y:A1+2*A2+3*A3+2*A4+2*A5+A6$
+print(" root R6C")$
+R:h1.A1$
+expand(mattrace(R));
+R:h1.A2$
+expand(mattrace(R));
+R:h1.A3$
+expand(mattrace(R));
+R:h1.A4$
+expand(mattrace(R));
+R:h1.A5$
+expand(mattrace(R));
+R:h1.A6$
+expand(mattrace(R));
+
+/* Killing form lemma 14.6. */
+print("Killing form R6C in R7C")$
+B6(X,W):=2/3*expand(mattrace(X.W));
+print("A1,A1")$
+B6(A1,A1);
+print("A1,A2")$
+B6(A1,A2);
+print("A1,A3")$
+B6(A1,A3);
+print("A1,A4")$
+B6(A1,A4);
+print("A1,A5")$
+B6(A1,A5);
+print("A1,A6")$
+B6(A1,A6);
+print("A2,A2")$
+B6(A2,A2);
+print("A2,A3")$
+B6(A2,A3);
+print("A2,A4")$
+B6(A2,A4);
+print("A2,A5")$
+B6(A2,A5);
+print("A2,A6")$
+B6(A2,A6);
+print("A3,A3")$
+B6(A3,A3);
+print("A3,A4")$
+B6(A3,A4);
+print("A3,A5")$
+B6(A3,A5);
+print("A3,A6")$
+B6(A3,A6);
+print("A4,A4")$
+B6(A4,A4);
+print("A4,A5")$
+B6(A4,A5);
+print("A4,A6")$
+B6(A4,A6);
+print("A5,A5")$
+B6(A5,A5);
+print("A5,A6")$
+B6(A5,A6);
+print("A6,A6")$
+B6(A6,A6);
+print("-μ,A1")$
+B6(-Y,A1);
+print("-μ,A2")$
+B6(-Y,A2);
+print("-μ,A3")$
+B6(-Y,A3);
+print("-μ,A4")$
+B6(-Y,A4);
+print("-μ,A5")$
+B6(-Y,A5);
+print("-μ,A6")$
+B6(-Y,A6);
+print("-μ,-μ")$
+B6(-Y,-Y);
+  
+/* roots  Lemma 16.9. */
+hu0:-%i*Rd04/d04$
+hu1:-%i*Rd15/d15$
+hu2:-%i*Rd26/d26$
+hu3:-%i*Rd37/d37$
+
+hs1:λ0*hu0+λ1*hu1+λ2*hu2+λ3*hu3$
+H1:μ1*Rτ1/τ1+μ2*Rτ2/τ2$
+V1:v1*Rρ1/ρ1$
+R1:r1*Rr1/r1$
+h1:hs1+H1+V1$
+
+hs2:λ4*hu0+λ5*hu1+λ6*hu2+λ7*hu3$
+H2:μ3*Rτ1/τ1+μ4*Rτ2/τ2$
+V2:v2*Rρ1/ρ1$
+R2:r2*Rr1/r1$
+h2:hs2+H2+V2$
+
+Sa01:Rα1/α1$
+Sa02:Rα2/α2$
+Sa03:Rα3/α3$
+aS01:(μ1+2/3*v1)$
+aS02:(μ2+2/3*v1)$
+aS03:(-μ1-μ2+2/3*v1)$
+
+Sb01:Rβ1/β1$
+Sb02:Rβ2/β2$
+Sb03:Rβ3/β3$
+bS01:-(μ1+2/3*v1)$
+bS02:-(μ2+2/3*v1)$
+bS03:-(-μ1-μ2+2/3*v1)$
+
+Sa10:Ra10/a10+%i*Ra14/a14$
+Sa11:Ra11/a11+%i*Ra15/a15$
+Sa12:Ra12/a12+%i*Ra16/a16$
+Sa13:Ra13/a13+%i*Ra17/a17$
+Sa40:Ra10/a10-%i*Ra14/a14$
+Sa41:Ra11/a11-%i*Ra15/a15$
+Sa42:Ra12/a12-%i*Ra16/a16$
+Sa43:Ra13/a13-%i*Ra17/a17$
+aS10:λ0-(1/2*μ1-2/3*v1)$
+aS11:λ1-(1/2*μ1-2/3*v1)$
+aS12:λ2-(1/2*μ1-2/3*v1)$
+aS13:λ3-(1/2*μ1-2/3*v1)$
+aS40:-λ0-(1/2*μ1-2/3*v1)$
+aS41:-λ1-(1/2*μ1-2/3*v1)$
+aS42:-λ2-(1/2*μ1-2/3*v1)$
+aS43:-λ3-(1/2*μ1-2/3*v1)$
+
+Sb10:Rb10/b10+%i*Rb14/b14$
+Sb11:Rb11/b11+%i*Rb15/b15$
+Sb12:Rb12/b12+%i*Rb16/b16$
+Sb13:Rb13/b13+%i*Rb17/b17$
+Sb40:Rb10/b10-%i*Rb14/b14$
+Sb41:Rb11/b11-%i*Rb15/b15$
+Sb42:Rb12/b12-%i*Rb16/b16$
+Sb43:Rb13/b13-%i*Rb17/b17$
+bS10:λ0+(1/2*μ1-2/3*v1)$
+bS11:λ1+(1/2*μ1-2/3*v1)$
+bS12:λ2+(1/2*μ1-2/3*v1)$
+bS13:λ3+(1/2*μ1-2/3*v1)$
+bS40:-λ0+(1/2*μ1-2/3*v1)$
+bS41:-λ1+(1/2*μ1-2/3*v1)$
+bS42:-λ2+(1/2*μ1-2/3*v1)$
+bS43:-λ3+(1/2*μ1-2/3*v1)$
+
+Sa20:Ra20/a20+%i*Ra24/a24$
+Sa21:Ra21/a21+%i*Ra25/a25$
+Sa22:Ra22/a22+%i*Ra26/a26$
+Sa23:Ra23/a23+%i*Ra27/a27$
+Sa50:Ra20/a20-%i*Ra24/a24$
+Sa51:Ra21/a21-%i*Ra25/a25$
+Sa52:Ra22/a22-%i*Ra26/a26$
+Sa53:Ra23/a23-%i*Ra27/a27$
+aS20:1/2*(-λ0-λ1+λ2-λ3)-(1/2*μ2-2/3*v1)$
+aS21:1/2*(λ0+λ1+λ2-λ3)-(1/2*μ2-2/3*v1)$
+aS22:1/2*(-λ0+λ1+λ2+λ3)-(1/2*μ2-2/3*v1)$
+aS23:1/2*(λ0-λ1+λ2+λ3)-(1/2*μ2-2/3*v1)$
+aS50:-1/2*(-λ0-λ1+λ2-λ3)-(1/2*μ2-2/3*v1)$
+aS51:-1/2*(λ0+λ1+λ2-λ3)-(1/2*μ2-2/3*v1)$ 
+aS52:-1/2*(-λ0+λ1+λ2+λ3)-(1/2*μ2-2/3*v1)$ 
+aS53:-1/2*(λ0-λ1+λ2+λ3)-(1/2*μ2-2/3*v1)$ 
+
+Sb20:Rb20/b20+%i*Rb24/b24$
+Sb21:Rb21/b21+%i*Rb25/b25$
+Sb22:Rb22/b22+%i*Rb26/b26$
+Sb23:Rb23/b23+%i*Rb27/b27$
+Sb50:Rb20/b20-%i*Rb24/b24$
+Sb51:Rb21/b21-%i*Rb25/b25$
+Sb52:Rb22/b22-%i*Rb26/b26$
+Sb53:Rb23/b23-%i*Rb27/b27$
+bS20:1/2*(-λ0-λ1+λ2-λ3)+(1/2*μ2-2/3*v1)$
+bS21:1/2*(λ0+λ1+λ2-λ3)+(1/2*μ2-2/3*v1)$
+bS22:1/2*(-λ0+λ1+λ2+λ3)+(1/2*μ2-2/3*v1)$
+bS23:1/2*(λ0-λ1+λ2+λ3)+(1/2*μ2-2/3*v1)$
+bS50:-1/2*(-λ0-λ1+λ2-λ3)+(1/2*μ2-2/3*v1)$
+bS51:-1/2*(λ0+λ1+λ2-λ3)+(1/2*μ2-2/3*v1)$ 
+bS52:-1/2*(-λ0+λ1+λ2+λ3)+(1/2*μ2-2/3*v1)$ 
+bS53:-1/2*(λ0-λ1+λ2+λ3)+(1/2*μ2-2/3*v1)$ 
+
+Sa30:Ra30/a30+%i*Ra34/a34$
+Sa31:Ra31/a31+%i*Ra35/a35$
+Sa32:Ra32/a32+%i*Ra36/a36$
+Sa33:Ra33/a33+%i*Ra37/a37$
+Sa60:Ra30/a30-%i*Ra34/a34$
+Sa61:Ra31/a31-%i*Ra35/a35$
+Sa62:Ra32/a32-%i*Ra36/a36$
+Sa63:Ra33/a33-%i*Ra37/a37$
+aS30:1/2*(-λ0+λ1-λ2+λ3)+(1/2*μ1+1/2*μ2+2/3*v1)$
+aS31:1/2*(-λ0+λ1+λ2-λ3)+(1/2*μ1+1/2*μ2+2/3*v1)$
+aS32:1/2*(λ0+λ1+λ2+λ3)+(1/2*μ1+1/2*μ2+2/3*v1)$
+aS33:1/2*(-λ0-λ1+λ2+λ3)+(1/2*μ1+1/2*μ2+2/3*v1)$
+aS60:-1/2*(-λ0+λ1-λ2+λ3)+(1/2*μ1+1/2*μ2+2/3*v1)$
+aS61:-1/2*(-λ0+λ1+λ2-λ3)+(1/2*μ1+1/2*μ2+2/3*v1)$
+aS62:-1/2*(λ0+λ1+λ2+λ3)+(1/2*μ1+1/2*μ2+2/3*v1)$
+aS63:-1/2*(-λ0-λ1+λ2+λ3)+(1/2*μ1+1/2*μ2+2/3*v1)$
+
+Sb30:Rb30/b30+%i*Rb34/b34$
+Sb31:Rb31/b31+%i*Rb35/b35$
+Sb32:Rb32/b32+%i*Rb36/b36$
+Sb33:Rb33/b33+%i*Rb37/b37$
+Sb60:Rb30/b30-%i*Rb34/b34$
+Sb61:Rb31/b31-%i*Rb35/b35$
+Sb62:Rb32/b32-%i*Rb36/b36$
+Sb63:Rb33/b33-%i*Rb37/b37$
+bS30:1/2*(-λ0+λ1-λ2+λ3)-(1/2*μ1+1/2*μ2+2/3*v1)$
+bS31:1/2*(-λ0+λ1+λ2-λ3)-(1/2*μ1+1/2*μ2+2/3*v1)$
+bS32:1/2*(λ0+λ1+λ2+λ3)-(1/2*μ1+1/2*μ2+2/3*v1)$
+bS33:1/2*(-λ0-λ1+λ2+λ3)-(1/2*μ1+1/2*μ2+2/3*v1)$
+bS60:-1/2*(-λ0+λ1-λ2+λ3)-(1/2*μ1+1/2*μ2+2/3*v1)$
+bS61:-1/2*(-λ0+λ1+λ2-λ3)-(1/2*μ1+1/2*μ2+2/3*v1)$
+bS62:-1/2*(λ0+λ1+λ2+λ3)-(1/2*μ1+1/2*μ2+2/3*v1)$
+bS63:-1/2*(-λ0-λ1+λ2+λ3)-(1/2*μ1+1/2*μ2+2/3*v1)$
+
+Ba01:h1.Sa01-Sa01.h1-aS01*Sa01$
+RR:expand(Ba01)$
+stringout(Ropfile,"Ba01")$
+ NZPR(1,133)$
+Ba02:h1.Sa02-Sa02.h1-aS02*Sa02$
+RR:expand(Ba02)$
+stringout(Ropfile,"Ba02")$
+ NZPR(1,133)$
+Ba03:h1.Sa03-Sa03.h1-aS03*Sa03$
+RR:expand(Ba03)$
+stringout(Ropfile,"Ba03")$
+ NZPR(1,133)$
+
+Bb01:h1.Sb01-Sb01.h1-bS01*Sb01$
+RR:expand(Bb01)$
+stringout(Ropfile,"Bb01")$
+ NZPR(1,133)$
+Bb02:h1.Sb02-Sb02.h1-bS02*Sb02$
+RR:expand(Bb02)$
+stringout(Ropfile,"Bb02")$
+ NZPR(1,133)$
+Bb03:h1.Sb03-Sb03.h1-bS03*Sb03$
+RR:expand(Bb03)$
+stringout(Ropfile,"Bb03")$
+ NZPR(1,133)$
+
+Ba10:h1.Sa10-Sa10.h1-aS10*Sa10$
+RR:expand(Ba10)$
+stringout(Ropfile,"Ba10")$
+ NZPR(1,133)$
+Ba11:h1.Sa11-Sa11.h1-aS11*Sa11$
+RR:expand(Ba11)$
+stringout(Ropfile,"Ba11")$
+ NZPR(1,133)$
+Ba12:h1.Sa12-Sa12.h1-aS12*Sa12$
+RR:expand(Ba12)$
+stringout(Ropfile,"Ba12")$
+ NZPR(1,133)$
+Ba13:h1.Sa13-Sa13.h1-aS13*Sa13$
+RR:expand(Ba13)$
+stringout(Ropfile,"Ba13")$
+ NZPR(1,133)$
+Ba40:h1.Sa40-Sa40.h1-aS40*Sa40$
+RR:expand(Ba40)$
+stringout(Ropfile,"Ba40")$
+ NZPR(1,133)$
+Ba41:h1.Sa41-Sa41.h1-aS41*Sa41$
+RR:expand(Ba41)$
+stringout(Ropfile,"Ba41")$
+ NZPR(1,133)$
+Ba42:h1.Sa42-Sa42.h1-aS42*Sa42$
+RR:expand(Ba42)$
+stringout(Ropfile,"Ba42")$
+ NZPR(1,133)$
+Ba43:h1.Sa43-Sa43.h1-aS43*Sa43$
+RR:expand(Ba43)$
+stringout(Ropfile,"Ba43")$
+ NZPR(1,133)$
+
+Bb10:h1.Sb10-Sb10.h1-bS10*Sb10$
+RR:expand(Bb10)$
+stringout(Ropfile,"Bb10")$
+ NZPR(1,133)$
+Bb11:h1.Sb11-Sb11.h1-bS11*Sb11$
+RR:expand(Bb11)$
+stringout(Ropfile,"Bb11")$
+ NZPR(1,133)$
+Bb12:h1.Sb12-Sb12.h1-bS12*Sb12$
+RR:expand(Bb12)$
+stringout(Ropfile,"Bb12")$
+ NZPR(1,133)$
+Bb13:h1.Sb13-Sb13.h1-bS13*Sb13$
+RR:expand(Bb13)$
+stringout(Ropfile,"Bb13")$
+ NZPR(1,133)$
+Bb40:h1.Sb40-Sb40.h1-bS40*Sb40$
+RR:expand(Bb40)$
+stringout(Ropfile,"Bb40")$
+ NZPR(1,133)$
+Bb41:h1.Sb41-Sb41.h1-bS41*Sb41$
+RR:expand(Bb41)$
+stringout(Ropfile,"Bb41")$
+ NZPR(1,133)$
+Bb42:h1.Sb42-Sb42.h1-bS42*Sb42$
+RR:expand(Bb42)$
+stringout(Ropfile,"Bb42")$
+ NZPR(1,133)$
+Bb43:h1.Sb43-Sb43.h1-bS43*Sb43$
+RR:expand(Bb43)$
+stringout(Ropfile,"Bb43")$
+ NZPR(1,133)$
+
+Ba20:h1.Sa20-Sa20.h1-aS20*Sa20$
+RR:expand(Ba20)$
+stringout(Ropfile,"Ba20")$
+ NZPR(1,133)$
+Ba21:h1.Sa21-Sa21.h1-aS21*Sa21$
+RR:expand(Ba21)$
+stringout(Ropfile,"Ba21")$
+ NZPR(1,133)$
+Ba22:h1.Sa22-Sa22.h1-aS22*Sa22$
+RR:expand(Ba22)$
+stringout(Ropfile,"Ba22")$
+ NZPR(1,133)$
+Ba23:h1.Sa23-Sa23.h1-aS23*Sa23$
+RR:expand(Ba23)$
+stringout(Ropfile,"Ba23")$
+ NZPR(1,133)$
+Ba50:h1.Sa50-Sa50.h1-aS50*Sa50$
+RR:expand(Ba50)$
+stringout(Ropfile,"Ba50")$
+ NZPR(1,133)$
+Ba51:h1.Sa51-Sa51.h1-aS51*Sa51$
+RR:expand(Ba51)$
+stringout(Ropfile,"Ba51")$
+ NZPR(1,133)$
+Ba52:h1.Sa52-Sa52.h1-aS52*Sa52$
+RR:expand(Ba52)$
+stringout(Ropfile,"Ba52")$
+ NZPR(1,133)$
+Ba53:h1.Sa53-Sa53.h1-aS53*Sa53$
+RR:expand(Ba53)$
+stringout(Ropfile,"Ba53")$
+ NZPR(1,133)$
+
+Bb20:h1.Sb20-Sb20.h1-bS20*Sb20$
+RR:expand(Bb20)$
+stringout(Ropfile,"Bb20")$
+ NZPR(1,133)$
+Bb21:h1.Sb21-Sb21.h1-bS21*Sb21$
+RR:expand(Bb21)$
+stringout(Ropfile,"Bb21")$
+ NZPR(1,133)$
+Bb22:h1.Sb22-Sb22.h1-bS22*Sb22$
+RR:expand(Bb22)$
+stringout(Ropfile,"Bb22")$
+ NZPR(1,133)$
+Bb23:h1.Sb23-Sb23.h1-bS23*Sb23$
+RR:expand(Bb23)$
+stringout(Ropfile,"Bb23")$
+ NZPR(1,133)$
+Bb50:h1.Sb50-Sb50.h1-bS50*Sb50$
+RR:expand(Bb50)$
+stringout(Ropfile,"Bb50")$
+ NZPR(1,133)$
+Bb51:h1.Sb51-Sb51.h1-bS51*Sb51$
+RR:expand(Bb51)$
+stringout(Ropfile,"Bb51")$
+ NZPR(1,133)$
+Bb52:h1.Sb52-Sb52.h1-bS52*Sb52$
+RR:expand(Bb52)$
+stringout(Ropfile,"Bb52")$
+ NZPR(1,133)$
+Bb53:h1.Sb53-Sb53.h1-bS53*Sb53$
+RR:expand(Bb53)$
+stringout(Ropfile,"Bb53")$
+ NZPR(1,133)$
+
+Ba30:h1.Sa30-Sa30.h1-aS30*Sa30$
+RR:expand(Ba30)$
+stringout(Ropfile,"Ba30")$
+ NZPR(1,133)$
+Ba31:h1.Sa31-Sa31.h1-aS31*Sa31$
+RR:expand(Ba31)$
+stringout(Ropfile,"Ba31")$
+ NZPR(1,133)$
+Ba32:h1.Sa32-Sa32.h1-aS32*Sa32$
+RR:expand(Ba32)$
+stringout(Ropfile,"Ba32")$
+ NZPR(1,133)$
+Ba33:h1.Sa33-Sa33.h1-aS33*Sa33$
+RR:expand(Ba33)$
+stringout(Ropfile,"Ba33")$
+ NZPR(1,133)$
+Ba60:h1.Sa60-Sa60.h1-aS60*Sa60$
+RR:expand(Ba60)$
+stringout(Ropfile,"Ba60")$
+ NZPR(1,133)$
+Ba61:h1.Sa61-Sa61.h1-aS61*Sa61$
+RR:expand(Ba61)$
+stringout(Ropfile,"Ba61")$
+ NZPR(1,133)$
+Ba62:h1.Sa62-Sa62.h1-aS62*Sa62$
+RR:expand(Ba62)$
+stringout(Ropfile,"Ba62")$
+ NZPR(1,133)$
+Ba63:h1.Sa63-Sa63.h1-aS63*Sa63$
+RR:expand(Ba63)$
+stringout(Ropfile,"Ba63")$
+ NZPR(1,133)$
+
+Bb30:h1.Sb30-Sb30.h1-bS30*Sb30$
+RR:expand(Bb30)$
+stringout(Ropfile,"Bb30")$
+ NZPR(1,133)$
+Bb31:h1.Sb31-Sb31.h1-bS31*Sb31$
+RR:expand(Bb31)$
+stringout(Ropfile,"Bb31")$
+ NZPR(1,133)$
+Bb32:h1.Sb32-Sb32.h1-bS32*Sb32$
+RR:expand(Bb32)$
+stringout(Ropfile,"Bb32")$
+ NZPR(1,133)$
+Bb33:h1.Sb33-Sb33.h1-bS33*Sb33$
+RR:expand(Bb33)$
+stringout(Ropfile,"Bb33")$
+ NZPR(1,133)$
+Bb60:h1.Sb60-Sb60.h1-bS60*Sb60$
+RR:expand(Bb60)$
+stringout(Ropfile,"Bb60")$
+ NZPR(1,133)$
+Bb61:h1.Sb61-Sb61.h1-bS61*Sb61$
+RR:expand(Bb61)$
+stringout(Ropfile,"Bb61")$
+ NZPR(1,133)$
+Bb62:h1.Sb62-Sb62.h1-bS62*Sb62$
+RR:expand(Bb62)$
+stringout(Ropfile,"Bb62")$
+ NZPR(1,133)$
+Bb63:h1.Sb63-Sb63.h1-bS63*Sb63$
+RR:expand(Bb63)$
+stringout(Ropfile,"Bb63")$
+ NZPR(1,133)$
+
+/* root system Theorem 15.10. */
+expand(mattrace(h1.h2))$
+A1:hu0-hu1$
+A2:hu1-hu2$
+A3:hu2-hu3$
+A4:-hu0-hu1-hu2+hu3-2*Rτ1/τ1$
+A5:hu0+hu1+hu2+hu3+2*Rτ1/τ1-2*Rτ2/τ2$
+A6:-Rτ1/τ1+2*Rτ2/τ2+3/2*Rρ1/ρ1$$
+A7:Rτ1/τ1+Rτ2/τ2-3/2*Rρ1/ρ1$
+
+A1:A1/36$
+A2:A2/36$
+A3:A3/36$
+A4:A4/72$
+A5:A5/72$
+A6:A6/54$
+A7:A7/54$
+
+Y:A1+2*A2+3*A3+4*A4+3*A5+2*A6+2*A7$
+print("root R7C")$
+expand(mattrace(h1.A1));
+expand(mattrace(h1.A2));
+expand(mattrace(h1.A3));
+expand(mattrace(h1.A4));
+expand(mattrace(h1.A5));
+expand(mattrace(h1.A6));
+expand(mattrace(h1.A7));
+
+/* Killing form  Lemma 16.8. */
+print("Killing form R7C")$
+B7(X,W):=expand(mattrace(X.W))$
+print("A1,A1")$
+B7(A1,A1);
+print("A1,A2")$
+B7(A1,A2);
+print("A1,A3")$
+B7(A1,A3);
+print("A1,A4")$
+B7(A1,A4);
+print("A1,A5")$
+B7(A1,A5);
+print("A1,A6")$
+B7(A1,A6);
+print("A1,A7")$
+B7(A1,A7);
+print("A2,A2")$
+B7(A2,A2);
+print("A2,A3")$
+B7(A2,A3);
+print("A2,A4")$
+B7(A2,A4);
+print("A2,A5")$
+B7(A2,A5);
+print("A2,A6")$
+B7(A2,A6);
+print("A2,A7")$
+B7(A2,A7);
+print("A3,A3")$
+B7(A3,A3);
+print("A3,A4")$
+B7(A3,A4);
+print("A3,A5")$
+B7(A3,A5);
+print("A3,A6")$
+B7(A3,A6);
+print("A3,A7")$
+B7(A3,A7);
+print("A4,A4")$
+B7(A4,A4);
+print("A4,A5")$
+B7(A4,A5);
+print("A4,A6")$
+B7(A4,A6);
+print("A4,A7")$
+B7(A4,A7);
+print("A5,A5")$
+B7(A5,A5);
+print("A5,A6")$
+B7(A5,A6);
+print("A5,A7")$
+B7(A5,A7);
+print("A6,A6")$
+B7(A6,A6);
+print("A6,A7")$
+B7(A6,A7);
+print("A7,A7")$
+B7(A7,A7);
+print("-μ,A1")$
+B7(-Y,A1);
+print("-μ,A2")$
+B7(-Y,A2);
+print("-μ,A3")$
+B7(-Y,A3);
+print("-μ,A4")$
+B7(-Y,A4);
+print("-μ,A5")$
+B7(-Y,A5);
+print("-μ,A6")$
+B7(-Y,A6);
+print("-μ,A7")$
+B7(-Y,A7);
+print("-μ,-μ")$
+B7(-Y,-Y);
+
+

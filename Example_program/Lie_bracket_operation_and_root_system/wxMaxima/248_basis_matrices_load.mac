@@ -1,0 +1,304 @@
+/* Directory where the matrix definition files are stored */
+/* Please change to the folder you like  */
+rdir:"/mnt/UandW"$
+if maxima_tempdir # "/tmp" then rdir:"F:"$
+
+/* Output temporary directory set */
+/* Please change to the folder you like  */
+tempdir:sconcat(rdir,"/LieG/E8/Digitalization/")$ 
+Bopfile:sconcat(tempdir,"NZP_Bop.txt")$
+Ropfile:sconcat(tempdir,"NZP_Rop.txt")$
+
+sfile:sconcat(tempdir,"DEF/###.mac")$
+file_search_maxima: append (file_search_maxima,[sfile])$
+
+/* load of Matrix elements */
+/* RD  */
+load("ade8cRd01.mac")$
+load("ade8cRd02.mac")$
+load("ade8cRd03.mac")$
+load("ade8cRd04.mac")$
+load("ade8cRd05.mac")$
+load("ade8cRd06.mac")$
+load("ade8cRd07.mac")$
+load("ade8cRd12.mac")$
+load("ade8cRd13.mac")$
+load("ade8cRd14.mac")$
+load("ade8cRd15.mac")$
+load("ade8cRd16.mac")$
+load("ade8cRd17.mac")$
+load("ade8cRd23.mac")$
+load("ade8cRd24.mac")$
+load("ade8cRd25.mac")$
+load("ade8cRd26.mac")$
+load("ade8cRd27.mac")$
+load("ade8cRd34.mac")$
+load("ade8cRd35.mac")$
+load("ade8cRd36.mac")$
+load("ade8cRd37.mac")$
+load("ade8cRd45.mac")$
+load("ade8cRd46.mac")$
+load("ade8cRd47.mac")$
+load("ade8cRd56.mac")$
+load("ade8cRd57.mac")$
+load("ade8cRd67.mac")$
+/* RM */
+load("ade8cRm10.mac")$
+load("ade8cRm11.mac")$
+load("ade8cRm12.mac")$
+load("ade8cRm13.mac")$
+load("ade8cRm14.mac")$
+load("ade8cRm15.mac")$
+load("ade8cRm16.mac")$
+load("ade8cRm17.mac")$
+load("ade8cRm20.mac")$
+load("ade8cRm21.mac")$
+load("ade8cRm22.mac")$
+load("ade8cRm23.mac")$
+load("ade8cRm24.mac")$
+load("ade8cRm25.mac")$
+load("ade8cRm26.mac")$
+load("ade8cRm27.mac")$
+load("ade8cRm30.mac")$
+load("ade8cRm31.mac")$
+load("ade8cRm32.mac")$
+load("ade8cRm33.mac")$
+load("ade8cRm34.mac")$
+load("ade8cRm35.mac")$
+load("ade8cRm36.mac")$
+load("ade8cRm37.mac")$
+/* RT */
+load("ade8cRtt1.mac")$
+load("ade8cRtt2.mac")$
+load("ade8cRt10.mac")$
+load("ade8cRt11.mac")$
+load("ade8cRt12.mac")$
+load("ade8cRt13.mac")$
+load("ade8cRt14.mac")$
+load("ade8cRt15.mac")$
+load("ade8cRt16.mac")$
+load("ade8cRt17.mac")$
+load("ade8cRt20.mac")$
+load("ade8cRt21.mac")$
+load("ade8cRt22.mac")$
+load("ade8cRt23.mac")$
+load("ade8cRt24.mac")$
+load("ade8cRt25.mac")$
+load("ade8cRt26.mac")$
+load("ade8cRt27.mac")$
+load("ade8cRt30.mac")$
+load("ade8cRt31.mac")$
+load("ade8cRt32.mac")$
+load("ade8cRt33.mac")$
+load("ade8cRt34.mac")$
+load("ade8cRt35.mac")$
+load("ade8cRt36.mac")$
+load("ade8cRt37.mac")$
+/* RA */
+load("ade8cRaa1.mac")$
+load("ade8cRaa2.mac")$
+load("ade8cRaa3.mac")$
+load("ade8cRa10.mac")$
+load("ade8cRa11.mac")$
+load("ade8cRa12.mac")$
+load("ade8cRa13.mac")$
+load("ade8cRa14.mac")$
+load("ade8cRa15.mac")$
+load("ade8cRa16.mac")$
+load("ade8cRa17.mac")$
+load("ade8cRa20.mac")$
+load("ade8cRa21.mac")$
+load("ade8cRa22.mac")$
+load("ade8cRa23.mac")$
+load("ade8cRa24.mac")$
+load("ade8cRa25.mac")$
+load("ade8cRa26.mac")$
+load("ade8cRa27.mac")$
+load("ade8cRa30.mac")$
+load("ade8cRa31.mac")$
+load("ade8cRa32.mac")$
+load("ade8cRa33.mac")$
+load("ade8cRa34.mac")$
+load("ade8cRa35.mac")$
+load("ade8cRa36.mac")$
+load("ade8cRa37.mac")$
+/* RB */
+load("ade8cRbb1.mac")$
+load("ade8cRbb2.mac")$
+load("ade8cRbb3.mac")$
+load("ade8cRb10.mac")$
+load("ade8cRb11.mac")$
+load("ade8cRb12.mac")$
+load("ade8cRb13.mac")$
+load("ade8cRb14.mac")$
+load("ade8cRb15.mac")$
+load("ade8cRb16.mac")$
+load("ade8cRb17.mac")$
+load("ade8cRb20.mac")$
+load("ade8cRb21.mac")$
+load("ade8cRb22.mac")$
+load("ade8cRb23.mac")$
+load("ade8cRb24.mac")$
+load("ade8cRb25.mac")$
+load("ade8cRb26.mac")$
+load("ade8cRb27.mac")$
+load("ade8cRb30.mac")$
+load("ade8cRb31.mac")$
+load("ade8cRb32.mac")$
+load("ade8cRb33.mac")$
+load("ade8cRb34.mac")$
+load("ade8cRb35.mac")$
+load("ade8cRb36.mac")$
+load("ade8cRb37.mac")$
+/* Rρ */
+load("ade8cRp1.mac")$
+/* RX */
+load("ade8cRxx1.mac")$
+load("ade8cRxx2.mac")$
+load("ade8cRxx3.mac")$
+load("ade8cRx10.mac")$
+load("ade8cRx11.mac")$
+load("ade8cRx12.mac")$
+load("ade8cRx13.mac")$
+load("ade8cRx14.mac")$
+load("ade8cRx15.mac")$
+load("ade8cRx16.mac")$
+load("ade8cRx17.mac")$
+load("ade8cRx20.mac")$
+load("ade8cRx21.mac")$
+load("ade8cRx22.mac")$
+load("ade8cRx23.mac")$
+load("ade8cRx24.mac")$
+load("ade8cRx25.mac")$
+load("ade8cRx26.mac")$
+load("ade8cRx27.mac")$
+load("ade8cRx30.mac")$
+load("ade8cRx31.mac")$
+load("ade8cRx32.mac")$
+load("ade8cRx33.mac")$
+load("ade8cRx34.mac")$
+load("ade8cRx35.mac")$
+load("ade8cRx36.mac")$
+load("ade8cRx37.mac")$
+/* RY */
+load("ade8cRyy1.mac")$
+load("ade8cRyy2.mac")$
+load("ade8cRyy3.mac")$
+load("ade8cRy10.mac")$
+load("ade8cRy11.mac")$
+load("ade8cRy12.mac")$
+load("ade8cRy13.mac")$
+load("ade8cRy14.mac")$
+load("ade8cRy15.mac")$
+load("ade8cRy16.mac")$
+load("ade8cRy17.mac")$
+load("ade8cRy20.mac")$
+load("ade8cRy21.mac")$
+load("ade8cRy22.mac")$
+load("ade8cRy23.mac")$
+load("ade8cRy24.mac")$
+load("ade8cRy25.mac")$
+load("ade8cRy26.mac")$
+load("ade8cRy27.mac")$
+load("ade8cRy30.mac")$
+load("ade8cRy31.mac")$
+load("ade8cRy32.mac")$
+load("ade8cRy33.mac")$
+load("ade8cRy34.mac")$
+load("ade8cRy35.mac")$
+load("ade8cRy36.mac")$
+load("ade8cRy37.mac")$
+/* Rξ Rη */
+load("ade8cRgu1.mac")$
+load("ade8cRea1.mac")$
+/* RZ */
+load("ade8cRzz1.mac")$
+load("ade8cRzz2.mac")$
+load("ade8cRzz3.mac")$
+load("ade8cRz10.mac")$
+load("ade8cRz11.mac")$
+load("ade8cRz12.mac")$
+load("ade8cRz13.mac")$
+load("ade8cRz14.mac")$
+load("ade8cRz15.mac")$
+load("ade8cRz16.mac")$
+load("ade8cRz17.mac")$
+load("ade8cRz20.mac")$
+load("ade8cRz21.mac")$
+load("ade8cRz22.mac")$
+load("ade8cRz23.mac")$
+load("ade8cRz24.mac")$
+load("ade8cRz25.mac")$
+load("ade8cRz26.mac")$
+load("ade8cRz27.mac")$
+load("ade8cRz30.mac")$
+load("ade8cRz31.mac")$
+load("ade8cRz32.mac")$
+load("ade8cRz33.mac")$
+load("ade8cRz34.mac")$
+load("ade8cRz35.mac")$
+load("ade8cRz36.mac")$
+load("ade8cRz37.mac")$
+/* RW */
+load("ade8cRww1.mac")$
+load("ade8cRww2.mac")$
+load("ade8cRww3.mac")$
+load("ade8cRw10.mac")$
+load("ade8cRw11.mac")$
+load("ade8cRw12.mac")$
+load("ade8cRw13.mac")$
+load("ade8cRw14.mac")$
+load("ade8cRw15.mac")$
+load("ade8cRw16.mac")$
+load("ade8cRw17.mac")$
+load("ade8cRw20.mac")$
+load("ade8cRw21.mac")$
+load("ade8cRw22.mac")$
+load("ade8cRw23.mac")$
+load("ade8cRw24.mac")$
+load("ade8cRw25.mac")$
+load("ade8cRw26.mac")$
+load("ade8cRw27.mac")$
+load("ade8cRw30.mac")$
+load("ade8cRw31.mac")$
+load("ade8cRw32.mac")$
+load("ade8cRw33.mac")$
+load("ade8cRw34.mac")$
+load("ade8cRw35.mac")$
+load("ade8cRw36.mac")$
+load("ade8cRw37.mac")$
+/* Rζ Rω */
+load("ade8cRze1.mac")$
+load("ade8cRom1.mac")$
+/* Rr */
+load("ade8cRr1.mac")$
+/* Rs */
+load("ade8cRs1.mac")$
+/* Ru */
+load("ade8cRu1.mac")$
+
+file_output_append:true$
+
+/* output the nonzero elements of a matrix */
+/*  RR : A-B;  If NG is not output, A and B are the same. */
+NZP(sn,en)::=
+for i:sn while (i<en+1) do
+for j:sn while (j<en+1) do
+ if RR[i][j]#0 then (stringout(Bopfile,i,j, RR[i][j],"NG"),
+                     i:en,
+                     j:en)
+$
+
+NZPR(sn,en)::=
+for i:sn while (i<en+1) do
+for j:sn while (j<en+1) do
+ if RR[i][j]#0 then (stringout(Ropfile,i,j, RR[i][j],"NG"),
+                     i:en,
+                     j:en)
+$
+
+/* mattrace */
+load("nchrpl")$
+R:zeromatrix(248,248)$
+mattrace(R)$
+

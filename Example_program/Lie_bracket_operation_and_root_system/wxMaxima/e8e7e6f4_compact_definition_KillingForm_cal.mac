@@ -1,0 +1,611 @@
+ed01:Rd01$
+ed02:Rd02$
+ed03:Rd03$
+ed04:Rd04$
+ed05:Rd05$
+ed06:Rd06$
+ed07:Rd07$
+ed12:Rd12$
+ed13:Rd13$
+ed14:Rd14$
+ed15:Rd15$
+ed16:Rd16$
+ed17:Rd17$
+ed23:Rd23$
+ed24:Rd24$
+ed25:Rd25$
+ed26:Rd26$
+ed27:Rd27$
+ed34:Rd34$
+ed35:Rd35$
+ed36:Rd36$
+ed37:Rd37$
+ed45:Rd45$
+ed46:Rd46$
+ed47:Rd47$
+ed56:Rd56$
+ed57:Rd57$
+ed67:Rd67$
+
+em10:Rm10$
+em11:Rm11$
+em12:Rm12$
+em13:Rm13$
+em14:Rm14$
+em15:Rm15$
+em16:Rm16$
+em17:Rm17$
+em20:Rm20$
+em21:Rm21$
+em22:Rm22$
+em23:Rm23$
+em24:Rm24$
+em25:Rm25$
+em26:Rm26$
+em27:Rm27$
+em30:Rm30$
+em31:Rm31$
+em32:Rm32$
+em33:Rm33$
+em34:Rm34$
+em35:Rm35$
+em36:Rm36$
+em37:Rm37$
+
+eτ1:%i*(Rτ1/τ1-Rτ2/τ2)*τ1$
+eτ2:%i*(Rτ1/τ1+Rτ2/τ2)*τ2$
+et10:%i*Rt10$
+et11:%i*Rt11$
+et12:%i*Rt12$
+et13:%i*Rt13$
+et14:%i*Rt14$
+et15:%i*Rt15$
+et16:%i*Rt16$
+et17:%i*Rt17$
+et20:%i*Rt20$
+et21:%i*Rt21$
+et22:%i*Rt22$
+et23:%i*Rt23$
+et24:%i*Rt24$
+et25:%i*Rt25$
+et26:%i*Rt26$
+et27:%i*Rt27$
+et30:%i*Rt30$
+et31:%i*Rt31$
+et32:%i*Rt32$
+et33:%i*Rt33$
+et34:%i*Rt34$
+et35:%i*Rt35$
+et36:%i*Rt36$
+et37:%i*Rt37$
+
+eβ1:-ια1*Rβ1/β1$
+eβ2:-ια2*Rβ2/β2$
+eβ3:-ια3*Rβ3/β3$
+eb10:-ιa10*Rb10/b10$
+eb11:-ιa11*Rb11/b11$
+eb12:-ιa12*Rb12/b12$
+eb13:-ιa13*Rb13/b13$
+eb14:-ιa14*Rb14/b14$
+eb15:-ιa15*Rb15/b15$
+eb16:-ιa16*Rb16/b16$
+eb17:-ιa17*Rb17/b17$
+eb20:-ιa20*Rb20/b20$
+eb21:-ιa21*Rb21/b21$
+eb22:-ιa22*Rb22/b22$
+eb23:-ιa23*Rb23/b23$
+eb24:-ιa24*Rb24/b24$
+eb25:-ιa25*Rb25/b25$
+eb26:-ιa26*Rb26/b26$
+eb27:-ιa27*Rb27/b27$
+eb30:-ιa30*Rb30/b30$
+eb31:-ιa31*Rb31/b31$
+eb32:-ιa32*Rb32/b32$
+eb33:-ιa33*Rb33/b33$
+eb34:-ιa34*Rb34/b34$
+eb35:-ιa35*Rb35/b35$
+eb36:-ιa36*Rb36/b36$
+eb37:-ιa37*Rb37/b37$
+
+eα1:Rα1+ eβ1$
+eα2:Rα2+ eβ2$
+eα3:Rα3+ eβ3$
+ea10:Ra10+ eb10$
+ea11:Ra11+ eb11$
+ea12:Ra12+ eb12$
+ea13:Ra13+ eb13$
+ea14:Ra14+ eb14$
+ea15:Ra15+ eb15$
+ea16:Ra16+ eb16$
+ea17:Ra17+ eb17$
+ea20:Ra20+ eb20$
+ea21:Ra21+ eb21$
+ea22:Ra22+ eb22$
+ea23:Ra23+ eb23$
+ea24:Ra24+ eb24$
+ea25:Ra25+ eb25$
+ea26:Ra26+ eb26$
+ea27:Ra27+ eb27$
+ea30:Ra30+ eb30$
+ea31:Ra31+ eb31$
+ea32:Ra32+ eb32$
+ea33:Ra33+ eb33$
+ea34:Ra34+ eb34$
+ea35:Ra35+ eb35$
+ea36:Ra36+ eb36$
+ea37:Ra37+ eb37$
+
+eρ1:%i*Rρ1$
+
+eψ1:ιχ1*Rψ1/ψ1$
+eψ2:ιχ2*Rψ2/ψ2$
+eψ3:ιχ3*Rψ3/ψ3$
+ew10:ιx10*Rw10/w10$
+ew11:ιx11*Rw11/w11$
+ew12:ιx12*Rw12/w12$
+ew13:ιx13*Rw13/w13$
+ew14:ιx14*Rw14/w14$
+ew15:ιx15*Rw15/w15$
+ew16:ιx16*Rw16/w16$
+ew17:ιx17*Rw17/w17$
+ew20:ιx20*Rw20/w20$
+ew21:ιx21*Rw21/w21$
+ew22:ιx22*Rw22/w22$
+ew23:ιx23*Rw23/w23$
+ew24:ιx24*Rw24/w24$
+ew25:ιx25*Rw25/w25$
+ew26:ιx26*Rw26/w26$
+ew27:ιx27*Rw27/w27$
+ew30:ιx30*Rw30/w30$
+ew31:ιx31*Rw31/w31$
+ew32:ιx32*Rw32/w32$
+ew33:ιx33*Rw33/w33$
+ew34:ιx34*Rw34/w34$
+ew35:ιx35*Rw35/w35$
+ew36:ιx36*Rw36/w36$
+ew37:ιx37*Rw37/w37$
+
+eμ1:-ιγ1*Rμ1/μ1$
+eμ2:-ιγ2*Rμ2/μ2$
+eμ3:-ιγ3*Rμ3/μ3$
+ez10:-ιy10*Rz10/z10$
+ez11:-ιy11*Rz11/z11$
+ez12:-ιy12*Rz12/z12$
+ez13:-ιy13*Rz13/z13$
+ez14:-ιy14*Rz14/z14$
+ez15:-ιy15*Rz15/z15$
+ez16:-ιy16*Rz16/z16$
+ez17:-ιy17*Rz17/z17$
+ez20:-ιy20*Rz10/z20$
+ez21:-ιy21*Rz21/z21$
+ez22:-ιy22*Rz22/z22$
+ez23:-ιy23*Rz23/z23$
+ez24:-ιy24*Rz24/z24$
+ez25:-ιy25*Rz25/z25$
+ez26:-ιy26*Rz26/z26$
+ez27:-ιy27*Rz27/z27$
+ez30:-ιy30*Rz30/z30$
+ez31:-ιy31*Rz31/z31$
+ez32:-ιy32*Rz32/z32$
+ez33:-ιy33*Rz33/z33$
+ez34:-ιy34*Rz34/z34$
+ez35:-ιy35*Rz35/z35$
+ez36:-ιy36*Rz36/z36$
+ez37:-ιy37*Rz37/z37$
+
+eχ1:Rχ1+ eψ1$
+eχ2:Rχ2+ eψ2$
+eχ3:Rχ3+ eψ3$
+ex10:Rx10+ ew10$
+ex11:Rx11+ ew11$
+ex12:Rx12+ ew12$
+ex13:Rx13+ ew13$
+ex14:Rx14+ ew14$
+ex15:Rx15+ ew15$
+ex16:Rx16+ ew16$
+ex17:Rx17+ ew17$
+ex20:Rx20+ ew20$
+ex21:Rx21+ ew21$
+ex22:Rx22+ ew22$
+ex23:Rx23+ ew23$
+ex24:Rx24+ ew24$
+ex25:Rx25+ ew25$
+ex26:Rx26+ ew26$
+ex27:Rx27+ ew27$
+ex30:Rx30+ ew30$
+ex31:Rx31+ ew31$
+ex32:Rx32+ ew32$
+ex33:Rx33+ ew33$
+ex34:Rx34+ ew34$
+ex35:Rx35+ ew35$
+ex36:Rx36+ ew36$
+ex37:Rx37+ ew37$
+
+eγ1:Rγ1+ eμ1$
+eγ2:Rγ2+ eμ2$
+eγ3:Rγ3+ eμ3$
+ey10:Ry10+ ez10$
+ey11:Ry11+ ez11$
+ey12:Ry12+ ez12$
+ey13:Ry13+ ez13$
+ey14:Ry14+ ez14$
+ey15:Ry15+ ez15$
+ey16:Ry16+ ez16$
+ey17:Ry17+ ez17$
+ey20:Ry20+ ez20$
+ey21:Ry21+ ez21$
+ey22:Ry22+ ez22$
+ey23:Ry23+ ez23$
+ey24:Ry24+ ez24$
+ey25:Ry25+ ez25$
+ey26:Ry26+ ez26$
+ey27:Ry27+ ez27$
+ey30:Ry30+ ez30$
+ey31:Ry31+ ez31$
+ey32:Ry32+ ez32$
+ey33:Ry33+ ez33$
+ey34:Ry34+ ez34$
+ey35:Ry35+ ez35$
+ey36:Ry36+ ez36$
+ey37:Ry37+ ez37$
+
+eω1:ιξ1*Rω1/ω1$
+eζ1:-ιη1*Rζ1/ζ1$
+
+eξ1:Rξ1+eω1$
+eη1:Rη1+eζ1$
+
+er1:%i*Rr1$
+eu1:-ιs1*Ru1/u1$
+es1:Rs1+eu1$
+
+eD:ed01+ed02+ed03+ed04+ed05+ed06+ed07+ed12+ed13+ed14+ed15+ed16+ed17
+   +ed23+ed24+ed25+ed26+ed27+ed34+ed35+ed36+ed37+ed45+ed46+ed47
+   +ed56+ed57+ed67$
+eM:em10+em11+em12+em13+em14+em15+em16+em17
+   +em20+em21+em22+em23+em24+em25+em26+em27
+   +em30+em31+em32+em33+em34+em35+em36+em37$
+eT0:eτ1+eτ2$
+eT:et10+et11+et12+et13+et14+et15+et16+et17
+   +et20+et21+et22+et23+et24+et25+et26+et27
+   +et30+et31+et32+et33+et34+et35+et36+et37$
+eA0:eα1+eα2+eα3$
+eA:ea10+ea11+ea12+ea13+ea14+ea15+ea16+ea17
+   +ea20+ea21+ea22+ea23+ea24+ea25+ea26+ea27
+   +ea30+ea31+ea32+ea33+ea34+ea35+ea36+ea37$
+eρ:eρ1$
+
+eX0:eχ1+eχ2+eχ3$
+eX:ex10+ex11+ex12+ex13+ex14+ex15+ex16+ex17
+   +ex20+ex21+ex22+ex23+ex24+ex25+ex26+ex27
+   +ex30+ex31+ex32+ex33+ex34+ex35+ex36+ex37$
+
+eY0:eγ1+eγ2+eγ3$
+eY:ey10+ey11+ey12+ey13+ey14+ey15+ey16+ey17
+   +ey20+ey21+ey22+ey23+ey24+ey25+ey26+ey27
+   +ey30+ey31+ey32+ey33+ey34+ey35+ey36+ey37$
+
+eξ:eξ1$
+eη:eη1$
+
+er:er1$
+
+es:es1$
+
+/*  e8  */
+e8R:[eD,eM,eT0,eT,eA0,eA,eρ,eX0,eX,eY0,eY,eξ,eη,er,es]$
+stringout(Bopfile,"e8 Killing form")$
+for i:1 while(i<16) do
+	for j:i while(j<16) do (
+	RR:e8R[i].e8R[j],
+	bk:expand(mattrace(RR)),
+	stringout(Bopfile,i,j,bk)
+)$
+
+/* e7    */
+/* Reduce the size of matrix for 133X133  */
+ed01:genmatrix(lambda([i,j],ed01[i][j]),133,133,1,1)$
+ed02:genmatrix(lambda([i,j],ed02[i][j]),133,133,1,1)$
+ed03:genmatrix(lambda([i,j],ed03[i][j]),133,133,1,1)$
+ed04:genmatrix(lambda([i,j],ed04[i][j]),133,133,1,1)$
+ed05:genmatrix(lambda([i,j],ed05[i][j]),133,133,1,1)$
+ed06:genmatrix(lambda([i,j],ed06[i][j]),133,133,1,1)$
+ed07:genmatrix(lambda([i,j],ed07[i][j]),133,133,1,1)$
+ed12:genmatrix(lambda([i,j],ed12[i][j]),133,133,1,1)$
+ed13:genmatrix(lambda([i,j],ed13[i][j]),133,133,1,1)$
+ed14:genmatrix(lambda([i,j],ed14[i][j]),133,133,1,1)$
+ed15:genmatrix(lambda([i,j],ed15[i][j]),133,133,1,1)$
+ed16:genmatrix(lambda([i,j],ed16[i][j]),133,133,1,1)$
+ed17:genmatrix(lambda([i,j],ed17[i][j]),133,133,1,1)$
+ed23:genmatrix(lambda([i,j],ed23[i][j]),133,133,1,1)$
+ed24:genmatrix(lambda([i,j],ed24[i][j]),133,133,1,1)$
+ed25:genmatrix(lambda([i,j],ed25[i][j]),133,133,1,1)$
+ed26:genmatrix(lambda([i,j],ed26[i][j]),133,133,1,1)$
+ed27:genmatrix(lambda([i,j],ed27[i][j]),133,133,1,1)$
+ed34:genmatrix(lambda([i,j],ed34[i][j]),133,133,1,1)$
+ed35:genmatrix(lambda([i,j],ed35[i][j]),133,133,1,1)$
+ed36:genmatrix(lambda([i,j],ed36[i][j]),133,133,1,1)$
+ed37:genmatrix(lambda([i,j],ed37[i][j]),133,133,1,1)$
+ed45:genmatrix(lambda([i,j],ed45[i][j]),133,133,1,1)$
+ed46:genmatrix(lambda([i,j],ed46[i][j]),133,133,1,1)$
+ed47:genmatrix(lambda([i,j],ed47[i][j]),133,133,1,1)$
+ed56:genmatrix(lambda([i,j],ed56[i][j]),133,133,1,1)$
+ed57:genmatrix(lambda([i,j],ed57[i][j]),133,133,1,1)$
+ed67:genmatrix(lambda([i,j],ed67[i][j]),133,133,1,1)$
+em10:genmatrix(lambda([i,j],em10[i][j]),133,133,1,1)$
+em11:genmatrix(lambda([i,j],em11[i][j]),133,133,1,1)$
+em12:genmatrix(lambda([i,j],em12[i][j]),133,133,1,1)$
+em13:genmatrix(lambda([i,j],em13[i][j]),133,133,1,1)$
+em14:genmatrix(lambda([i,j],em14[i][j]),133,133,1,1)$
+em15:genmatrix(lambda([i,j],em15[i][j]),133,133,1,1)$
+em16:genmatrix(lambda([i,j],em16[i][j]),133,133,1,1)$
+em17:genmatrix(lambda([i,j],em17[i][j]),133,133,1,1)$
+em20:genmatrix(lambda([i,j],em20[i][j]),133,133,1,1)$
+em21:genmatrix(lambda([i,j],em21[i][j]),133,133,1,1)$
+em22:genmatrix(lambda([i,j],em22[i][j]),133,133,1,1)$
+em23:genmatrix(lambda([i,j],em23[i][j]),133,133,1,1)$
+em24:genmatrix(lambda([i,j],em24[i][j]),133,133,1,1)$
+em25:genmatrix(lambda([i,j],em25[i][j]),133,133,1,1)$
+em26:genmatrix(lambda([i,j],em26[i][j]),133,133,1,1)$
+em27:genmatrix(lambda([i,j],em27[i][j]),133,133,1,1)$
+em30:genmatrix(lambda([i,j],em30[i][j]),133,133,1,1)$
+em31:genmatrix(lambda([i,j],em31[i][j]),133,133,1,1)$
+em32:genmatrix(lambda([i,j],em32[i][j]),133,133,1,1)$
+em33:genmatrix(lambda([i,j],em33[i][j]),133,133,1,1)$
+em34:genmatrix(lambda([i,j],em34[i][j]),133,133,1,1)$
+em35:genmatrix(lambda([i,j],em35[i][j]),133,133,1,1)$
+em36:genmatrix(lambda([i,j],em36[i][j]),133,133,1,1)$
+em37:genmatrix(lambda([i,j],em37[i][j]),133,133,1,1)$
+et10:genmatrix(lambda([i,j],et10[i][j]),133,133,1,1)$
+et11:genmatrix(lambda([i,j],et11[i][j]),133,133,1,1)$
+et12:genmatrix(lambda([i,j],et12[i][j]),133,133,1,1)$
+et13:genmatrix(lambda([i,j],et13[i][j]),133,133,1,1)$
+et14:genmatrix(lambda([i,j],et14[i][j]),133,133,1,1)$
+et15:genmatrix(lambda([i,j],et15[i][j]),133,133,1,1)$
+et16:genmatrix(lambda([i,j],et16[i][j]),133,133,1,1)$
+et17:genmatrix(lambda([i,j],et17[i][j]),133,133,1,1)$
+et20:genmatrix(lambda([i,j],et20[i][j]),133,133,1,1)$
+et21:genmatrix(lambda([i,j],et21[i][j]),133,133,1,1)$
+et22:genmatrix(lambda([i,j],et22[i][j]),133,133,1,1)$
+et23:genmatrix(lambda([i,j],et23[i][j]),133,133,1,1)$
+et24:genmatrix(lambda([i,j],et24[i][j]),133,133,1,1)$
+et25:genmatrix(lambda([i,j],et25[i][j]),133,133,1,1)$
+et26:genmatrix(lambda([i,j],et26[i][j]),133,133,1,1)$
+et27:genmatrix(lambda([i,j],et27[i][j]),133,133,1,1)$
+et30:genmatrix(lambda([i,j],et30[i][j]),133,133,1,1)$
+et31:genmatrix(lambda([i,j],et31[i][j]),133,133,1,1)$
+et32:genmatrix(lambda([i,j],et32[i][j]),133,133,1,1)$
+et33:genmatrix(lambda([i,j],et33[i][j]),133,133,1,1)$
+et34:genmatrix(lambda([i,j],et34[i][j]),133,133,1,1)$
+et35:genmatrix(lambda([i,j],et35[i][j]),133,133,1,1)$
+et36:genmatrix(lambda([i,j],et36[i][j]),133,133,1,1)$
+et37:genmatrix(lambda([i,j],et37[i][j]),133,133,1,1)$
+eτ1:genmatrix(lambda([i,j],eτ1[i][j]),133,133,1,1)$
+eτ2:genmatrix(lambda([i,j],eτ2[i][j]),133,133,1,1)$
+ea10:genmatrix(lambda([i,j],ea10[i][j]),133,133,1,1)$
+ea11:genmatrix(lambda([i,j],ea11[i][j]),133,133,1,1)$
+ea12:genmatrix(lambda([i,j],ea12[i][j]),133,133,1,1)$
+ea13:genmatrix(lambda([i,j],ea13[i][j]),133,133,1,1)$
+ea14:genmatrix(lambda([i,j],ea14[i][j]),133,133,1,1)$
+ea15:genmatrix(lambda([i,j],ea15[i][j]),133,133,1,1)$
+ea16:genmatrix(lambda([i,j],ea16[i][j]),133,133,1,1)$
+ea17:genmatrix(lambda([i,j],ea17[i][j]),133,133,1,1)$
+ea20:genmatrix(lambda([i,j],ea20[i][j]),133,133,1,1)$
+ea21:genmatrix(lambda([i,j],ea21[i][j]),133,133,1,1)$
+ea22:genmatrix(lambda([i,j],ea22[i][j]),133,133,1,1)$
+ea23:genmatrix(lambda([i,j],ea23[i][j]),133,133,1,1)$
+ea24:genmatrix(lambda([i,j],ea24[i][j]),133,133,1,1)$
+ea25:genmatrix(lambda([i,j],ea25[i][j]),133,133,1,1)$
+ea26:genmatrix(lambda([i,j],ea26[i][j]),133,133,1,1)$
+ea27:genmatrix(lambda([i,j],ea27[i][j]),133,133,1,1)$
+ea30:genmatrix(lambda([i,j],ea30[i][j]),133,133,1,1)$
+ea31:genmatrix(lambda([i,j],ea31[i][j]),133,133,1,1)$
+ea32:genmatrix(lambda([i,j],ea32[i][j]),133,133,1,1)$
+ea33:genmatrix(lambda([i,j],ea33[i][j]),133,133,1,1)$
+ea34:genmatrix(lambda([i,j],ea34[i][j]),133,133,1,1)$
+ea35:genmatrix(lambda([i,j],ea35[i][j]),133,133,1,1)$
+ea36:genmatrix(lambda([i,j],ea36[i][j]),133,133,1,1)$
+ea37:genmatrix(lambda([i,j],ea37[i][j]),133,133,1,1)$
+eα1:genmatrix(lambda([i,j],eα1[i][j]),133,133,1,1)$
+eα2:genmatrix(lambda([i,j],eα2[i][j]),133,133,1,1)$
+eα3:genmatrix(lambda([i,j],eα3[i][j]),133,133,1,1)$
+eρ1:genmatrix(lambda([i,j],eρ1[i][j]),133,133,1,1)$
+
+eD:ed01+ed02+ed03+ed04+ed05+ed06+ed07+ed12+ed13+ed14+ed15+ed16+ed17
+   +ed23+ed24+ed25+ed26+ed27+ed34+ed35+ed36+ed37+ed45+ed46+ed47
+   +ed56+ed57+ed67$
+eM:em10+em11+em12+em13+em14+em15+em16+em17
+   +em20+em21+em22+em23+em24+em25+em26+em27
+   +em30+em31+em32+em33+em34+em35+em36+em37$
+eT0:eτ1+eτ2$
+eT:et10+et11+et12+et13+et14+et15+et16+et17
+   +et20+et21+et22+et23+et24+et25+et26+et27
+   +et30+et31+et32+et33+et34+et35+et36+et37$
+eA0:eα1+eα2+eα3$
+eA:ea10+ea11+ea12+ea13+ea14+ea15+ea16+ea17
+   +ea20+ea21+ea22+ea23+ea24+ea25+ea26+ea27
+   +ea30+ea31+ea32+ea33+ea34+ea35+ea36+ea37$
+eρ:eρ1$
+
+e7R:[eD,eM,eT0,eT,eA0,eA,eρ]$
+stringout(Bopfile,"e7 Killing form")$
+for i:1 while(i<8) do
+	for j:i while(j<8) do (
+	RR:e7R[i].e7R[j],
+	bk:expand(mattrace(RR)),
+	stringout(Bopfile,i,j,bk)
+)$
+
+/* e6  */
+/* Reduce the size of matrix for 78X78  */
+ed01:genmatrix(lambda([i,j],ed01[i][j]),78,78,1,1)$
+ed02:genmatrix(lambda([i,j],ed02[i][j]),78,78,1,1)$
+ed03:genmatrix(lambda([i,j],ed03[i][j]),78,78,1,1)$
+ed04:genmatrix(lambda([i,j],ed04[i][j]),78,78,1,1)$
+ed05:genmatrix(lambda([i,j],ed05[i][j]),78,78,1,1)$
+ed06:genmatrix(lambda([i,j],ed06[i][j]),78,78,1,1)$
+ed07:genmatrix(lambda([i,j],ed07[i][j]),78,78,1,1)$
+ed12:genmatrix(lambda([i,j],ed12[i][j]),78,78,1,1)$
+ed13:genmatrix(lambda([i,j],ed13[i][j]),78,78,1,1)$
+ed14:genmatrix(lambda([i,j],ed14[i][j]),78,78,1,1)$
+ed15:genmatrix(lambda([i,j],ed15[i][j]),78,78,1,1)$
+ed16:genmatrix(lambda([i,j],ed16[i][j]),78,78,1,1)$
+ed17:genmatrix(lambda([i,j],ed17[i][j]),78,78,1,1)$
+ed23:genmatrix(lambda([i,j],ed23[i][j]),78,78,1,1)$
+ed24:genmatrix(lambda([i,j],ed24[i][j]),78,78,1,1)$
+ed25:genmatrix(lambda([i,j],ed25[i][j]),78,78,1,1)$
+ed26:genmatrix(lambda([i,j],ed26[i][j]),78,78,1,1)$
+ed27:genmatrix(lambda([i,j],ed27[i][j]),78,78,1,1)$
+ed34:genmatrix(lambda([i,j],ed34[i][j]),78,78,1,1)$
+ed35:genmatrix(lambda([i,j],ed35[i][j]),78,78,1,1)$
+ed36:genmatrix(lambda([i,j],ed36[i][j]),78,78,1,1)$
+ed37:genmatrix(lambda([i,j],ed37[i][j]),78,78,1,1)$
+ed45:genmatrix(lambda([i,j],ed45[i][j]),78,78,1,1)$
+ed46:genmatrix(lambda([i,j],ed46[i][j]),78,78,1,1)$
+ed47:genmatrix(lambda([i,j],ed47[i][j]),78,78,1,1)$
+ed56:genmatrix(lambda([i,j],ed56[i][j]),78,78,1,1)$
+ed57:genmatrix(lambda([i,j],ed57[i][j]),78,78,1,1)$
+ed67:genmatrix(lambda([i,j],ed67[i][j]),78,78,1,1)$
+em10:genmatrix(lambda([i,j],em10[i][j]),78,78,1,1)$
+em11:genmatrix(lambda([i,j],em11[i][j]),78,78,1,1)$
+em12:genmatrix(lambda([i,j],em12[i][j]),78,78,1,1)$
+em13:genmatrix(lambda([i,j],em13[i][j]),78,78,1,1)$
+em14:genmatrix(lambda([i,j],em14[i][j]),78,78,1,1)$
+em15:genmatrix(lambda([i,j],em15[i][j]),78,78,1,1)$
+em16:genmatrix(lambda([i,j],em16[i][j]),78,78,1,1)$
+em17:genmatrix(lambda([i,j],em17[i][j]),78,78,1,1)$
+em20:genmatrix(lambda([i,j],em20[i][j]),78,78,1,1)$
+em21:genmatrix(lambda([i,j],em21[i][j]),78,78,1,1)$
+em22:genmatrix(lambda([i,j],em22[i][j]),78,78,1,1)$
+em23:genmatrix(lambda([i,j],em23[i][j]),78,78,1,1)$
+em24:genmatrix(lambda([i,j],em24[i][j]),78,78,1,1)$
+em25:genmatrix(lambda([i,j],em25[i][j]),78,78,1,1)$
+em26:genmatrix(lambda([i,j],em26[i][j]),78,78,1,1)$
+em27:genmatrix(lambda([i,j],em27[i][j]),78,78,1,1)$
+em30:genmatrix(lambda([i,j],em30[i][j]),78,78,1,1)$
+em31:genmatrix(lambda([i,j],em31[i][j]),78,78,1,1)$
+em32:genmatrix(lambda([i,j],em32[i][j]),78,78,1,1)$
+em33:genmatrix(lambda([i,j],em33[i][j]),78,78,1,1)$
+em34:genmatrix(lambda([i,j],em34[i][j]),78,78,1,1)$
+em35:genmatrix(lambda([i,j],em35[i][j]),78,78,1,1)$
+em36:genmatrix(lambda([i,j],em36[i][j]),78,78,1,1)$
+em37:genmatrix(lambda([i,j],em37[i][j]),78,78,1,1)$
+et10:genmatrix(lambda([i,j],et10[i][j]),78,78,1,1)$
+et11:genmatrix(lambda([i,j],et11[i][j]),78,78,1,1)$
+et12:genmatrix(lambda([i,j],et12[i][j]),78,78,1,1)$
+et13:genmatrix(lambda([i,j],et13[i][j]),78,78,1,1)$
+et14:genmatrix(lambda([i,j],et14[i][j]),78,78,1,1)$
+et15:genmatrix(lambda([i,j],et15[i][j]),78,78,1,1)$
+et16:genmatrix(lambda([i,j],et16[i][j]),78,78,1,1)$
+et17:genmatrix(lambda([i,j],et17[i][j]),78,78,1,1)$
+et20:genmatrix(lambda([i,j],et20[i][j]),78,78,1,1)$
+et21:genmatrix(lambda([i,j],et21[i][j]),78,78,1,1)$
+et22:genmatrix(lambda([i,j],et22[i][j]),78,78,1,1)$
+et23:genmatrix(lambda([i,j],et23[i][j]),78,78,1,1)$
+et24:genmatrix(lambda([i,j],et24[i][j]),78,78,1,1)$
+et25:genmatrix(lambda([i,j],et25[i][j]),78,78,1,1)$
+et26:genmatrix(lambda([i,j],et26[i][j]),78,78,1,1)$
+et27:genmatrix(lambda([i,j],et27[i][j]),78,78,1,1)$
+et30:genmatrix(lambda([i,j],et30[i][j]),78,78,1,1)$
+et31:genmatrix(lambda([i,j],et31[i][j]),78,78,1,1)$
+et32:genmatrix(lambda([i,j],et32[i][j]),78,78,1,1)$
+et33:genmatrix(lambda([i,j],et33[i][j]),78,78,1,1)$
+et34:genmatrix(lambda([i,j],et34[i][j]),78,78,1,1)$
+et35:genmatrix(lambda([i,j],et35[i][j]),78,78,1,1)$
+et36:genmatrix(lambda([i,j],et36[i][j]),78,78,1,1)$
+et37:genmatrix(lambda([i,j],et37[i][j]),78,78,1,1)$
+eτ1:genmatrix(lambda([i,j],eτ1[i][j]),78,78,1,1)$
+eτ2:genmatrix(lambda([i,j],eτ2[i][j]),78,78,1,1)$
+
+eD:ed01+ed02+ed03+ed04+ed05+ed06+ed07+ed12+ed13+ed14+ed15+ed16+ed17
+   +ed23+ed24+ed25+ed26+ed27+ed34+ed35+ed36+ed37+ed45+ed46+ed47
+   +ed56+ed57+ed67$
+eM:em10+em11+em12+em13+em14+em15+em16+em17
+   +em20+em21+em22+em23+em24+em25+em26+em27
+   +em30+em31+em32+em33+em34+em35+em36+em37$
+eT0:eτ1+eτ2$
+eT:et10+et11+et12+et13+et14+et15+et16+et17
+   +et20+et21+et22+et23+et24+et25+et26+et27
+   +et30+et31+et32+et33+et34+et35+et36+et37$
+
+e6R:[eD,eM,eT0,eT]$
+stringout(Bopfile,"e6 Killing form")$
+for i:1 while(i<5) do
+	for j:i while(j<5) do (
+	RR:e6R[i].e6R[j],
+	bk:expand(mattrace(RR)),
+	stringout(Bopfile,i,j,bk)
+)$
+
+/*  f4  */
+/* Reduce the size of matrix for 52X52  */
+ed01:genmatrix(lambda([i,j],ed01[i][j]),52,52,1,1)$
+ed02:genmatrix(lambda([i,j],ed02[i][j]),52,52,1,1)$
+ed03:genmatrix(lambda([i,j],ed03[i][j]),52,52,1,1)$
+ed04:genmatrix(lambda([i,j],ed04[i][j]),52,52,1,1)$
+ed05:genmatrix(lambda([i,j],ed05[i][j]),52,52,1,1)$
+ed06:genmatrix(lambda([i,j],ed06[i][j]),52,52,1,1)$
+ed07:genmatrix(lambda([i,j],ed07[i][j]),52,52,1,1)$
+ed12:genmatrix(lambda([i,j],ed12[i][j]),52,52,1,1)$
+ed13:genmatrix(lambda([i,j],ed13[i][j]),52,52,1,1)$
+ed14:genmatrix(lambda([i,j],ed14[i][j]),52,52,1,1)$
+ed15:genmatrix(lambda([i,j],ed15[i][j]),52,52,1,1)$
+ed16:genmatrix(lambda([i,j],ed16[i][j]),52,52,1,1)$
+ed17:genmatrix(lambda([i,j],ed17[i][j]),52,52,1,1)$
+ed23:genmatrix(lambda([i,j],ed23[i][j]),52,52,1,1)$
+ed24:genmatrix(lambda([i,j],ed24[i][j]),52,52,1,1)$
+ed25:genmatrix(lambda([i,j],ed25[i][j]),52,52,1,1)$
+ed26:genmatrix(lambda([i,j],ed26[i][j]),52,52,1,1)$
+ed27:genmatrix(lambda([i,j],ed27[i][j]),52,52,1,1)$
+ed34:genmatrix(lambda([i,j],ed34[i][j]),52,52,1,1)$
+ed35:genmatrix(lambda([i,j],ed35[i][j]),52,52,1,1)$
+ed36:genmatrix(lambda([i,j],ed36[i][j]),52,52,1,1)$
+ed37:genmatrix(lambda([i,j],ed37[i][j]),52,52,1,1)$
+ed45:genmatrix(lambda([i,j],ed45[i][j]),52,52,1,1)$
+ed46:genmatrix(lambda([i,j],ed46[i][j]),52,52,1,1)$
+ed47:genmatrix(lambda([i,j],ed47[i][j]),52,52,1,1)$
+ed56:genmatrix(lambda([i,j],ed56[i][j]),52,52,1,1)$
+ed57:genmatrix(lambda([i,j],ed57[i][j]),52,52,1,1)$
+ed67:genmatrix(lambda([i,j],ed67[i][j]),52,52,1,1)$
+em10:genmatrix(lambda([i,j],em10[i][j]),52,52,1,1)$
+em11:genmatrix(lambda([i,j],em11[i][j]),52,52,1,1)$
+em12:genmatrix(lambda([i,j],em12[i][j]),52,52,1,1)$
+em13:genmatrix(lambda([i,j],em13[i][j]),52,52,1,1)$
+em14:genmatrix(lambda([i,j],em14[i][j]),52,52,1,1)$
+em15:genmatrix(lambda([i,j],em15[i][j]),52,52,1,1)$
+em16:genmatrix(lambda([i,j],em16[i][j]),52,52,1,1)$
+em17:genmatrix(lambda([i,j],em17[i][j]),52,52,1,1)$
+em20:genmatrix(lambda([i,j],em20[i][j]),52,52,1,1)$
+em21:genmatrix(lambda([i,j],em21[i][j]),52,52,1,1)$
+em22:genmatrix(lambda([i,j],em22[i][j]),52,52,1,1)$
+em23:genmatrix(lambda([i,j],em23[i][j]),52,52,1,1)$
+em24:genmatrix(lambda([i,j],em24[i][j]),52,52,1,1)$
+em25:genmatrix(lambda([i,j],em25[i][j]),52,52,1,1)$
+em26:genmatrix(lambda([i,j],em26[i][j]),52,52,1,1)$
+em27:genmatrix(lambda([i,j],em27[i][j]),52,52,1,1)$
+em30:genmatrix(lambda([i,j],em30[i][j]),52,52,1,1)$
+em31:genmatrix(lambda([i,j],em31[i][j]),52,52,1,1)$
+em32:genmatrix(lambda([i,j],em32[i][j]),52,52,1,1)$
+em33:genmatrix(lambda([i,j],em33[i][j]),52,52,1,1)$
+em34:genmatrix(lambda([i,j],em34[i][j]),52,52,1,1)$
+em35:genmatrix(lambda([i,j],em35[i][j]),52,52,1,1)$
+em36:genmatrix(lambda([i,j],em36[i][j]),52,52,1,1)$
+em37:genmatrix(lambda([i,j],em37[i][j]),52,52,1,1)$
+
+eD:ed01+ed02+ed03+ed04+ed05+ed06+ed07+ed12+ed13+ed14+ed15+ed16+ed17
+   +ed23+ed24+ed25+ed26+ed27+ed34+ed35+ed36+ed37+ed45+ed46+ed47
+   +ed56+ed57+ed67$
+eM:em10+em11+em12+em13+em14+em15+em16+em17
+   +em20+em21+em22+em23+em24+em25+em26+em27
+   +em30+em31+em32+em33+em34+em35+em36+em37$
+   +et30+et31+et32+et33+et34+et35+et36+et37$
+
+f4R:[eD,eM]$
+stringout(Bopfile,"f4 Killing form")$
+for i:1 while(i<3) do
+	for j:i while(j<3) do (
+	RR:f4R[i].f4R[j],
+	bk:expand(mattrace(RR)),
+	stringout(Bopfile,i,j,bk)
+)$
+
