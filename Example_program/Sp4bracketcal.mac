@@ -1,0 +1,350 @@
+/* directory set  */
+rdir:"/mnt/UandW"$
+if maxima_tempdir # "/tmp" then rdir:"F:"$
+/* 248_base_matrices_load.txt copy & paste  */
+basedir:sconcat(rdir,"/LieG/E8/Digitalization/Lie_bracket_operation_and_root_system/wxMaxima/")$
+basefile:sconcat(basedir,"248_basis_matrices_load.mac")$
+load(basefile)$
+/* Decomp.txt copy & paste */
+decdir:sconcat(rdir,"/LieG/E8/Digitalization/Decompose_into_248_basis_matrices/wxMaxima/")$
+decfile:sconcat(decdir,"Decomp.mac")$
+load(decfile)$
+tempdir:sconcat(rdir,"/LieG/E8/Digitalization/Temp/")$ 
+Rsufile:sconcat(tempdir,"Rspfile.txt")$
+Ud01:Rd01/d01$
+Ud02:Rd02/d02$
+Ud03:Rd03/d03$
+Ud04:Rd04/d04$
+Ud05:Rd05/d05$
+Ud06:Rd06/d06$
+Ud07:Rd07/d07$
+Ud12:Rd12/d12$
+Ud13:Rd13/d13$
+Ud14:Rd14/d14$
+Ud15:Rd15/d15$
+Ud16:Rd16/d16$
+Ud17:Rd17/d17$
+Ud23:Rd23/d23$
+Ud24:Rd24/d24$
+Ud25:Rd25/d25$
+Ud26:Rd26/d26$
+Ud27:Rd27/d27$
+Ud34:Rd34/d34$
+Ud35:Rd35/d35$
+Ud36:Rd36/d36$
+Ud37:Rd37/d37$
+Ud45:Rd45/d45$
+Ud46:Rd46/d46$
+Ud47:Rd47/d47$
+Ud56:Rd56/d56$
+Ud57:Rd57/d57$
+Ud67:Rd67/d67$
+Um10:Rm10/m10$
+Um11:Rm11/m11$
+Um12:Rm12/m12$
+Um13:Rm13/m13$
+Um14:Rm14/m14$
+Um15:Rm15/m15$
+Um16:Rm16/m16$
+Um17:Rm17/m17$
+Um20:Rm20/m20$
+Um21:Rm21/m21$
+Um22:Rm22/m22$
+Um23:Rm23/m23$
+Um24:Rm24/m24$
+Um25:Rm25/m25$
+Um26:Rm26/m26$
+Um27:Rm27/m27$
+Um30:Rm30/m30$
+Um31:Rm31/m31$
+Um32:Rm32/m32$
+Um33:Rm33/m33$
+Um34:Rm34/m34$
+Um35:Rm35/m35$
+Um36:Rm36/m36$
+Um37:Rm37/m37$
+Ut10:Rt10/t10$
+Ut11:Rt11/t11$
+Ut12:Rt12/t12$
+Ut13:Rt13/t13$
+Ut14:Rt14/t14$
+Ut15:Rt15/t15$
+Ut16:Rt16/t16$
+Ut17:Rt17/t17$
+Ut20:Rt20/t20$
+Ut21:Rt21/t21$
+Ut22:Rt22/t22$
+Ut23:Rt23/t23$
+Ut24:Rt24/t24$
+Ut25:Rt25/t25$
+Ut26:Rt26/t26$
+Ut27:Rt27/t27$
+Ut30:Rt30/t30$
+Ut31:Rt31/t31$
+Ut32:Rt32/t32$
+Ut33:Rt33/t33$
+Ut34:Rt34/t34$
+Ut35:Rt35/t35$
+Ut36:Rt36/t36$
+Ut37:Rt37/t37$
+
+S11:Ud45+Ud67$
+S12:-Ud46+Ud57$
+S13:Ud47+Ud56$
+K1:-Ud01-Ud23$
+K2:-Ud02+Ud13$
+K3:-Ud03-Ud12$
+K4:Ud01-Ud23$
+K5:Ud02+Ud13$
+K6:Ud03-Ud12$
+S21:Ud45-Ud67$
+S22:-(Ud46+Ud57)$
+S23:-(Ud47-Ud56)$
+
+Sr11:Urd45+Urd67$
+Sr12:-Urd46+Urd57$
+Sr13:Urd47+Urd56$
+Kr1:-Urd01-Urd23$
+Kr2:-Urd02+Urd13$
+Kr3:-Urd03-Urd12$
+Kr4:Urd01-Urd23$
+Kr5:Urd02+Urd13$
+Kr6:Urd03-Urd12$
+Sr21:Urd45-Urd67$
+Sr22:-(Urd46+Urd57)$
+Sr23:-(Urd47-Urd56)$
+
+T11:z10*%i*Ut17+z11*%i*Ut16+z12*%i*Ut15+z13*%i*Ut14$
+T12:z20*%i*Ut27+z21*%i*Ut26+z22*%i*Ut25+z23*%i*Ut24$
+T13:z30*%i*Ut37+z31*%i*Ut36+z32*%i*Ut35+z33*%i*Ut34$
+T14:w10*%i*Ut17+w11*%i*Ut16+w12*%i*Ut15+w13*%i*Ut14$
+T15:w20*%i*Ut27+w21*%i*Ut26+w22*%i*Ut25+w23*%i*Ut24$
+T16:w30*%i*Ut37+w31*%i*Ut36+w32*%i*Ut35+w33*%i*Ut34$
+
+rsp4[1]:a1*S11+b1*S12+c1*S13$
+rsp4[2]:a2*K1+b2*K2+c2*K3$
+rsp4[3]:a3*K4+b3*K5+c3*K6$
+rsp4[4]:a4*S21+b4*S22+c4*S23$
+rsp4[5]:2*(x10*Um10+x11*Um11+x12*Um12+x13*Um13)$
+rsp4[6]:2*(x20*Um20+x21*Um21+x22*Um22+x23*Um23)$
+rsp4[7]:2*(x30*Um30+x31*Um31+x32*Um32+x33*Um33)$
+rsp4[8]:2*T11$
+rsp4[9]:2*T12$
+rsp4[10]:2*T13$
+rsp4[11]:a5*S11+b5*S12+c5*S13$
+rsp4[12]:a6*K1+b6*K2+c6*K3$
+rsp4[13]:a7*K4+b7*K5+c7*K6$
+rsp4[14]:a8*S21+b8*S22+c8*S23$
+rsp4[15]:2*(y10*Um10+y11*Um11+y12*Um12+y13*Um13)$
+rsp4[16]:2*(y20*Um20+y21*Um21+y22*Um22+y23*Um23)$
+rsp4[17]:2*(y30*Um30+y31*Um31+y32*Um32+y33*Um33)$
+rsp4[18]:2*T14$
+rsp4[19]:2*T15$
+rsp4[20]:2*T16$
+
+/* H multiply  */
+a:[aa0,aa1,aa2,aa3]$
+b:[bb0,bb1,bb2,bb3]$
+hm(a,b):= [a[1]*b[1]-a[2]*b[2]-a[3]*b[3]-a[4]*b[4],
+           a[1]*b[2]+a[2]*b[1]+a[3]*b[4]-a[4]*b[3], 
+	   a[1]*b[3]+a[3]*b[1]-a[2]*b[4]+a[4]*b[2],
+	   a[1]*b[4]+a[4]*b[1]+a[2]*b[3]-a[3]*b[2]]$
+cn(a):= [a[1],-a[2],-a[3],-a[4]]$
+
+x1:[x10,x11,x12,x13]$
+x2:[x20,x21,x22,x23]$
+x3:[x30,x31,x32,x33]$
+z1:[z10,z11,z12,z13]$
+z2:[z20,z21,z22,z23]$
+z3:[z30,z31,z32,z33]$
+y1:[y10,y11,y12,y13]$
+y2:[y20,y21,y22,y23]$
+y3:[y30,y31,y32,y33]$
+w1:[w10,w11,w12,w13]$
+w2:[w20,w21,w22,w23]$
+w3:[w30,w31,w32,w33]$
+xx1:[0,a1,b1,c1]$
+xx2:[0,a2,b2,c2]$
+xx3:[0,a3,b3,c3]$
+xx4:[0,a4,b4,c4]$
+yy1:[0,a5,b5,c5]$
+yy2:[0,a6,b6,c6]$
+yy3:[0,a7,b7,c7]$
+yy4:[0,a8,b8,c8]$
+h0:[0,0,0,0]$
+
+desp4(R):= (
+sa1:R[1][1][2],
+sb1:R[1][1][3],
+sc1:R[1][1][4],
+sa2:R[2][2][2],
+sb2:R[2][2][3],
+sc2:R[2][2][4],
+sa3:R[3][3][2],
+sb3:R[3][3][3],
+sc3:R[3][3][4],
+sa4:R[4][4][2],
+sb4:R[4][4][3],
+sc4:R[4][4][4],
+sx10:R[2][3][1],
+sx11:R[2][3][2],
+sx12:R[2][3][3],
+sx13:R[2][3][4],
+sx20:R[3][1][1],
+sx21:R[3][1][2],
+sx22:R[3][1][3],
+sx23:R[3][1][4],
+sx30:R[1][2][1],
+sx31:R[1][2][2],
+sx32:R[1][2][3],
+sx33:R[1][2][4],
+sz30:R[3][4][1],
+sz31:R[3][4][2],
+sz32:R[3][4][3],
+sz33:R[3][4][4],
+sz10:R[1][4][1],
+sz11:R[1][4][2],
+sz12:R[1][4][3],
+sz13:R[1][4][4],
+sz20:R[2][4][1],
+sz21:R[2][4][2],
+sz22:R[2][4][3],
+sz23:R[2][4][4]
+)$
+hrsp4(R):= (
+R[1]:sa1*Sr11+sb1*Sr12+sc1*Sr13,
+R[2]:sa2*Kr1+sb2*Kr2+sc2*Kr3,
+R[3]:sa3*Kr4+sb3*Kr5+sc3*Kr6,
+R[4]:sa4*Sr21+sb4*Sr22+sc4*Sr23,
+R[5]:2*(sx10*Urm10+sx11*Urm11+sx12*Urm12+sx13*Urm13),
+R[6]:2*(sx20*Urm20+sx21*Urm21+sx22*Urm22+sx23*Urm23),
+R[7]:2*(sx30*Urm30+sx31*Urm31+sx32*Urm32+sx33*Urm33),
+R[8]:2*(sz10*%i*Urt17+sz11*%i*Urt16+sz12*%i*Urt15+sz13*%i*Urt14),
+R[9]:2*(sz20*%i*Urt27+sz21*%i*Urt26+sz22*%i*Urt25+sz23*%i*Urt24),
+R[10]:2*(sz30*%i*Urt37+sz31*%i*Urt36+sz32*%i*Urt35+sz33*%i*Urt34),
+R[1]+R[2]+R[3]+R[4]+R[5]+R[6]+R[7]+R[8]+R[9]+R[10]
+)$
+
+A:matrix([a11,a12,a13,a14],
+         [a21,a22,a23,a24],
+	 [a31,a32,a33,a34],
+	 [a41,a42,a43,a44])$
+B:matrix([b11,b12,b13,b14],
+         [b21,b22,b23,b24],
+	 [b31,b32,b33,b34],
+	 [b41,b42,b43,b44])$
+
+mul(A,B):=matrix([hm(A[1][1],B[1][1])+hm(A[1][2],B[2][1])+hm(A[1][3],B[3][1])+hm(A[1][4],B[4][1]),
+                  hm(A[1][1],B[1][2])+hm(A[1][2],B[2][2])+hm(A[1][3],B[3][2])+hm(A[1][4],B[4][2]),
+		  hm(A[1][1],B[1][3])+hm(A[1][2],B[2][3])+hm(A[1][3],B[3][3])+hm(A[1][4],B[4][3]),
+		  hm(A[1][1],B[1][4])+hm(A[1][2],B[2][4])+hm(A[1][3],B[3][4])+hm(A[1][4],B[4][4])],
+		 [hm(A[2][1],B[1][1])+hm(A[2][2],B[2][1])+hm(A[2][3],B[3][1])+hm(A[2][4],B[4][1]),
+                  hm(A[2][1],B[1][2])+hm(A[2][2],B[2][2])+hm(A[2][3],B[3][2])+hm(A[2][4],B[4][2]),
+		  hm(A[2][1],B[1][3])+hm(A[2][2],B[2][3])+hm(A[2][3],B[3][3])+hm(A[2][4],B[4][3]),
+		  hm(A[2][1],B[1][4])+hm(A[2][2],B[2][4])+hm(A[2][3],B[3][4])+hm(A[2][4],B[4][4])],
+		 [hm(A[3][1],B[1][1])+hm(A[3][2],B[2][1])+hm(A[3][3],B[3][1])+hm(A[3][4],B[4][1]),
+                  hm(A[3][1],B[1][2])+hm(A[3][2],B[2][2])+hm(A[3][3],B[3][2])+hm(A[3][4],B[4][2]),
+		  hm(A[3][1],B[1][3])+hm(A[3][2],B[2][3])+hm(A[3][3],B[3][3])+hm(A[3][4],B[4][3]),
+		  hm(A[3][1],B[1][4])+hm(A[3][2],B[2][4])+hm(A[3][3],B[3][4])+hm(A[3][4],B[4][4])],
+		 [hm(A[4][1],B[1][1])+hm(A[4][2],B[2][1])+hm(A[4][3],B[3][1])+hm(A[4][4],B[4][1]),
+                  hm(A[4][1],B[1][2])+hm(A[4][2],B[2][2])+hm(A[4][3],B[3][2])+hm(A[4][4],B[4][2]),
+		  hm(A[4][1],B[1][3])+hm(A[4][2],B[2][3])+hm(A[4][3],B[3][3])+hm(A[4][4],B[4][3]),
+		  hm(A[4][1],B[1][4])+hm(A[4][2],B[2][4])+hm(A[4][3],B[3][4])+hm(A[4][4],B[4][4])])$
+
+rA[1]:matrix([xx1,h0,h0,h0],
+             [h0,h0,h0,h0],
+             [h0,h0,h0,h0],
+             [h0,h0,h0,h0])$
+rA[2]:matrix([h0,h0,h0,h0],
+             [h0,xx2,h0,h0],
+             [h0,h0,h0,h0],
+             [h0,h0,h0,h0])$
+rA[3]:matrix([h0,h0,h0,h0],
+             [h0,h0,h0,h0],
+             [h0,h0,xx3,h0],
+             [h0,h0,h0,h0])$
+rA[4]:matrix([h0,h0,h0,h0],
+             [h0,h0,h0,h0],
+             [h0,h0,h0,h0],
+             [h0,h0,h0,xx4])$
+rA[5]:matrix([h0,h0,h0,h0],
+             [h0,h0,x1,h0],
+             [h0,-cn(x1),h0,h0],
+             [h0,h0,h0,h0])$
+rA[6]:matrix([h0,h0,-cn(x2),h0],
+             [h0,h0,h0,h0],
+             [x2,h0,h0,h0],
+             [h0,h0,h0,h0])$
+rA[7]:matrix([h0,x3,h0,h0],
+             [-cn(x3),h0,h0,h0],
+             [h0,h0,h0,h0],
+             [h0,h0,h0,h0])$
+rA[8]:matrix([h0,h0,h0,z1],
+             [h0,h0,h0,h0],
+             [h0,h0,h0,h0],
+             [-cn(z1),h0,h0,h0])$
+rA[9]:matrix([h0,h0,h0,h0],
+             [h0,h0,h0,z2],
+             [h0,h0,h0,h0],
+             [h0,-cn(z2),h0,h0])$
+rA[10]:matrix([h0,h0,h0,h0],
+              [h0,h0,h0,h0],
+              [h0,h0,h0,z3],
+              [h0,h0,-cn(z3),h0])$
+rB[1]:matrix([yy1,h0,h0,h0],
+         [h0,h0,h0,h0],
+	 [h0,h0,h0,h0],
+	 [h0,h0,h0,h0])$
+rB[2]:matrix([h0,h0,h0,h0],
+         [h0,yy2,h0,h0],
+	 [h0,h0,h0,h0],
+	 [h0,h0,h0,h0])$
+rB[3]:matrix([h0,h0,h0,h0],
+         [h0,h0,h0,h0],
+	 [h0,h0,yy3,h0],
+	 [h0,h0,h0,h0])$
+rB[4]:matrix([h0,h0,h0,h0],
+         [h0,h0,h0,h0],
+	 [h0,h0,h0,h0],
+	 [h0,h0,h0,yy4])$
+rB[5]:matrix([h0,h0,h0,h0],
+         [h0,h0,y1,h0],
+	 [h0,-cn(y1),h0,h0],
+	 [h0,h0,h0,h0])$
+rB[6]:matrix([h0,h0,-cn(y2),h0],
+         [h0,h0,h0,h0],
+	 [y2,h0,h0,h0],
+	 [h0,h0,h0,h0])$
+rB[7]:matrix([h0,y3,h0,h0],
+         [-cn(y3),h0,h0,h0],
+	 [h0,h0,h0,h0],
+	 [h0,h0,h0,h0])$
+rB[8]:matrix([h0,h0,h0,w1],
+         [h0,h0,h0,h0],
+	 [h0,h0,h0,h0],
+	 [-cn(w1),h0,h0,h0])$
+rB[9]:matrix([h0,h0,h0,h0],
+         [h0,h0,h0,w2],
+	 [h0,h0,h0,h0],
+	 [h0,-cn(w2),h0,h0])$
+rB[10]:matrix([h0,h0,h0,h0],
+         [h0,h0,h0,h0],
+	 [h0,h0,h0,w3],
+	 [h0,h0,-cn(w3),h0])$
+
+for i:1 while (i<11) do
+	for j:i while (j<11) do (
+		R:rsp4[i].rsp4[j+10]-rsp4[j+10].rsp4[i],
+		RR:Decomp(),
+		BR:RR,
+		ABBA:mul(rA[i],rB[j])-mul(rB[j],rA[i]),
+		ABBA:ratsimp(ABBA),
+		SR:[0,0,0,0,0,0,0,0,0,0],
+                SSR:0,
+                desp4(ABBA),
+                SSR:hrsp4(SR),
+                Resu:expand(BR-SSR),
+		stringout(Rsufile,i,j,BR,ABBA,Resu)
+		);
+
+

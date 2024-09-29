@@ -1,0 +1,373 @@
+/* 248_base_matrices_load.txt copy & paste  */
+/* Decomp.mac copy & paste                  */
+Rsufile:sconcat(tempdir,"Rsufile_SU6.txt")$
+
+Ud01:Rd01/d01$
+Ud02:Rd02/d02$
+Ud03:Rd03/d03$
+Ud04:Rd04/d04$
+Ud05:Rd05/d05$
+Ud06:Rd06/d06$
+Ud07:Rd07/d07$
+Ud12:Rd12/d12$
+Ud13:Rd13/d13$
+Ud14:Rd14/d14$
+Ud15:Rd15/d15$
+Ud16:Rd16/d16$
+Ud17:Rd17/d17$
+Ud23:Rd23/d23$
+Ud24:Rd24/d24$
+Ud25:Rd25/d25$
+Ud26:Rd26/d26$
+Ud27:Rd27/d27$
+Ud34:Rd34/d34$
+Ud35:Rd35/d35$
+Ud36:Rd36/d36$
+Ud37:Rd37/d37$
+Ud45:Rd45/d45$
+Ud46:Rd46/d46$
+Ud47:Rd47/d47$
+Ud56:Rd56/d56$
+Ud57:Rd57/d57$
+Ud67:Rd67/d67$
+Um10:Rm10/m10$
+Um11:Rm11/m11$
+Um12:Rm12/m12$
+Um13:Rm13/m13$
+Um14:Rm14/m14$
+Um15:Rm15/m15$
+Um16:Rm16/m16$
+Um17:Rm17/m17$
+Um20:Rm20/m20$
+Um21:Rm21/m21$
+Um22:Rm22/m22$
+Um23:Rm23/m23$
+Um24:Rm24/m24$
+Um25:Rm25/m25$
+Um26:Rm26/m26$
+Um27:Rm27/m27$
+Um30:Rm30/m30$
+Um31:Rm31/m31$
+Um32:Rm32/m32$
+Um33:Rm33/m33$
+Um34:Rm34/m34$
+Um35:Rm35/m35$
+Um36:Rm36/m36$
+Um37:Rm37/m37$
+Uτ1:Rτ1/τ1$
+Uτ2:Rτ2/τ2$
+
+L6:-Ud45+Ud67$
+L7:Ud46+Ud57$
+L8:-Ud47+Ud56$
+
+S11:Ud45+Ud67$
+S12:-Ud46+Ud57$
+S13:Ud47+Ud56$
+K1:-Ud01-Ud23$
+K2:-Ud02+Ud13$
+K3:-Ud03-Ud12$
+K4:Ud01-Ud23$
+K5:Ud02+Ud13$
+K6:Ud03-Ud12$
+Sp2[1]:L6$
+Sp2[2]:L7$
+Sp2[3]:L8$
+
+rS11:Urd45+Urd67$
+rS12:-Urd46+Urd57$
+rS13:Urd47+Urd56$
+rK1:-Urd01-Urd23$
+rK2:-Urd02+Urd13$
+rK3:-Urd03-Urd12$
+rK4:Urd01-Urd23$
+rK5:Urd02+Urd13$
+rK6:Urd03-Urd12$
+
+/* Lemma 19.17  */
+xm1:zeromatrix(6,6)$
+xm1[3][5]:m10+%i*m11$
+xm1[3][6]:-m12-%i*m13$
+xm1[4][5]:m12-%i*m13$
+xm1[4][6]:m10-%i*m11$
+for i:2 while (i<7) do
+for j:1 while (j<i) do
+  xm1[i][j]:-conjugate(xm1[j][i])$
+xm1;
+xm2:zeromatrix(6,6)$
+xm2[1][5]:-m20+%i*m21$
+xm2[1][6]:-m22-%i*m23$
+xm2[2][5]:m22-%i*m23$
+xm2[2][6]:-m20-%i*m21$
+for i:2 while (i<7) do
+for j:1 while (j<i) do
+  xm2[i][j]:-conjugate(xm2[j][i])$
+xm2;
+xm3:zeromatrix(6,6)$
+xm3[1][3]:m30+%i*m31$
+xm3[1][4]:-m32-%i*m33$
+xm3[2][3]:m32-%i*m33$
+xm3[2][4]:m30-%i*m31$
+for i:2 while (i<7) do
+for j:1 while (j<i) do
+  xm3[i][j]:-conjugate(xm3[j][i])$
+xm3;
+xt1:zeromatrix(6,6)$
+xt1[3][5]:%i*t10-t11$
+xt1[3][6]:-%i*t12+t13$
+xt1[4][5]:%i*t12+t13$
+xt1[4][6]:%i*t10+t11$
+for i:2 while (i<7) do
+for j:1 while (j<i) do
+  xt1[i][j]:-conjugate(xt1[j][i])$
+xt1;
+xt2:zeromatrix(6,6)$
+xt2[1][5]:%i*t20+t21$
+xt2[1][6]:%i*t22-t23$
+xt2[2][5]:-%i*t22-t23$
+xt2[2][6]:%i*t20-t21$
+for i:2 while (i<7) do
+for j:1 while (j<i) do
+  xt2[i][j]:-conjugate(xt2[j][i])$
+xt2;
+xt3:zeromatrix(6,6)$
+xt3[1][3]:%i*t30-t31$
+xt3[1][4]:-%i*t32+t33$
+xt3[2][3]:%i*t32+t33$
+xt3[2][4]:%i*t30+t31$
+for i:2 while (i<7) do
+for j:1 while (j<i) do
+  xt3[i][j]:-conjugate(xt3[j][i])$
+xt3;
+xta1:zeromatrix(6,6)$
+xta1[1][1]:%i*τ1$
+xta1[2][2]:%i*τ1$
+xta1[5][5]:-%i*τ1$
+xta1[6][6]:-%i*τ1$
+for i:2 while (i<7) do
+for j:1 while (j<i) do
+  xta1[i][j]:-conjugate(xta1[j][i])$
+xta1;
+xta2:zeromatrix(6,6)$
+xta2[3][3]:%i*τ2$
+xta2[4][4]:%i*τ2$
+xta2[5][5]:-%i*τ2$
+xta2[6][6]:-%i*τ2$
+for i:2 while (i<7) do
+for j:1 while (j<i) do
+  xta2[i][j]:-conjugate(xta2[j][i])$
+xta2;
+xabc1:matrix([%i*a1,-b1-%i*c1,0,0,0,0],
+          [b1-%i*c1,-%i*a1,0,0,0,0],
+          [0,0,0,0,0,0],
+          [0,0,0,0,0,0],
+          [0,0,0,0,0,0],
+          [0,0,0,0,0,0]);
+xabc2:matrix([0,0,0,0,0,0],
+          [0,0,0,0,0,0],
+          [0,0,%i*a2,-b2-%i*c2,0,0],
+          [0,0,b2-%i*c2,-%i*a2,0,0],
+          [0,0,0,0,0,0],
+          [0,0,0,0,0,0]);
+xabc3:matrix([0,0,0,0,0,0],
+          [0,0,0,0,0,0],
+          [0,0,0,0,0,0],
+          [0,0,0,0,0,0],
+          [0,0,0,0,%i*a3,-b3-%i*c3],
+          [0,0,0,0,b3-%i*c3,-%i*a3]);
+
+SU6:[xm1,xm2,xm3,xt1,xt2,xt3,xta1,xta2,xabc1,xabc2,xabc3]$
+
+RM1:(Rm10+Rm11+Rm12+Rm13)*sqrt(2)$
+RM2:(Rm20+Rm21+Rm22+Rm23)*sqrt(2)$
+RM3:(Rm30+Rm31+Rm32+Rm33)*sqrt(2)$
+RT1:(Rt10+Rt11+Rt12+Rt13)*%i*sqrt(2)$
+RT2:(Rt20+Rt21+Rt22+Rt23)*%i*sqrt(2)$
+RT3:(Rt30+Rt31+Rt32+Rt33)*%i*sqrt(2)$
+RT4:Rτ1*%i*sqrt(2)$
+RT5:Rτ2*%i*sqrt(2)$
+
+N1:(a1*S11+b1*S12+c1*S13)/sqrt(2)$
+N2:(a2*K1+b2*K2+c2*K3)/sqrt(2)$
+N3:(a3*K4+b3*K5+c3*K6)/sqrt(2)$
+su:[RM1,RM2,RM3,RT1,RT2,RT3,RT4,RT5,N1,N2,N3]$
+
+/* represent the SU6 elements by the use of  the r8c basis symbols  */
+/* macro define  start */
+BSU()::=
+(BSU6:0,
+X:zeromatrix(2,2),
+X[1][1]:R[3][5],
+X[1][2]:R[3][6],
+X[2][1]:R[4][5],
+X[2][2]:R[4][6],
+y:(X[1][1]+conjugate(X[2][2]))/2,
+z:(X[1][1]-conjugate(X[2][2]))/2,
+xr[29]:(y+conjugate(y))/2,
+xr[30]:(y-conjugate(y))/%i/2,
+xr[55]:(z-conjugate(z))/%i/2,
+xr[56]:-(z+conjugate(z))/2,
+y:(X[2][1]-conjugate(X[1][2]))/2,
+z:(X[2][1]+conjugate(X[1][2]))/2,
+xr[31]:(y+conjugate(y))/2,
+xr[32]:(y-conjugate(y))*%i/2,
+xr[57]:(z-conjugate(z))/%i/2,
+xr[58]:(z+conjugate(z))/2,
+
+X[1][1]:R[5][1],
+X[1][2]:R[5][2],
+X[2][1]:R[6][1],
+X[2][2]:R[6][2],
+y:(X[1][1]+conjugate(X[2][2]))/2,
+z:(X[1][1]-conjugate(X[2][2]))/2,
+xr[37]:(y+conjugate(y))/2,
+xr[38]:(y-conjugate(y))/%i/2,
+xr[63]:(z-conjugate(z))/%i/2,
+xr[64]:-(z+conjugate(z))/2,
+y:(X[2][1]-conjugate(X[1][2]))/2,
+z:(X[2][1]+conjugate(X[1][2]))/2,
+xr[39]:(y+conjugate(y))/2,
+xr[40]:(y-conjugate(y))*%i/2,
+xr[65]:(z-conjugate(z))/%i/2,
+xr[66]:(z+conjugate(z))/2,
+
+X[1][1]:R[1][3],
+X[1][2]:R[1][4],
+X[2][1]:R[2][3],
+X[2][2]:R[2][4],
+y:(X[1][1]+conjugate(X[2][2]))/2,
+z:(X[1][1]-conjugate(X[2][2]))/2,
+xr[45]:(y+conjugate(y))/2,
+xr[46]:(y-conjugate(y))/%i/2,
+xr[71]:(z-conjugate(z))/%i/2,
+xr[72]:-(z+conjugate(z))/2,
+y:(X[2][1]-conjugate(X[1][2]))/2,
+z:(X[2][1]+conjugate(X[1][2]))/2,
+xr[47]:(y+conjugate(y))/2,
+xr[48]:(y-conjugate(y))*%i/2,
+xr[73]:(z-conjugate(z))/%i/2,
+xr[74]:(z+conjugate(z))/2,
+
+xr[53]:(R[1][1]+R[2][2])/%i/2,
+xr[54]:(R[3][3]+R[4][4])/%i/2,
+
+xa1:(R[1][1]-R[2][2])/%i/2,
+xb1:-(R[1][2]-R[2][1])/2,
+xc1:-(R[1][2]+R[2][1])/%i/2,
+xa2:(R[3][3]-R[4][4])/%i/2,
+xb2:-(R[3][4]-R[4][3])/2,
+xc2:-(R[3][4]+R[4][3])/%i/2,
+xa3:(R[5][5]-R[6][6])/%i/2,
+xb3:-(R[5][6]-R[6][5])/2,
+xc3:-(R[5][6]+R[6][5])/%i/2,
+
+rN1:xa1*rS11+xb1*rS12+xc1*rS13,
+rN2:xa2*rK1+xb2*rK2+xc2*rK3,
+rN3:xa3*rK4+xb3*rK5+xc3*rK6,
+
+for i:29 while (i<33) do(
+BSU6:BSU6+xr[i]*Ur[i]+xr[i+26]*Ur[i+26]*%i),
+for i:37 while (i<41) do(
+BSU6:BSU6+xr[i]*Ur[i]+xr[i+26]*Ur[i+26]*%i),
+for i:45 while (i<49) do(
+BSU6:BSU6+xr[i]*Ur[i]+xr[i+26]*Ur[i+26]*%i),
+BSU6:BSU6+xr[53]*Ur[53]*%i+xr[54]*Ur[54]*%i,
+BSU6:BSU6+rN1+rN2+rN3,
+BSU6)$
+/*  macro define end */
+
+for i:1 while (i<11) do
+	for j:i+1 while (j<12) do (
+		R:(SU6[i]).(SU6[j])-(SU6[j]).(SU6[i]),
+                R:expand(R),
+                RR1:BSU(),
+                RR1:expand(RR1),
+		R:su[i].su[j]-su[j].su[i],
+		RR2:Decomp(),
+		RR2:expand(RR2),
+                subRR:RR1-RR2,
+                stringout(Rsufile,i,j,subRR)
+		)$
+
+suf:[a1*S11,b1*S12,c1*S13,a2*K1,b2*K2,c2*K3,a3*K4,b3*K5,c3*K6]$
+
+SU6f:[matrix([%i*a1,0,0,0,0,0],
+             [0,-%i*a1,0,0,0,0],
+             [0,0,0,0,0,0],
+             [0,0,0,0,0,0],
+             [0,0,0,0,0,0],
+             [0,0,0,0,0,0]),
+matrix([0,-b1,0,0,0,0],
+       [b1,0,0,0,0,0],
+       [0,0,0,0,0,0],
+       [0,0,0,0,0,0],
+       [0,0,0,0,0,0],
+       [0,0,0,0,0,0]),
+matrix([0,-%i*c1,0,0,0,0],
+       [-%i*c1,0,0,0,0,0],
+       [0,0,0,0,0,0],
+       [0,0,0,0,0,0],
+       [0,0,0,0,0,0],
+       [0,0,0,0,0,0]),
+matrix([0,0,0,0,0,0],
+       [0,0,0,0,0,0],
+       [0,0,%i*a2,0,0,0],
+       [0,0,0,-%i*a2,0,0],
+       [0,0,0,0,0,0],
+       [0,0,0,0,0,0]),
+matrix([0,0,0,0,0,0],
+       [0,0,0,0,0,0],
+       [0,0,0,-b2,0,0],
+       [0,0,b2,0,0,0],
+       [0,0,0,0,0,0],
+       [0,0,0,0,0,0]),
+matrix([0,0,0,0,0,0],
+       [0,0,0,0,0,0],
+       [0,0,0,-%i*c2,0,0],
+       [0,0,-%i*c2,0,0,0],
+       [0,0,0,0,0,0],
+       [0,0,0,0,0,0]),
+matrix([0,0,0,0,0,0],
+       [0,0,0,0,0,0],
+       [0,0,0,0,0,0],
+       [0,0,0,0,0,0],
+       [0,0,0,0,%i*a3,0],
+       [0,0,0,0,0,-%i*a3]),
+matrix([0,0,0,0,0,0],
+       [0,0,0,0,0,0],
+       [0,0,0,0,0,0],
+       [0,0,0,0,0,0],
+       [0,0,0,0,0,-b3],
+       [0,0,0,0,b3,0]),
+matrix([0,0,0,0,0,0],
+       [0,0,0,0,0,0],
+       [0,0,0,0,0,0],
+       [0,0,0,0,0,0],
+       [0,0,0,0,0,-%i*c3],
+       [0,0,0,0,-%i*c3,0])]$
+
+for i:1 while (i<9) do
+	for j:i+1 while (j<10) do (
+		R:suf[i].suf[j]-suf[j].suf[i],
+		RR1:Decomp(),
+		RR1:expand(RR1),
+	        R:(SU6f[i]).(SU6f[j])-(SU6f[j]).(SU6f[i]),
+                R:expand(R),
+                RR2:BSU(),
+                RR2:expand(RR2),
+                subRR:RR1-RR2,
+                stringout(Rsufile,i,j,subRR)
+		)$
+		
+for i:1 while (i<4) do
+	for j:1 while (j<12) do (
+		R:Sp2[i].su[j]-su[j].Sp2[i],
+		R:expand(R),
+		RR:Decomp(),
+                stringout(Rsufile,i,j,RR)
+		)$
+
+
+
+
+

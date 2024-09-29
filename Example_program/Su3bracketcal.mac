@@ -1,0 +1,157 @@
+/* 248_base_matrices_load.mac copy & paste  */
+/* Decomp.mac copy & paste */
+Rsufile:sconcat(tempdir,"Rsufile.txt")$
+Ud01:Rd01/d01$
+Ud02:Rd02/d02$
+Ud03:Rd03/d03$
+Ud04:Rd04/d04$
+Ud05:Rd05/d05$
+Ud06:Rd06/d06$
+Ud07:Rd07/d07$
+Ud12:Rd12/d12$
+Ud13:Rd13/d13$
+Ud14:Rd14/d14$
+Ud15:Rd15/d15$
+Ud16:Rd16/d16$
+Ud17:Rd17/d17$
+Ud23:Rd23/d23$
+Ud24:Rd24/d24$
+Ud25:Rd25/d25$
+Ud26:Rd26/d26$
+Ud27:Rd27/d27$
+Ud34:Rd34/d34$
+Ud35:Rd35/d35$
+Ud36:Rd36/d36$
+Ud37:Rd37/d37$
+Ud45:Rd45/d45$
+Ud46:Rd46/d46$
+Ud47:Rd47/d47$
+Ud56:Rd56/d56$
+Ud57:Rd57/d57$
+Ud67:Rd67/d67$
+Um10:Rm10/m10$
+Um11:Rm11/m11$
+Um12:Rm12/m12$
+Um13:Rm13/m13$
+Um14:Rm14/m14$
+Um15:Rm15/m15$
+Um16:Rm16/m16$
+Um17:Rm17/m17$
+Um20:Rm20/m20$
+Um21:Rm21/m21$
+Um22:Rm22/m22$
+Um23:Rm23/m23$
+Um24:Rm24/m24$
+Um25:Rm25/m25$
+Um26:Rm26/m26$
+Um27:Rm27/m27$
+Um30:Rm30/m30$
+Um31:Rm31/m31$
+Um32:Rm32/m32$
+Um33:Rm33/m33$
+Um34:Rm34/m34$
+Um35:Rm35/m35$
+Um36:Rm36/m36$
+Um37:Rm37/m37$
+Ut10:Rt10/t10$
+Ut11:Rt11/t11$
+Ut12:Rt12/t12$
+Ut13:Rt13/t13$
+Ut14:Rt14/t14$
+Ut15:Rt15/t15$
+Ut16:Rt16/t16$
+Ut17:Rt17/t17$
+Ut20:Rt20/t20$
+Ut21:Rt21/t21$
+Ut22:Rt22/t22$
+Ut23:Rt23/t23$
+Ut24:Rt24/t24$
+Ut25:Rt25/t25$
+Ut26:Rt26/t26$
+Ut27:Rt27/t27$
+Ut30:Rt30/t30$
+Ut31:Rt31/t31$
+Ut32:Rt32/t32$
+Ut33:Rt33/t33$
+Ut34:Rt34/t34$
+Ut35:Rt35/t35$
+Ut36:Rt36/t36$
+Ut37:Rt37/t37$
+Uτ1:Rτ1/τ1$
+Uτ2:Rτ2/τ2$
+
+UR[1]:2*Um10$
+UR[2]:2*Um11$
+UR[3]:2*Um20$
+UR[4]:2*Um21$
+UR[5]:2*Um30$
+UR[6]:2*Um31$
+UR[7]:Ud01+(Ud23+Ud45+Ud67)$
+UR[8]:Ud01-(Ud23+Ud45+Ud67)$
+L[1]:-Ud23+Ud45$
+L[2]:Ud24+Ud35$
+L[3]:-Ud25+Ud34$
+L[4]:Ud26+Ud37$
+L[5]:-Ud27+Ud36$
+L[6]:-Ud45+Ud67$
+L[7]:Ud46+Ud57$
+L[8]:-Ud47+Ud56$
+
+T[5]:%i*Ut10-Um11$
+T[6]:%i*Ut11+Um10$
+T[7]:%i*Ut20-Um21$
+T[8]:%i*Ut21+Um20$
+T[4]:%i*Ut30-Um31$
+T[3]:-%i*Ut31-Um30$
+T[1]:%i*Uτ1+(-Ud67-Ud45-Ud23+Ud01)/2$
+T[2]:%i*Uτ2+Ud01$
+
+
+for i:1 while (i<8) do
+	for j:i+1 while (j<9) do (
+		R:UR[i].UR[j]-UR[j].UR[i],
+		RR:Decomp(),
+		BR:expand(RR),
+		stringout(Rsufile,i,j,BR)
+		);
+for i:1 while (i<8) do
+	for j:i+1 while (j<9) do (
+		R:L[i].L[j]-L[j].L[i],
+		RR:Decomp(),
+		BR:expand(RR),
+		stringout(Rsufile,i,j,BR)
+		);
+
+for i:1 while (i<9) do
+	for j:1 while (j<9) do (
+		R:UR[i].L[j]-L[j].UR[i],
+		RR:Decomp(),
+		BR:expand(RR),
+		stringout(Rsufile,i,j,BR)
+		);
+	   
+for i:1 while (i<8) do
+	for j:i+1 while (j<9) do (
+		R:T[i].T[j]-T[j].T[i],
+		RR:Decomp(),
+		BR:expand(RR),
+		stringout(Rsufile,i,j,BR)
+		);
+	   
+for i:1 while (i<9) do
+	for j:1 while (j<9) do (
+		R:T[i].UR[j]-UR[j].T[i],
+		RR:Decomp(),
+		BR:expand(RR),
+		stringout(Rsufile,i,j,BR)
+		);
+	   
+for i:1 while (i<9) do
+	for j:1 while (j<9) do (
+		R:T[i].L[j]-L[j].T[i],
+		RR:Decomp(),
+		BR:expand(RR),
+		stringout(Rsufile,i,j,BR)
+		);
+	   
+
