@@ -1,0 +1,98 @@
+/* E6 elements load                  */
+/*output   E6d01,...,E6d67,
+           E6m10,...,E6m37,
+	   E6t10,...,E6t37,
+	   E6τ1,E6τ2                 */
+/* see Appendix B                    */
+
+/* Directory where the matrix definition files are stored */
+/* Please change to the folder you like  */
+rdir:"/mnt/UandW"$
+if maxima_tempdir # "/tmp" then rdir:"F:"$
+tempdir:sconcat(rdir,"/LieG/E8/Digitalization/")$
+sfile:sconcat(tempdir,"Lie_algebra_f4_e6_g2_define/E6mat/###.mac")$
+file_search_maxima: append (file_search_maxima,[sfile])$
+
+/* load of Matrix elements */
+/* RD  */
+load("d01.mac")$
+load("d02.mac")$
+load("d03.mac")$
+load("d04.mac")$
+load("d05.mac")$
+load("d06.mac")$
+load("d07.mac")$
+load("d12.mac")$
+load("d13.mac")$
+load("d14.mac")$
+load("d15.mac")$
+load("d16.mac")$
+load("d17.mac")$
+load("d23.mac")$
+load("d24.mac")$
+load("d25.mac")$
+load("d26.mac")$
+load("d27.mac")$
+load("d34.mac")$
+load("d35.mac")$
+load("d36.mac")$
+load("d37.mac")$
+load("d45.mac")$
+load("d46.mac")$
+load("d47.mac")$
+load("d56.mac")$
+load("d57.mac")$
+load("d67.mac")$
+/* RM */
+load("m10.mac")$
+load("m11.mac")$
+load("m12.mac")$
+load("m13.mac")$
+load("m14.mac")$
+load("m15.mac")$
+load("m16.mac")$
+load("m17.mac")$
+load("m20.mac")$
+load("m21.mac")$
+load("m22.mac")$
+load("m23.mac")$
+load("m24.mac")$
+load("m25.mac")$
+load("m26.mac")$
+load("m27.mac")$
+load("m30.mac")$
+load("m31.mac")$
+load("m32.mac")$
+load("m33.mac")$
+load("m34.mac")$
+load("m35.mac")$
+load("m36.mac")$
+load("m37.mac")$
+/* RT */
+load("tt1.mac")$
+load("tt2.mac")$
+load("t10.mac")$
+load("t11.mac")$
+load("t12.mac")$
+load("t13.mac")$
+load("t14.mac")$
+load("t15.mac")$
+load("t16.mac")$
+load("t17.mac")$
+load("t20.mac")$
+load("t21.mac")$
+load("t22.mac")$
+load("t23.mac")$
+load("t24.mac")$
+load("t25.mac")$
+load("t26.mac")$
+load("t27.mac")$
+load("t30.mac")$
+load("t31.mac")$
+load("t32.mac")$
+load("t33.mac")$
+load("t34.mac")$
+load("t35.mac")$
+load("t36.mac")$
+load("t37.mac")$
+

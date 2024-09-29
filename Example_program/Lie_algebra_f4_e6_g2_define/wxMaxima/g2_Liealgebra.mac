@@ -1,0 +1,298 @@
+/* Digitalization of Lie algebra of type G2     */
+/* output: basis matrices  g2o[1],...,g2o[14]   */
+/*         G2[1]=exp(x*g2o[1]),...,G2[14]=exp(x*g2o[14])  */
+
+
+/* Directory where the matrix definition files are stored */
+file_search_maxima: append (file_search_maxima,
+    ["/home/LieAlg/Lie_E8/Temp/DEF/###.mac"])$
+    /* Please change to the folder you like  */
+rdir:"/mnt/UandW"$
+if maxima_tempdir # "/tmp" then rdir:"F:"$
+
+/* Output temporary directory and files */
+tempdir:sconcat(rdir,"/LieG/E8/Digitalization/")$ 
+       /* Please change to the folder you like  */
+
+file_output_append:true$ 
+
+load(eigen)$
+gso(A) := block([m,n,i,B,C,D],
+m : length(A),
+B : transpose(A),
+n : length(B),
+C : gramschmidt(B),
+D : zeromatrix(n, m),
+for i:1 thru n do
+	D[i] : C[i],
+	transpose(D)
+)$
+gson(A) := block([m,n,i,B,C,D],
+m : length(A),
+B : transpose(A),
+n : length(B),
+C : gramschmidt(B),
+D : zeromatrix(n, m),
+for i:1 thru n do
+D[i] : unitvector(C[i]),
+transpose(D)
+)$
+
+m2v(M):=
+(
+V:makelist(0,64),
+for k:1 while(k<9) do(
+	for j:1 while(j<9) do(
+		V[j+(k-1)*8]:M[j][k])
+		),
+V)$
+
+v2m(V):=
+(
+M:zeromatrix(8,8),
+for k:1 while(k<9) do(
+	for j:1 while(j<9) do(
+		M[j][k]:V[j+(k-1)*8])
+		),
+M)$
+
+
+x:[x0,x1,x2,x3,x4,x5,x6,x7]$
+y:[y0,y1,y2,y3,y4,y5,y6,y7]$
+Γ(x):=[x[1],-x[2],-x[3],-x[4],-x[5],-x[6],-x[7],-x[8]]$
+cm(x,y):=[x[1]*y[1]-x[2]*y[2]-x[3]*y[3]-x[4]*y[4]-x[5]*y[5]-x[6]*y[6]-x[7]*y[7]-x[8]*y[8],
+          x[1]*y[2]+x[2]*y[1]+x[3]*y[4]-x[4]*y[3]+x[5]*y[6]-x[6]*y[5]+x[7]*y[8]-x[8]*y[7],
+	  x[1]*y[3]+x[3]*y[1]-x[2]*y[4]+x[4]*y[2]+x[7]*y[5]-x[5]*y[7]+x[6]*y[8]-x[8]*y[6],
+	  x[1]*y[4]+x[4]*y[1]+x[2]*y[3]-x[3]*y[2]+x[6]*y[7]-x[7]*y[6]+x[5]*y[8]-x[8]*y[5],
+	  x[1]*y[5]+x[5]*y[1]+x[6]*y[2]-x[2]*y[6]+x[8]*y[4]-x[4]*y[8]+x[3]*y[7]-x[7]*y[3],
+	  x[1]*y[6]+x[6]*y[1]+x[2]*y[5]-x[5]*y[2]+x[7]*y[4]-x[4]*y[7]+x[8]*y[3]-x[3]*y[8],
+	  x[1]*y[7]+x[7]*y[1]+x[5]*y[3]-x[3]*y[5]+x[4]*y[6]-x[6]*y[4]+x[8]*y[2]-x[2]*y[8],
+	  x[1]*y[8]+x[8]*y[1]+x[2]*y[7]-x[7]*y[2]+x[3]*y[6]-x[6]*y[3]+x[4]*y[5]-x[5]*y[4]]$
+c(x,y):=x[1]*y[1]+x[2]*y[2]+x[3]*y[3]+x[4]*y[4]+x[5]*y[5]+x[6]*y[6]+x[7]*y[7]+x[8]*y[8]$
+
+Ud(i,j):=
+(B:zeromatrix(8,8),
+ B[i+1][j+1]:1,
+ B[j+1][i+1]:-1,
+ B)$
+ 
+S1:2*Ud(1,2)-Ud(4,7)-Ud(5,6)$
+S2:2*Ud(1,3)-Ud(4,6)+Ud(5,7)$
+S3:2*Ud(1,4)+Ud(2,7)+Ud(3,6)$
+S4:2*Ud(1,5)+Ud(2,6)-Ud(3,7)$
+S5:2*Ud(1,6)-Ud(2,5)-Ud(3,4)$
+S6:2*Ud(1,7)-Ud(2,4)+Ud(3,5)$
+S7:2*Ud(2,3)-Ud(4,5)-Ud(6,7)$
+L2:Ud(2,4)+Ud(3,5)$
+L3:-Ud(2,5)+Ud(3,4)$
+L4:Ud(2,6)+Ud(3,7)$
+L5:-Ud(2,7)+Ud(3,6)$
+L6:-Ud(4,5)+Ud(6,7)$
+L7:Ud(4,6)+Ud(5,7)$
+L8:-Ud(4,7)+Ud(5,6)$
+
+g2:[S1,S2,S3,S4,S5,S6,S7,L2,L3,L4,L5,L6,L7,L8]$
+/* orthogonal bases */
+Z8:zeromatrix(8,8)$
+g2o:[Z8,Z8,Z8,Z8,Z8,Z8,Z8,Z8,Z8,Z8,Z8,Z8,Z8,Z8]$
+LA:zeromatrix(64,14)$
+SA:zeromatrix(64,14)$
+for k:1 while(k<15) do(
+	V:m2v(g2[k]),
+	for j:1 while(j<65) do
+		LA[j][k]:V[j]
+	)$
+SA:gso(LA)$
+V:makelist(0,64)$
+for k:1 while(k<15) do(
+	for j:1 while(j<65) do
+		V[j]:SA[j][k],
+	g2o[k]:v2m(V)
+	)$
+w1:w$
+w2:w$
+w3:w$
+w4:w$
+w5:w$
+w6:w$
+w7:w$
+z1:w$
+z2:w$
+z3:w$
+z4:w$
+z5:w$
+z6:w$
+z7:w$
+
+
+s1:ident(8)$
+s1[2][2]:cos(2*w1)$
+s1[3][3]:cos(2*w1)$
+s1[5][5]:cos(w1)$
+s1[6][6]:cos(w1)$
+s1[7][7]:cos(w1)$
+s1[8][8]:cos(w1)$
+s1[2][3]:sin(2*w1)$
+s1[3][2]:-sin(2*w1)$
+s1[5][8]:-sin(w1)$
+s1[6][7]:-sin(w1)$
+s1[7][6]:sin(w1)$
+s1[8][5]:sin(w1)$
+
+s2:ident(8)$
+s2[2][2]:cos(2*w2)$
+s2[4][4]:cos(2*w2)$
+s2[5][5]:cos(w2)$
+s2[6][6]:cos(w2)$
+s2[7][7]:cos(w2)$
+s2[8][8]:cos(w2)$
+s2[2][4]:sin(2*w2)$
+s2[4][2]:-sin(2*w2)$
+s2[5][7]:-sin(w2)$
+s2[6][8]:sin(w2)$
+s2[7][5]:sin(w2)$
+s2[8][6]:-sin(w2)$
+
+s3:ident(8)$
+s3[2][2]:cos(2*w3)$
+s3[5][5]:cos(2*w3)$
+s3[3][3]:cos(w3)$
+s3[4][4]:cos(w3)$
+s3[7][7]:cos(w3)$
+s3[8][8]:cos(w3)$
+s3[2][5]:sin(2*w3)$
+s3[5][2]:-sin(2*w3)$
+s3[3][8]:sin(w3)$
+s3[4][7]:sin(w3)$
+s3[7][4]:-sin(w3)$
+s3[8][3]:-sin(w3)$
+
+s4:ident(8)$
+s4[2][2]:cos(2*w4)$
+s4[6][6]:cos(2*w4)$
+s4[3][3]:cos(w4)$
+s4[4][4]:cos(w4)$
+s4[7][7]:cos(w4)$
+s4[8][8]:cos(w4)$
+s4[2][6]:sin(2*w4)$
+s4[6][2]:-sin(2*w4)$
+s4[3][7]:sin(w4)$
+s4[4][8]:-sin(w4)$
+s4[7][3]:-sin(w4)$
+s4[8][4]:sin(w4)$
+
+s5:ident(8)$
+s5[2][2]:cos(2*w5)$
+s5[7][7]:cos(2*w5)$
+s5[3][3]:cos(w5)$
+s5[4][4]:cos(w5)$
+s5[5][5]:cos(w5)$
+s5[6][6]:cos(w5)$
+s5[2][7]:sin(2*w5)$
+s5[7][2]:-sin(2*w5)$
+s5[3][6]:-sin(w5)$
+s5[4][5]:-sin(w5)$
+s5[5][4]:sin(w5)$
+s5[6][3]:sin(w5)$
+
+s6:ident(8)$
+s6[2][2]:cos(2*w6)$
+s6[8][8]:cos(2*w6)$
+s6[3][3]:cos(w6)$
+s6[4][4]:cos(w6)$
+s6[5][5]:cos(w6)$
+s6[6][6]:cos(w6)$
+s6[2][8]:sin(2*w6)$
+s6[8][2]:-sin(2*w6)$
+s6[3][5]:-sin(w6)$
+s6[4][6]:sin(w6)$
+s6[5][3]:sin(w6)$
+s6[6][4]:-sin(w6)$
+
+s7:ident(8)$
+s7[3][3]:cos(2*w7)$
+s7[4][4]:cos(2*w7)$
+s7[5][5]:cos(w7)$
+s7[6][6]:cos(w7)$
+s7[7][7]:cos(w7)$
+s7[8][8]:cos(w7)$
+s7[3][4]:sin(2*w7)$
+s7[4][3]:-sin(2*w7)$
+s7[5][6]:-sin(w7)$
+s7[6][5]:sin(w7)$
+s7[7][8]:-sin(w7)$
+s7[8][7]:sin(w7)$
+
+l2:ident(8)$
+l2[3][3]:cos(z1)$
+l2[4][4]:cos(z1)$
+l2[5][5]:cos(z1)$
+l2[6][6]:cos(z1)$
+l2[3][5]:sin(z1)$
+l2[4][6]:sin(z1)$
+l2[5][3]:-sin(z1)$
+l2[6][4]:-sin(z1)$
+
+l3:ident(8)$
+l3[3][3]:cos(z2)$
+l3[4][4]:cos(z2)$
+l3[5][5]:cos(z2)$
+l3[6][6]:cos(z2)$
+l3[3][6]:-sin(z2)$
+l3[4][5]:sin(z2)$
+l3[5][4]:-sin(z2)$
+l3[6][3]:sin(z2)$
+
+l4:ident(8)$
+l4[3][3]:cos(z3)$
+l4[4][4]:cos(z3)$
+l4[7][7]:cos(z3)$
+l4[8][8]:cos(z3)$
+l4[3][7]:sin(z3)$
+l4[4][8]:sin(z3)$
+l4[7][3]:-sin(z3)$
+l4[8][4]:-sin(z3)$
+
+l5:ident(8)$
+l5[3][3]:cos(z4)$
+l5[4][4]:cos(z4)$
+l5[7][7]:cos(z4)$
+l5[8][8]:cos(z4)$
+l5[3][8]:-sin(z4)$
+l5[4][7]:sin(z4)$
+l5[7][4]:-sin(z4)$
+l5[8][3]:sin(z4)$
+
+l6:ident(8)$
+l6[5][5]:cos(z5)$
+l6[6][6]:cos(z5)$
+l6[7][7]:cos(z5)$
+l6[8][8]:cos(z5)$
+l6[5][6]:-sin(z5)$
+l6[6][5]:sin(z5)$
+l6[7][8]:sin(z5)$
+l6[8][7]:-sin(z5)$
+
+l7:ident(8)$
+l7[5][5]:cos(z6)$
+l7[6][6]:cos(z6)$
+l7[7][7]:cos(z6)$
+l7[8][8]:cos(z6)$
+l7[5][7]:sin(z6)$
+l7[6][8]:sin(z6)$
+l7[7][5]:-sin(z6)$
+l7[8][6]:-sin(z6)$
+
+l8:ident(8)$
+l8[5][5]:cos(z7)$
+l8[6][6]:cos(z7)$
+l8[7][7]:cos(z7)$
+l8[8][8]:cos(z7)$
+l8[5][8]:-sin(z7)$
+l8[6][7]:sin(z7)$
+l8[7][6]:-sin(z7)$
+l8[8][5]:sin(z7)$
+
+G2:[s1,s2,s3,s4,s5,s6,s7,l2,l3,l4,l5,l6,l7,l8]$
+
+

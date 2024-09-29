@@ -1,0 +1,142 @@
+/* Digitalization of Lie algebra of type F4     */
+/* output:f4 definition check  STaOUT:A(XY)=A(X)Y+XA(Y)   */
+/*        bases f4o[1],...,f4o[52] are orthogonal check   */
+/*        transpose with the inner product check          */
+
+/* directory set  */
+rdir:"/mnt/UandW"$
+if maxima_tempdir # "/tmp" then rdir:"F:"$
+/* Output temporary directory and files */
+tempdir:sconcat(rdir,"/LieG/E8/Digitalization/")$ 
+/* Please change to the folder you like  */
+Outfile:sconcat(tempdir,"Jmcheck.txt")$
+
+f4Liealgebra:sconcat(tempdir,"Lie_algebra_f4_e6_g2_define/wxMaxima/f4_Liealgebra.mac")$
+load(f4Liealgebra)$
+
+x1:[x10,x11,x12,x13,x14,x15,x16,x17]$
+x2:[x20,x21,x22,x23,x24,x25,x26,x27]$
+x3:[x30,x31,x32,x33,x34,x35,x36,x37]$
+y1:[y10,y11,y12,y13,y14,y15,y16,y17]$
+y2:[y20,y21,y22,y23,y24,y25,y26,y27]$
+y3:[y30,y31,y32,y33,y34,y35,y36,y37]$
+X:[x01,x02,x03,x1,x2,x3]$
+Y:[y01,y02,y03,y1,y2,y3]$
+
+/* STaOUT:A(XY)=A(X)Y+XA(Y) */
+STaOUT()::= (
+R:vec(A.mat(JM(X,Y))),
+W:JM(vec(A.mat(X)),Y)+JM(X,vec(A.mat(Y))),
+eq:expand(R[1]-W[1]),
+if eq ≠ 0 then stringout(Outfile,eq),
+eq:expand(R[2]-W[2]),
+if eq ≠ 0 then stringout(Outfile,eq),
+eq:expand(R[3]-W[3]),
+if eq ≠ 0 then stringout(Outfile,eq),
+eq:expand(R[4][1]-W[4][1]),
+if eq ≠ 0 then stringout(Outfile,eq),
+eq:expand(R[4][2]-W[4][2]),
+if eq ≠ 0 then stringout(Outfile,eq),
+eq:expand(R[4][3]-W[4][3]),
+if eq ≠ 0 then stringout(Outfile,eq),
+eq:expand(R[4][4]-W[4][4]),
+if eq ≠ 0 then stringout(Outfile,eq),
+eq:expand(R[4][5]-W[4][5]),
+if eq ≠ 0 then stringout(Outfile,eq),
+eq:expand(R[4][6]-W[4][6]),
+if eq ≠ 0 then stringout(Outfile,eq),
+eq:expand(R[4][7]-W[4][7]),
+if eq ≠ 0 then stringout(Outfile,eq),
+eq:expand(R[4][8]-W[4][8]),
+if eq ≠ 0 then stringout(Outfile,eq),
+eq:expand(R[5][1]-W[5][1]),
+if eq ≠ 0 then stringout(Outfile,eq),
+eq:expand(R[5][2]-W[5][2]),
+if eq ≠ 0 then stringout(Outfile,eq),
+eq:expand(R[5][3]-W[5][3]),
+if eq ≠ 0 then stringout(Outfile,eq),
+eq:expand(R[5][4]-W[5][4]),
+if eq ≠ 0 then stringout(Outfile,eq),
+eq:expand(R[5][5]-W[5][5]),
+if eq ≠ 0 then stringout(Outfile,eq),
+eq:expand(R[5][6]-W[5][6]),
+if eq ≠ 0 then stringout(Outfile,eq),
+eq:expand(R[5][7]-W[5][7]),
+if eq ≠ 0 then stringout(Outfile,eq),
+eq:expand(R[5][8]-W[5][8]),
+if eq ≠ 0 then stringout(Outfile,eq),
+eq:expand(R[6][1]-W[6][1]),
+if eq ≠ 0 then stringout(Outfile,eq),
+eq:expand(R[6][2]-W[6][2]),
+if eq ≠ 0 then stringout(Outfile,eq),
+eq:expand(R[6][3]-W[6][3]),
+if eq ≠ 0 then stringout(Outfile,eq),
+eq:expand(R[6][4]-W[6][4]),
+if eq ≠ 0 then stringout(Outfile,eq),
+eq:expand(R[6][5]-W[6][5]),
+if eq ≠ 0 then stringout(Outfile,eq),
+eq:expand(R[6][6]-W[6][6]),
+if eq ≠ 0 then stringout(Outfile,eq),
+eq:expand(R[6][7]-W[6][7]),
+if eq ≠ 0 then stringout(Outfile,eq),
+eq:expand(R[6][8]-W[6][8]),
+if eq ≠ 0 then stringout(Outfile,eq),
+endif
+)$
+
+
+/* f4 definition check  A(XY)=A(X)Y+XA(Y)   */
+for k:1 while (k<53) do (
+	A:f4o[k],
+	stringout(Outfile,k),
+        STaOUT()
+	)
+$
+
+/* orthogonal check  */
+for i:1 while(i<53) do(
+	for j:i while(j<53) do(
+		n:mattrace(f4o[i].transpose(f4o[j])),
+		if n # 0 then stringout(Outfile,i,j,n)
+		)
+		)$
+
+/* inner product check  */
+B:matrix([b0101,b0102,b0103,b0104,b0105,b0106,b0107,b0108,b0109,b0110,b0111,b0112,b0113,b0114,b0115,b0116,b0117,b0118,b0119,b0120,b0121,b0122,b0123,b0124,b0125,b0126,b0127],
+[b0201,b0202,b0203,b0204,b0205,b0206,b0207,b0208,b0209,b0210,b0211,b0212,b0213,b0214,b0215,b0216,b0217,b0218,b0219,b0220,b0221,b0222,b0223,b0224,b0225,b0226,b0227],
+[b0301,b0302,b0303,b0304,b0305,b0306,b0307,b0308,b0309,b0310,b0311,b0312,b0313,b0314,b0315,b0316,b0317,b0318,b0319,b0320,b0321,b0322,b0323,b0324,b0325,b0326,b0327],
+[b0401,b0402,b0403,b0404,b0405,b0406,b0407,b0408,b0409,b0410,b0411,b0412,b0413,b0414,b0415,b0416,b0417,b0418,b0419,b0420,b0421,b0422,b0423,b0424,b0425,b0426,b0427],
+[b0501,b0502,b0503,b0504,b0505,b0506,b0507,b0508,b0509,b0510,b0511,b0512,b0513,b0514,b0515,b0516,b0517,b0518,b0519,b0520,b0521,b0522,b0523,b0524,b0525,b0526,b0527],
+[b0601,b0602,b0603,b0604,b0605,b0606,b0607,b0608,b0609,b0610,b0611,b0612,b0613,b0614,b0615,b0616,b0617,b0618,b0619,b0620,b0621,b0622,b0623,b0624,b0625,b0626,b0627],
+[b0701,b0702,b0703,b0704,b0705,b0706,b0707,b0708,b0709,b0710,b0711,b0712,b0713,b0714,b0715,b0716,b0717,b0718,b0719,b0720,b0721,b0722,b0723,b0724,b0725,b0726,b0727],
+[b0801,b0802,b0803,b0804,b0805,b0806,b0807,b0808,b0809,b0810,b0811,b0812,b0813,b0814,b0815,b0816,b0817,b0818,b0819,b0820,b0821,b0822,b0823,b0824,b0825,b0826,b0827],
+[b0901,b0902,b0903,b0904,b0905,b0906,b0907,b0908,b0909,b0910,b0911,b0912,b0913,b0914,b0915,b0916,b0917,b0918,b0919,b0920,b0921,b0922,b0923,b0924,b0925,b0926,b0927],
+[b1001,b1002,b1003,b1004,b1005,b1006,b1007,b1008,b1009,b1010,b1011,b1012,b1013,b1014,b1015,b1016,b1017,b1018,b1019,b1020,b1021,b1022,b1023,b1024,b1025,b1026,b1027],
+[b1101,b1102,b1103,b1104,b1105,b1106,b1107,b1108,b1109,b1110,b1111,b1112,b1113,b1114,b1115,b1116,b1117,b1118,b1119,b1120,b1121,b1122,b1123,b1124,b1125,b1126,b1127],
+[b1201,b1202,b1203,b1204,b1205,b1206,b1207,b1208,b1209,b1210,b1211,b1212,b1213,b1214,b1215,b1216,b1217,b1218,b1219,b1220,b1221,b1222,b1223,b1224,b1225,b1226,b1227],
+[b1301,b1302,b1303,b1304,b1305,b1306,b1307,b1308,b1309,b1310,b1311,b1312,b1313,b1314,b1315,b1316,b1317,b1318,b1319,b1320,b1321,b1322,b1323,b1324,b1325,b1326,b1327],
+[b1401,b1402,b1403,b1404,b1405,b1406,b1407,b1408,b1409,b1410,b1411,b1412,b1413,b1414,b1415,b1416,b1417,b1418,b1419,b1420,b1421,b1422,b1423,b1424,b1425,b1426,b1427],
+[b1501,b1502,b1503,b1504,b1505,b1506,b1507,b1508,b1509,b1510,b1511,b1512,b1513,b1514,b1515,b1516,b1517,b1518,b1519,b1520,b1521,b1522,b1523,b1524,b1525,b1526,b1527],
+[b1601,b1602,b1603,b1604,b1605,b1606,b1607,b1608,b1609,b1610,b1611,b1612,b1613,b1614,b1615,b1616,b1617,b1618,b1619,b1620,b1621,b1622,b1623,b1624,b1625,b1626,b1627],
+[b1701,b1702,b1703,b1704,b1705,b1706,b1707,b1708,b1709,b1710,b1711,b1712,b1713,b1714,b1715,b1716,b1717,b1718,b1719,b1720,b1721,b1722,b1723,b1724,b1725,b1726,b1727],
+[b1801,b1802,b1803,b1804,b1805,b1806,b1807,b1808,b1809,b1810,b1811,b1812,b1813,b1814,b1815,b1816,b1817,b1818,b1819,b1820,b1821,b1822,b1823,b1824,b1825,b1826,b1827],
+[b1901,b1902,b1903,b1904,b1905,b1906,b1907,b1908,b1909,b1910,b1911,b1912,b1913,b1914,b1915,b1916,b1917,b1918,b1919,b1920,b1921,b1922,b1923,b1924,b1925,b1926,b1927],
+[b2001,b2002,b2003,b2004,b2005,b2006,b2007,b2008,b2009,b2010,b2011,b2012,b2013,b2014,b2015,b2016,b2017,b2018,b2019,b2020,b2021,b2022,b2023,b2024,b2025,b2026,b2027],
+[b2101,b2102,b2103,b2104,b2105,b2106,b2107,b2108,b2109,b2110,b2111,b2112,b2113,b2114,b2115,b2116,b2117,b2118,b2119,b2120,b2121,b2122,b2123,b2124,b2125,b2126,b2127],
+[b2201,b2202,b2203,b2204,b2205,b2206,b2207,b2208,b2209,b2210,b2211,b2212,b2213,b2214,b2215,b2216,b2217,b2218,b2219,b2220,b2221,b2222,b2223,b2224,b2225,b2226,b2227],
+[b2301,b2302,b2303,b2304,b2305,b2306,b2307,b2308,b2309,b2310,b2311,b2312,b2313,b2314,b2315,b2316,b2317,b2318,b2319,b2320,b2321,b2322,b2323,b2324,b2325,b2326,b2327],
+[b2401,b2402,b2403,b2404,b2405,b2406,b2407,b2408,b2409,b2410,b2411,b2412,b2413,b2414,b2415,b2416,b2417,b2418,b2419,b2420,b2421,b2422,b2423,b2424,b2425,b2426,b2427],
+[b2501,b2502,b2503,b2504,b2505,b2506,b2507,b2508,b2509,b2510,b2511,b2512,b2513,b2514,b2515,b2516,b2517,b2518,b2519,b2520,b2521,b2522,b2523,b2524,b2525,b2526,b2527],
+[b2601,b2602,b2603,b2604,b2605,b2606,b2607,b2608,b2609,b2610,b2611,b2612,b2613,b2614,b2615,b2616,b2617,b2618,b2619,b2620,b2621,b2622,b2623,b2624,b2625,b2626,b2627],
+[b2701,b2702,b2703,b2704,b2705,b2706,b2707,b2708,b2709,b2710,b2711,b2712,b2713,b2714,b2715,b2716,b2717,b2718,b2719,b2720,b2721,b2722,b2723,b2724,b2725,b2726,b2727])$
+
+R:copymatrix(B)$
+Tran()$  /* inner product transpose  */
+Bt:R$
+C1:C(vec(B.mat(X)),Y)$
+C1:expand(C1)$
+C2:C(X,vec(Bt.mat(Y)))$
+C2:expand(C2)$
+C1-C2;
+
+

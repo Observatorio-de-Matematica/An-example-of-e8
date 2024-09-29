@@ -1,0 +1,50 @@
+/* Digitalization of Lie algebra of type F4     */
+/* output:g2 definition check  :A(XY)=A(X)Y+XA(Y)   */
+
+/* directory set  */
+rdir:"/mnt/UandW"$
+if maxima_tempdir # "/tmp" then rdir:"F:"$
+g2Liealgebra:sconcat(rdir,"/LieG/E8/Digitalization/Lie_algebra_f4_e6_g2_define/wxMaxima/g2_Liealgebra.mac")$
+load(g2Liealgebra)$
+/* Output temporary directory and files */
+tempdir:sconcat(rdir,"/LieG/E8/Digitalization/")$ 
+       /* Please change to the folder you like  */
+Outfile:sconcat(tempdir,"cmcheck.txt")$
+
+x:[x0,x1,x2,x3,x4,x5,x6,x7]$
+y:[y0,y1,y2,y3,y4,y5,y6,y7]$
+Γ(x):=[x[1],-x[2],-x[3],-x[4],-x[5],-x[6],-x[7],-x[8]]$
+cm(x,y):=[x[1]*y[1]-x[2]*y[2]-x[3]*y[3]-x[4]*y[4]-x[5]*y[5]-x[6]*y[6]-x[7]*y[7]-x[8]*y[8],
+          x[1]*y[2]+x[2]*y[1]+x[3]*y[4]-x[4]*y[3]+x[5]*y[6]-x[6]*y[5]+x[7]*y[8]-x[8]*y[7],
+	  x[1]*y[3]+x[3]*y[1]-x[2]*y[4]+x[4]*y[2]+x[7]*y[5]-x[5]*y[7]+x[6]*y[8]-x[8]*y[6],
+	  x[1]*y[4]+x[4]*y[1]+x[2]*y[3]-x[3]*y[2]+x[6]*y[7]-x[7]*y[6]+x[5]*y[8]-x[8]*y[5],
+	  x[1]*y[5]+x[5]*y[1]+x[6]*y[2]-x[2]*y[6]+x[8]*y[4]-x[4]*y[8]+x[3]*y[7]-x[7]*y[3],
+	  x[1]*y[6]+x[6]*y[1]+x[2]*y[5]-x[5]*y[2]+x[7]*y[4]-x[4]*y[7]+x[8]*y[3]-x[3]*y[8],
+	  x[1]*y[7]+x[7]*y[1]+x[5]*y[3]-x[3]*y[5]+x[4]*y[6]-x[6]*y[4]+x[8]*y[2]-x[2]*y[8],
+	  x[1]*y[8]+x[8]*y[1]+x[2]*y[7]-x[7]*y[2]+x[3]*y[6]-x[6]*y[3]+x[4]*y[5]-x[5]*y[4]]$
+c(x,y):=x[1]*y[1]+x[2]*y[2]+x[3]*y[3]+x[4]*y[4]+x[5]*y[5]+x[6]*y[6]+x[7]*y[7]+x[8]*y[8]$
+mat(x):=matrix([x[1]],[x[2]],[x[3]],[x[4]],[x[5]],[x[6]],[x[7]],[x[8]])$
+Z:zeromatrix(8,1)$
+vec(Z):=[Z[1][1],Z[2][1],Z[3][1],Z[4][1],Z[5][1],Z[6][1],Z[7][1],Z[8][1]]$
+
+/* Lie algebra definition check  */
+for k:1 while (k<15) do(
+	A:copymatrix(g2o[k]),
+	Axy:vec(A.mat(cm(x,y))),
+	AxY:cm(vec(A.mat(x)),y),
+	XAy:cm(x,vec(A.mat(y))),
+	AXY:expand(Axy-AxY-XAy),
+	stringout(Outfile,k,AXY)
+	)$
+
+/* Lie group definition check  */
+for k:1 while (k<15) do(
+	A:copymatrix(G2[k]),
+	Axy:vec(A.mat(cm(x,y))),
+	AxAy:cm(vec(A.mat(x)),vec(A.mat(y))),
+	AXY:trigexpand(Axy-AxAy),
+	AXY:trigsimp(AXY),
+	stringout(Outfile,k,AXY)
+	)$
+
+

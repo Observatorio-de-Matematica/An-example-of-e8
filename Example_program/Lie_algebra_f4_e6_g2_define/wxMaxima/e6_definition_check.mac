@@ -1,0 +1,34 @@
+/* Digitalization of Lie algebra of type E6     */
+/* output:e6 definition check                   */
+/*        bases e6[1],...,e6[78] are orthogonal check   */
+
+/* directory set  */
+rdir:"/mnt/UandW"$
+if maxima_tempdir # "/tmp" then rdir:"F:"$
+/* Output temporary directory and files */
+tempdir:sconcat(rdir,"/LieG/E8/Digitalization/")$ 
+/* Please change to the folder you like  */
+
+e6Liealgebra:sconcat(tempdir,"Lie_algebra_f4_e6_g2_define/wxMaxima/e6_Liealgebra.mac")$
+load(e6Liealgebra)$
+
+Outfile:sconcat(tempdir,"Fmcheck.txt")$
+
+/* e6 definition check   */
+	XxX:Fm(X,X)$
+for k:1 while(k<79) do(
+	e6X:vec(e6[k].mat(X)),
+	Temp:expand(C(e6X,XxX)),
+	stringout(Outfile,k,Temp)
+	)$
+	
+
+/* orthogonal check  */
+for i:1 while(i<79) do(
+	for j:i while(j<79) do(
+		n:mattrace(e6[i].transpose(e6[j])),
+		if n # 0 then stringout(Outfile,i,j,n)
+		)
+		)$
+
+
